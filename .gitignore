@@ -1,6 +1,18 @@
+# Quarto
+docs/
+/.quarto/
+
+# R
 .Rproj.user
 .Rhistory
 .RData
-.httr-oauth
+.Ruserdata
+*.Rproj
+
+# OS
 .DS_Store
-.quarto
+Thumbs.db
+
+# Temporary files
+*~
+*.tmp
