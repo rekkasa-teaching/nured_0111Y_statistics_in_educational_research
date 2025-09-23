@@ -1,0 +1,21 @@
+project:
+  type: book
+  output-dir: ../docs/notes
+
+book:
+  title: "Μεθοδολογία εκπαιδευτικής έρευνας"
+  author: "Αλέξανδρος Ρέκκας"
+  chapters:
+    - index.qmd
+    - chapter-01.qmd
+    - chapter-02.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+  typst:
+    toc: true
+    margin:
+      x: 2cm
+      y: 2cm

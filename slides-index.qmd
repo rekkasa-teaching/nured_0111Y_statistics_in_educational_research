@@ -1,0 +1,14 @@
+---
+title: "Lecture Slides"
+format: html
+---
+
+# Available Lectures
+
+Click on any lecture below to view the slides:
+
+- [Lecture 1: Topic Title](slides/lecture-01/index.qmd)
+- [Lecture 2: Topic Title](slides/lecture-02/index.qmd)
+- [Lecture 3: Topic Title](slides/lecture-03/index.qmd)
+
+*More lectures will be added throughout the semester.*

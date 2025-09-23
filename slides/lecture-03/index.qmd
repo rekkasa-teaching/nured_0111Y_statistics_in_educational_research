@@ -1,0 +1,28 @@
+---
+title: "Lecture 3: Topic Title"
+format: 
+  revealjs:
+    incremental: true
+---
+
+# Lecture 3 {.center}
+
+## Overview
+
+- Learning objective 1
+- Learning objective 2
+- Learning objective 3
+
+## Main Content
+
+Add your slide content here.
+
+## Summary
+
+- Key point 1
+- Key point 2
+- Key point 3
+
+## Questions?
+
+Thank you for your attention!

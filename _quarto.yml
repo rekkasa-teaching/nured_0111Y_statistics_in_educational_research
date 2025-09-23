@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Στατιστική στην εκπαιδευτική έρευνα"
+  navbar:
+    left:
+      - text: "Αρχική"
+        href: index.qmd
+      - text: "Παρουσιάσεις"
+        href: slides-index.qmd
+      - text: "Σημειώσεις"
+        href: notes-index.qmd
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: true
+    toc-title: Περιεχόμενα

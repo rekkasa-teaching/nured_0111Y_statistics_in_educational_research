@@ -1,0 +1,36 @@
+---
+title: "My Book (Print PDF)"
+lang: el
+format:
+  typst:
+    toc: true
+    number-sections: true
+    section-numbering: "1.1"
+    keep-typ: true
+---
+
+```{=typst}
+#set page(margin: 2.5cm)
+
+#set text(
+  font: "Libertinus Serif",   // good Greek support; try Source Serif 4, Libertinus
+  size: 11pt,
+  lang: "el",
+)
+#set heading(numbering: "1.1")
+#show heading.where(level: 1): it => text(size: 1.2em, weight: "semibold")[#it]
+#show heading.where(level: 2): it => text(size: 1.15em, weight: "semibold")[#it]
+#show heading.where(level: 3): it => text(size: 1.1em, weight: "semibold")[#it]
+```
+
+{{< include index.qmd >}}
+
+```{=typst}
+#pagebreak()
+```
+
+```{=typst}
+#pagebreak()
+```
+
+{{< include chapter-01.qmd >}}
