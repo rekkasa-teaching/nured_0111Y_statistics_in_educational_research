@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="el" xml:lang="el"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-19c6f25d9c793ca7e0d0ad6a6391bd12.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8fd1faf6fd93e4e6d207ae0f9db51d78.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -131,6 +160,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#πληθυσμός-και-δείγμα" id="toc-πληθυσμός-και-δείγμα" class="nav-link" data-scroll-target="#πληθυσμός-και-δείγμα">Πληθυσμός και δείγμα</a></li>
   <li><a href="#μεταβλητές" id="toc-μεταβλητές" class="nav-link" data-scroll-target="#μεταβλητές">Μεταβλητές</a></li>
+  <li><a href="#μαθηματικοί-συμβολισμοί" id="toc-μαθηματικοί-συμβολισμοί" class="nav-link" data-scroll-target="#μαθηματικοί-συμβολισμοί">Μαθηματικοί συμβολισμοί</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -207,12 +237,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="μεταβλητές" class="level2">
 <h2 class="anchored" data-anchor-id="μεταβλητές">Μεταβλητές</h2>
 <p><em>Μεταβλητή</em> είναι οποιοδήποτε μετρήσιμο χαρακτηριστικό ατόμων ή πραγμάτων το οποίο μπορεί να παίρνει διαφορετικές τιμές. Σε αντίθεση, μία <em>σταθερά</em> είναι ένα χαρακτηριστικό το οποίο πάιρνει μία και μοναδική τιμή σε ολόκληρο τον πληθυσμό. Οι σταθερές, αν και φαίνεται ότι δεν έχουν ιδιαίτερο ενδιαφέρον, στην πραγαμτικότητα αντικατοπτρίζουν τις αποφάσεις του ερευνητή/τριας για περιορισμό του πληθυσμού ενδιαφέροντος. Για παράδειγμα, σε μία μελέτη με στόχο το σύνολο των <em>μαθητριών</em> στα νηπιαγωγεία της Δυτικής Μακεδονίας το φύλο είναι μία σταθερά.</p>
-<p>Οι μεταβλητές μπορούν να χωριστούν σε δύο μεγάλες κατηγορίες, τις <em>κατηγορικές μεταβλητές</em> και τις <em>αριθμητικές μεταβλητές</em>. Οι κατηγορικές μεταβλητές είναι ποιοτικές μεταβλητές και περιγράφουν κατηγορίες. Μία ειδική περίπτωση των κατηγορικών μεταβλητών με ιδιαίτερο ενδιαφέρον στις στατιστικές αναλύσεις είναι οι <em>διχοτομικές μεταβλητές</em>, δηλαδή οι μεταβλητές που μπορούν να πάρουν μόνο δύο πιθανές τιμές (ναι/όχι).</p>
+<p>Οι μεταβλητές μπορούν να χωριστούν σε δύο μεγάλες κατηγορίες, τις <em>κατηγορικές μεταβλητές</em> και τις <em>αριθμητικές μεταβλητές</em>. Οι κατηγορικές μεταβλητές είναι ποιοτικές μεταβλητές και περιγράφουν κατηγορίες. Οι κατηγορικές μεταβλητές μπορούν να είναι είτε <em>ονομαστικές</em> είτε <em>διατάξιμες</em>.</p>
+<p>Οι <em>ονομαστικές</em> μεταβλητές παίρνουν τιμές από ένα σύνολο κατηγοριών με διαφορετικά ονόματα. Οι μετρήσεις σε μια ονομαστική κατηγορική μεταβλητή επισημαίνουν κατηγοριοποιούν τις παρατηρήσεις, αλλά δεν κάνουν καμία ποσοτική διάκριση μεταξύ τους.</p>
+<p>Αντίθετα, οι διατάξιμες μεταβλητές αναφέρονται σε ένα σύνολο κατηγοριών που είναι οργανωμένες σε μια ταξινομημένη ακολουθία. Οι μετρήσεις μία διατάξιμης κατηγορικής μεταβλητής κατατάσσουν τις παρατηρήσεις με βάση το μέγεθος ή την ένταση.</p>
+<p>Τέλος, μία ειδική περίπτωση των κατηγορικών μεταβλητών με ιδιαίτερο ενδιαφέρον στις στατιστικές αναλύσεις είναι οι <em>διχοτομικές μεταβλητές</em>, δηλαδή οι μεταβλητές που μπορούν να πάρουν μόνο δύο πιθανές τιμές (ναι/όχι).</p>
 <p>Οι αριθμητικές μεταβλητές είναι ποσοτικές μεταβλητές που μπορούν να μετρηθούν με αριθμούς. Μπορούν να χωριστούν περαιτέρω:</p>
 <ul>
 <li><em>Διακριτές μεταβλητές:</em> Μεταβλητές που μπορούν να πάρουν μόνο συγκεκριμένες τιμές, π.χ. ο αριθμός των μαθητών σε μία τάξη δεν μπορεί να είναι αρνητικός ή δεκαδικός.</li>
 <li><em>Συνεχείς μεταβλητές:</em> Μεταβλητές που μπορούν να πάρουν οποιαδήποτε τιμή μέσα σε ένα διάστημα με την προϋπόθεση ότι ένα αρκετά καλό μέσο μέτρησης χρησιμοποιείται, π.χ. η απόσταση του σπιτιού από το κοντινότερο νηπιαγωγείο.</li>
 </ul>
+</section>
+<section id="μαθηματικοί-συμβολισμοί" class="level2">
+<h2 class="anchored" data-anchor-id="μαθηματικοί-συμβολισμοί">Μαθηματικοί συμβολισμοί</h2>
+<p>Συνήθως, στις στατιστικές αναλύσεις συμβολίζουμε τις τυχαίες μεταβλητές με κεφαλαία γράμματα του λατινικού αλφαβήτου. Για παράδειγμα, μπορούμε να συμβολίσουμε με <span class="math inline">\(X\)</span> το ύψος των μαθητών των νηπιαγωγείων της περιφέρειας Δυτικής Μακεδονίας. Για συγκεκριμένες μετρήσεις της μεταβλητής <span class="math inline">\(X\)</span> χρησιμοποιούμε το ίδιο <em>πεζό</em> γράμμα (<span class="math inline">\(x\)</span>). Για παράδειγμα, έστω ότι έχουμε ένα δείγμα μεγέθους <span class="math inline">\(n
+= 100\)</span> από μαθητές των νηπιαγωγείων της περιφέρειας Δυτικής Μακεδονίας. Για κάθε έναν από αυτούς τους μαθητές, συμβολίζουμε την μέτρηση του ύψους με <span class="math inline">\(x_i, i = 1,\dots,100\)</span>.</p>
+<p>Με τις μετρήσεις μίας μεταβλητής <span class="math inline">\(X\)</span> συνήθως θέλουμε να κάνουμε πράξεις. Μία από τις πιο συχνές ανάγκες που πορκύπτουν κατά την εκτέλεση μίας στατιστικής ανάλυσης είναι να αθροίσουμε τις τιμές <span class="math inline">\(x_i\)</span> που συλλέχθηκαν. Ο μαθηματικός συμβολισμός στην περίπτωση αυτή είναι το <span class="math inline">\(\sum\)</span>. Στο προηγούμενο παράδειγμα, το άθροισμα όλων των μετρήσεων του ύψους των 100 μαθητών θα μπορούσε να συμβολιστεί με <span class="math display">\[
+\sum X = \sum_{i = 1}^{100}x_i = x_1 + x_2 +\dots + x_100
+\]</span> Οι πράξεις αυτές μπορούν να γίνουν αρκετά πιο σύνθετες, π.χ. να αθροίσουμε τα τετράγωνα των μετρήσεων του ύψους (<span class="math inline">\(\sum X^2\)</span>) ή να αθροίσουμε το ύψος τους μειωμένο κατά μία μονάδα (<span class="math inline">\(\sum (X-1)\)</span>).</p>
 
 
 </section>
