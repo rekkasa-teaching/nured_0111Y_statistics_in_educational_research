@@ -13,27 +13,25 @@ format:
 
 ::: {.content-visible when-format="html"}
 
-# Welcome to the Course Notes
-
-These comprehensive notes cover all the material presented in the course.
+# Σημειώσεις του μαθήματος
 
 **Επιλογές:**
 
-- 📖 Read Online (you're here!)
+- Διαβάστε online (βρίσκεστε εδώ)
 - [📄 Download PDF](Εισαγωγή-στην-επιχειρησιακή-έρευνα-Notes.pdf)
 
-## Table of Contents
+## Περιεχόμενα
 
-The notes are organized into the following chapters:
+Οι σημειώσεις οργανώνονται στα ακόλουθα κεφάλαια:
 
 1. [Κεφάλαιο 1: Εισαγωγή](chapter-01.qmd)
+2. [Κεφάλαιο 2: Κατανομή συχνοτήτων](chapter-02.qmd)
 
-*Note: The PDF version is automatically generated and updated with each build.*
 
 ## Σχετικά
 
 **Συγγραφέας:** Αλέξανδρος Ρέκκας  
-**Μάθημα:** Στατιστική¨ς στην εκπαιδευτική έρευνα
+**Μάθημα:** Στατιστική στην εκπαιδευτική έρευνα
 
 Οι σημειώσεις αυτές έχουν σχεδιαστεί ώστε να συμπληρώνουν τις παρουσιάσεις των διαλέξεων και να αποτελούν μια
 ολοκληρωμένη αναφορά για το υλικό του μαθήματος.

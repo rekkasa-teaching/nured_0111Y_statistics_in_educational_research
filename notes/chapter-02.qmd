@@ -1,0 +1,22 @@
+---
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    format-links: [pdf]
+    css: ../styles.css
+  typst: default
+---
+
+```{=typst}
+
+#set text(font: "Noto Serif", lang: "el") // ensures bold + Greek shaping
+    #let tbox(title, body) = rect(fill: luma(240), stroke: 1pt + gray, radius: 6pt, inset: 10pt)[
+    #text(weight: "bold")[#title]
+    #v(5pt)
+    #body
+  ]
+
+```
+
+# Κατανομές συχνοτήτων
