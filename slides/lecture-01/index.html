@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="el"><head>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -9,7 +9,9 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.25">
 
-  <title>Στατιστική στην εκπαιδευτική έρευνα – Lecture 1: Topic Title</title>
+  <meta name="author" content="Αλέξανδρος Ρέκκας">
+  <meta name="dcterms.date" content="2025-10-07">
+  <title>Στατιστική στην εκπαιδευτική έρευνα – Στατιστική στην Εκπαιδευτική Έρευνα</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,7 +30,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-f06f52d5b0685b9793f62f9011591d78.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -126,47 +128,332 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Lecture 1: Topic Title</h1>
+  <h1 class="title">Στατιστική στην Εκπαιδευτική Έρευνα</h1>
+  <p class="subtitle">1ο μάθημα</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Αλέξανδρος Ρέκκας 
+</div>
+</div>
 </div>
 
+  <p class="date">2025-10-07</p>
 </section>
-<section>
-<section id="lecture-1" class="title-slide slide level1 center">
-<h1>Lecture 1</h1>
-
-</section>
-<section id="overview" class="slide level2">
-<h2>Overview</h2>
+<section id="στόχοι-μαθήματος" class="slide level2">
+<h2>Στόχοι μαθήματος</h2>
 <ul>
-<li class="fragment">Learning objective 1</li>
-<li class="fragment">Learning objective 2</li>
-<li class="fragment">Learning objective 3</li>
+<li>Να κατανοήσουμε τις βασικές έννοιες: <strong>πληθυσμός</strong>, <strong>δείγμα</strong>, <strong>μεταβλητή</strong>, <strong>κλίμακες μέτρησης</strong>.</li>
+<li>Να κατασκευάζουμε <strong>πίνακες συχνοτήτων</strong>.</li>
+<li>Να εφαρμόσουμε τα παραπάνω σε μικρά παραδείγματα σχετιζόμενα με την προσχολική εκπαίδευση.</li>
 </ul>
 </section>
-<section id="main-content" class="slide level2">
-<h2>Main Content</h2>
-<p>Add your slide content here.</p>
-</section>
-<section id="summary" class="slide level2">
-<h2>Summary</h2>
+<section id="βασικές-στατιστικές-έννοιες" class="slide level2">
+<h2>Βασικές στατιστικές έννοιες</h2>
+<p><strong>Στατιστική</strong>: μέθοδοι για οργάνωση, σύνοψη και ερμηνεία δεδομένων από μια μελέτη στην εκπαίδευση.</p>
 <ul>
-<li class="fragment">Key point 1</li>
-<li class="fragment">Key point 2</li>
-<li class="fragment">Key point 3</li>
+<li><strong>Πληθυσμός</strong>: Όλα τα άτομα που μας ενδιαφέρουν (π.χ. όλοι/όλες οι μαθητές/τριες νηπιαγωγείων της Δυτικής Μακεδονίας).</li>
+<li><strong>Δείγμα</strong>: Υποσύνολο του πληθυσμού, επιλεγμένο για να τον <strong>αντιπροσωπεύσει</strong>.</li>
 </ul>
 </section>
-<section id="questions" class="slide level2">
-<h2>Questions?</h2>
-<p>Thank you for your attention!</p>
+<section id="βασικές-στατιστικές-έννοιες-1" class="slide level2">
+<h2>Βασικές στατιστικές έννοιες</h2>
+<ul>
+<li><strong>Παράμετρος</strong>: Χαρακτηριστικό του πληθυσμού (άγνωστο αλλά μετρήσιμο).</li>
+<li><strong>Στατιστικό</strong>: Μαθηματικός συνδυασμός μετρήσεων στο δείγμα (π.χ. μέσος όρος).</li>
+</ul>
+</section>
+<section id="μεταβλητές" class="slide level2">
+<h2>Μεταβλητές</h2>
+<ul>
+<li><strong>Μεταβλητή</strong>: μετρήσιμο χαρακτηριστικό που παίρνει διαφορετικές τιμές.</li>
+<li><strong>Διακριτές</strong>: τιμές σε διακριτές κατηγορίες (π.χ. δήμος, πλήθος παιδιών ανά τμήμα).</li>
+<li><strong>Συνεχείς</strong>: οποιαδήποτε τιμή σε ένα διάστημα (π.χ. ύψος/βάρος παιδιού).</li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Συμβουλή</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Σκέψη:</strong> Αν βλέπουμε πολλές ίδιες τιμές σε μια <em>συνεχή</em> μεταβλητή, ίσως ο τρόπος μέτρησης ή η κλίμακα χρειάζεται αναθεώρηση.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="κλίμακες-μέτρησης" class="slide level2">
+<h2>Κλίμακες μέτρησης</h2>
+<ul>
+<li>Μέτρηση είναι η διαδικασία με την οποία αποδίδουμε τιμές σε μεταβλητές.</li>
+<li>Οι τιμές αυτές εξαρτώνται από το <strong>είδος της κλίμακας</strong> που χρησιμοποιούμε.</li>
+<li>Η επιλογή της κατάλληλης κλίμακας επηρεάζει άμεσα το είδος των στατιστικών μεθόδων που μπορούμε να εφαρμόσουμε.</li>
+</ul>
+</section>
+<section id="ονομαστική-κλίμακα" class="slide level2">
+<h2>Ονομαστική κλίμακα</h2>
+<ul>
+<li>Οι τιμές είναι <strong>ονόματα κατηγοριών</strong>.</li>
+<li>Οι κατηγορίες είναι <strong>διακριτές και μη συγκρίσιμες</strong> — δεν υπάρχει σειρά ή διάταξη μεταξύ τους.</li>
+<li>Παράδειγμα: τόπος κατοικίας (π.χ. Φλώρινα, Καστοριά, Κοζάνη).</li>
+<li>Μπορεί να χρησιμοποιηθούν αριθμοί για κωδικοποίηση, αλλά <strong>δεν έχουν ποσοτική σημασία</strong> (π.χ. 1 = Φλώρινα, 2 = Καστοριά).</li>
+</ul>
+</section>
+<section id="διατάξιμη-τακτική-κλίμακα" class="slide level2">
+<h2>Διατάξιμη (τακτική) κλίμακα</h2>
+<ul>
+<li>Οι τιμές αντιστοιχούν σε <strong>διακριτές κατηγορίες με φυσική διάταξη</strong>.</li>
+<li>Μπορούμε να πούμε ποια τιμή είναι “μεγαλύτερη” ή “μικρότερη”, αλλά <strong>όχι πόσο</strong> μεγαλύτερη.</li>
+<li>Παράδειγμα: οικονομική κατάσταση οικογένειας μαθητών (χαμηλή, μέτρια, υψηλή).</li>
+<li>Η σειρά έχει νόημα, αλλά οι <strong>διαφορές μεταξύ κατηγοριών δεν είναι μετρήσιμες</strong>.</li>
+</ul>
+</section>
+<section id="ισοδιαστημική-διαστημική-κλίμακα" class="slide level2">
+<h2>Ισοδιαστημική (διαστημική) κλίμακα</h2>
+<ul>
+<li>Οι τιμές είναι <strong>αριθμητικές</strong>, με <strong>ίσα διαστήματα</strong> μεταξύ τους.</li>
+<li>Επιτρέπεται η σύγκριση διαφορών (π.χ. πόσο αυξήθηκε ή μειώθηκε κάτι).</li>
+<li>Ωστόσο, το <strong>μηδέν είναι αυθαίρετο</strong>· δεν υποδηλώνει “απουσία”.</li>
+<li>Παράδειγμα: θερμοκρασία σε βαθμούς Κελσίου ή Φάρεναϊτ.
+<ul>
+<li>Διαφορά 10°C ↔︎ σταθερό διάστημα·</li>
+<li>αλλά 40°C δεν σημαίνει “διπλάσια θερμότητα” από 20°C.</li>
+</ul></li>
+</ul>
+</section>
+<section id="αναλογική-κλίμακα" class="slide level2">
+<h2>Αναλογική κλίμακα</h2>
+<ul>
+<li>Είναι <strong>ισοδιαστημική με απόλυτο μηδέν</strong>.</li>
+<li>Το μηδέν σημαίνει <strong>απουσία</strong> του χαρακτηριστικού που μετράμε.</li>
+<li>Επιτρέπεται η <strong>σύγκριση λόγων</strong> (π.χ. “διπλάσιο”, “μισό”).</li>
+<li>Παράδειγμα: ύψος, βάρος, διάρκεια, απόσταση.
+<ul>
+<li>Ένα παιδί 120 cm είναι <strong>διπλάσιο</strong> σε ύψος από ένα παιδί 60 cm.</li>
+</ul></li>
+</ul>
+</section>
+<section id="δεδομένα-raw-πλήθος-παιδιών-ανά-τμήμα" class="slide level2">
+<h2>Δεδομένα (raw) — Πλήθος παιδιών ανά τμήμα</h2>
+<pre><code>20, 23, 20, 24, 20, 18, 17, 25, 25, 19,
+20, 17, 17, 16, 17, 15, 20, 19, 23, 25</code></pre>
+</section>
+<section id="πίνακας-συχνοτήτων-πλήθος-παιδιών-ανά-τμήμα" class="slide level2">
+<h2>Πίνακας συχνοτήτων — Πλήθος παιδιών ανά τμήμα</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: right;">y</th>
+<th style="text-align: right;">f</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">3</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="δεδομένα-raw-πλήθος-τελειών-σε-ζωγραφιά" class="slide level2">
+<h2>Δεδομένα (raw) — Πλήθος τελειών σε ζωγραφιά</h2>
+<pre><code>24, 37, 41, 28, 35, 22, 31, 56, 42, 33,
+58, 45, 64, 83, 38, 94, 49, 53, 70, 84,
+66, 72, 90, 47, 59, 71, 88, 63, 75, 95</code></pre>
+</section>
+<section id="πίνακας-συχνοτήτων-πλήθος-τελειών-σε-ζωγραφιά" class="slide level2">
+<h2>Πίνακας συχνοτήτων — Πλήθος τελειών σε ζωγραφιά</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: right;">y</th>
+<th style="text-align: right;">f</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">63</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">66</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">72</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">88</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="άσκηση-1-25-μετράμε-και-οργανώνουμε" class="slide level2">
+<h2>Άσκηση 1 (25’) — «Μετράμε και οργανώνουμε»</h2>
+<ol type="1">
+<li>Συλλέξτε 10 μετρήσεις από την τάξη (π.χ. αντικείμενα που βλέπουμε σε φωτογραφίες).</li>
+<li>Γράψτε τη <strong>λίστα</strong> με τις τιμές (raw).</li>
+<li>Φτιάξτε <strong>πίνακα συχνοτήτων</strong> (στήλες: y, f).</li>
+</ol>
+</section>
+<section id="άσκηση-2-25-πολλές-διαφορετικές-τιμές" class="slide level2">
+<h2>Άσκηση 2 (25’) — «Πολλές διαφορετικές τιμές»</h2>
+<ol type="1">
+<li>Αν έχετε πολλές μοναδικές τιμές, ομαδοποιήστε σε <strong>κλάσεις</strong> (π.χ. 21–40 κ.ο.κ.).</li>
+<li>Φτιάξτε <strong>πίνακα συχνοτήτων ανά κλάση</strong> (στήλες: κλάση, f).</li>
+</ol>
+</section>
+<section id="τέλος-ερωτήσεις" class="slide level2">
+<h2>Τέλος — Ερωτήσεις;</h2>
 
 
-</section></section>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="logo.jpg" class="slide-logo"></p>
 <div class="footer footer-default">
-
+<p>Πανεπιστήμιο Δυτικής Μακεδονίας · Παιδαγωγικό Τμήμα Νηπιαγωγών</p>
 </div>
 </div></div>
 
@@ -219,7 +506,7 @@
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -400,12 +687,12 @@
           // flash "checked"
           button.classList.add('code-copy-button-checked');
           var currentTitle = button.getAttribute("title");
-          button.setAttribute("title", "Copied!");
+          button.setAttribute("title", "Αντιγράφηκε!");
           let tooltip;
           if (window.bootstrap) {
             button.setAttribute("data-bs-toggle", "tooltip");
             button.setAttribute("data-bs-placement", "left");
-            button.setAttribute("data-bs-title", "Copied!");
+            button.setAttribute("data-bs-title", "Αντιγράφηκε!");
             tooltip = new bootstrap.Tooltip(button, 
               { trigger: "manual", 
                 customClass: "code-copy-button-tooltip",
