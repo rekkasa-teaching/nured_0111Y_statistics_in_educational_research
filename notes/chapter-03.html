@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Δρ. Αλέξανδρος Ρέκκας">
-<meta name="dcterms.date" content="2025-09-07">
 
-<title>Στατιστική στην Εκπαιδευτική Έρευνα – Στατιστική στην εκπαιδευτική έρευνα</title>
+<title>chapter-03 – Στατιστική στην εκπαιδευτική έρευνα</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -122,71 +149,43 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Περιεχόμενα</h2>
    
   <ul>
-  <li><a href="#σημειώσεις-του-μαθήματος" id="toc-σημειώσεις-του-μαθήματος" class="nav-link active" data-scroll-target="#σημειώσεις-του-μαθήματος">Σημειώσεις του μαθήματος</a>
-  <ul class="collapse">
-  <li><a href="#περιεχόμενα" id="toc-περιεχόμενα" class="nav-link" data-scroll-target="#περιεχόμενα">Περιεχόμενα</a></li>
-  <li><a href="#σχετικά" id="toc-σχετικά" class="nav-link" data-scroll-target="#σχετικά">Σχετικά</a></li>
+  <li><a href="#μέτρα-θέσης" id="toc-μέτρα-θέσης" class="nav-link active" data-scroll-target="#μέτρα-θέσης">Μέτρα θέσης</a>
+  <ul>
+  <li><a href="#μέση-τιμή" id="toc-μέση-τιμή" class="nav-link" data-scroll-target="#μέση-τιμή">Μέση τιμή</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Στατιστική στην Εκπαιδευτική Έρευνα</h1>
-<p class="subtitle lead">Πανεπιστήμιο Δυτικής Μακεδονίας<br>
-Εξάμηνο 5o</p>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Δρ. Αλέξανδρος Ρέκκας </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">September 7, 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="σημειώσεις-του-μαθήματος" class="level1">
-<h1>Σημειώσεις του μαθήματος</h1>
-<p><strong>Επιλογές:</strong></p>
-<ul>
-<li>Διαβάστε online (βρίσκεστε εδώ)</li>
-<li><a href="Εισαγωγή-στην-επιχειρησιακή-έρευνα-Notes.pdf">📄 Download PDF</a></li>
-</ul>
-<section id="περιεχόμενα" class="level2">
-<h2 class="anchored" data-anchor-id="περιεχόμενα">Περιεχόμενα</h2>
-<p>Οι σημειώσεις οργανώνονται στα ακόλουθα κεφάλαια:</p>
-<ol type="1">
-<li><a href="../notes/chapter-01.html">Κεφάλαιο 1: Εισαγωγή</a></li>
-<li><a href="../notes/chapter-02.html">Κεφάλαιο 2: Κατανομή συχνοτήτων</a></li>
-<li><a href="../notes/chapter-03.html">Κεφάλαιο 3: Μέτρα θέσης</a></li>
-</ol>
-</section>
-<section id="σχετικά" class="level2">
-<h2 class="anchored" data-anchor-id="σχετικά">Σχετικά</h2>
-<p><strong>Συγγραφέας:</strong> Αλέξανδρος Ρέκκας<br>
-<strong>Μάθημα:</strong> Στατιστική στην εκπαιδευτική έρευνα</p>
-<p>Οι σημειώσεις αυτές έχουν σχεδιαστεί ώστε να συμπληρώνουν τις παρουσιάσεις των διαλέξεων και να αποτελούν μια ολοκληρωμένη αναφορά για το υλικό του μαθήματος.</p>
+<section id="μέτρα-θέσης" class="level1">
+<h1>Μέτρα θέσης</h1>
+<p>Τα μέτρα θέσης χρησιμοποιούνται για να περιγράψουν με τη χρήση ενός μόνο αριθμού το κέντρο της κατανομής των τιμών μίας τυχαίας μεταβλητής. Με απλά λόγια, τα μέτρα θέσης περιγράφουν γύρω από ποια τιμή συγκεντρώνονται οι τιμές μίας τυχαίας μεταβλητής που μετρήθηκε κατά την εκτέλεση μίας μελέτης. Δυστυχώς, δεν υπάρχει ένας μοναδικός τρόπος που να μας δίνει με τον καλύτερο τρόπο τη θέση των τιμών μίας μεταβλητής. Στη συνέχεια θα δούμε τρεις μεθόδους για τον υπολογισμό της θέσης: τη μέση τιμή, τη διάμεσο και την επικρατούσα τιμή.</p>
+<section id="μέση-τιμή" class="level2">
+<h2 class="anchored" data-anchor-id="μέση-τιμή">Μέση τιμή</h2>
+<p>Η μέση τιμή για την κατανομή των τιμών μίας τυχαίας μεταβλητής υπολογίζεται ως μέσος όρος των τιμών της, δηλαδή αθροίζοντας όλες τις τιμές και διαιρώντας με το πλήθος τους:</p>
+<p><span class="math display">\[
+\mu = \frac{\sum X}{N}
+\]</span></p>
+<p>Καθώς η μέση τιμή υπολογίζεται με τη χρήση <span class="math inline">\(\sum X\)</span> και με το <span class="math inline">\(N\)</span> μπορούμε να την υπολογίσουμε ακόμα κι αν δεν έχουμε τις αρχικές μετρήσεις αλλά τον πίνακα συχντοτήτων των μετρήσεων για μία μεταβλητή. Για παράδειγμα, έστω ότι σε μία μελέτη ο/η ερευνητής/τρια θέλησε να αξιολογήσει τις κινητικές δεξιότητες των μαθητών μίας τάξης νηπιαγωγείου δίνοντάς τους 4 τουβλάκια και ζητώντας τους να τα τοποθετήσουν το ένα πάνω στο άλλο φτιάχνοντας έναν πύργο. Έστω <span class="math inline">\(X\)</span> η μεταβλητή “το πλήθος από τουβλάκια που χρησιμοποίησε ο μαθητής για τον πύργο του”. Ο πίνακας συχνοτήτων των μετρήσεων της μεταβλητής <span class="math inline">\(X\)</span> φαίνεται στον παρακάτω πίνακα.</p>
+<p>Για τον υπολογισμό της μέσης τιμής της <span class="math inline">\(X\)</span> θα χρειαστούμε το άθροισμα <span class="math display">\[
+\sum X = \sum_{i=1}^4 f(x_i)x_i = 1\times 1 + 4\times 2 + 9\times 3 + 6\times 4 = 60
+\]</span></p>
+<p>Επίσης θα χρειαστούμε το μέγεθος του δείγματος <span class="math inline">\(N\)</span> το οποίο μπορούμε να βρούμε αθροίζοντας όλες τις συχνότητες <span class="math display">\[
+N = \sum_{i=1}^4f(i) = 1 + 4 + 9 + 6 = 20
+\]</span></p>
+<p>Επομένως, η μέση τιμή <span class="math inline">\(\mu\)</span> μπορεί να υπολογιστεί από</p>
+<p><span class="math display">\[
+\mu = \frac{\sum X}{N} = \frac{\sum_{i=1}^4f(x_i)x_i}{\sum_{i=1}^4f(i)} = \frac{60}{20} = 3
+\]</span></p>
+<p>Αν και η μέση τιμή είναι η πιο εύληπτη μέθοδος για τον υπολογισμό της θέσης των μετρήσεων μιας μεταβλητής, έχει ένα σημαντικό μειονέκτημα. Στην περίπτωση που υπάρχουν ακραίες τιμές η μέση τιμή μπορεί να επηρεαστεί τόσο πολύ, ώστε το αποτέλεσμα να μην είναι αντιπροσωπευτικό του δείγματος. Για παράδειγμα, έστω ότι μετράμε τη μέση ηλικία σε μια αίθουσα νηπιαγωγείου. Η αίθουσα έχει 4 μαθητές ηλικίας 5 ετών και έναν δάσκαλο ηλικίας 60 ετών. Τότε, η μέση ηλικία στην αίθουσα είναι <span class="math display">\[
+\mu = \frac{4\times 5 + 60}{5} = \frac{80}{5} = 16
+\]</span></p>
+<p>Στη συγκεκριμένη περίπτωση, η τιμή 16 δεν αντιπροσωπεύει κανέναν. Το νούμερο είναι πολύ μεγάλο για όλους τους μαθητές της αίθουσας και πολύ μικρό για τον δάσκαλο. Είναι σημαντικό να θυμόμαστε ότι σκοπός των μέτρων θέσης είναι να μας δώσουν την τιμή εκείνη γύρω από την οποία συγκεντρώνεται η πλειοψηφία των τιμών μίας μεταβλητής, ώστε να μπορέσουμε να αντιπροσωπεύσουμε όλες τις μετρήσεις με έναν αριθμό. Συμβαίνει αυτό στο συγκεκριμένο παράδειγμα;</p>
 
 
 </section>
