@@ -94,16 +94,6 @@
       ],
       "Hash": "16850760556401a2eeb27d39bd11c9cb"
     },
-    "cpp11": {
-      "Package": "cpp11",
-      "Version": "0.5.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R"
-      ],
-      "Hash": "2720e3fd3dad08f34b19b56b3d6f073d"
-    },
     "digest": {
       "Package": "digest",
       "Version": "0.6.37",
@@ -330,17 +320,6 @@
       ],
       "Hash": "0ec19f34c72fab674d8f2b4b1c6410e1"
     },
-    "ragg": {
-      "Package": "ragg",
-      "Version": "1.5.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "systemfonts",
-        "textshaping"
-      ],
-      "Hash": "cdb40b21711a8870f305b24226698f9f"
-    },
     "rappdirs": {
       "Package": "rappdirs",
       "Version": "0.3.3",
@@ -350,6 +329,16 @@
         "R"
       ],
       "Hash": "5e3c5dc0b071b21fa128676560dbe94d"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "1.0.11",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "47623f66b4e80b3b0587bc5d7b309888"
     },
     "rlang": {
       "Package": "rlang",
@@ -418,51 +407,35 @@
       ],
       "Hash": "c5bba8f0d1df8c4b9538a40570798d9b"
     },
-    "stringi": {
-      "Package": "stringi",
-      "Version": "1.8.7",
+    "showtext": {
+      "Package": "showtext",
+      "Version": "0.9-7",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
-        "R",
-        "stats",
-        "tools",
-        "utils"
+        "grDevices",
+        "showtextdb",
+        "sysfonts"
       ],
-      "Hash": "2b56088e23bdd58f89aebf43a0913457"
+      "Hash": "ebc23fc796c28737ffe0a64e5404f3d1"
     },
-    "systemfonts": {
-      "Package": "systemfonts",
-      "Version": "1.3.1",
+    "showtextdb": {
+      "Package": "showtextdb",
+      "Version": "3.0",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
-        "R",
-        "base64enc",
-        "cpp11",
-        "grid",
-        "jsonlite",
-        "lifecycle",
-        "tools",
+        "sysfonts",
         "utils"
       ],
-      "Hash": "4fae513a3bb1a155943d1e9d1ae467ec"
+      "Hash": "c12e756cf947e58b0f2c2a520521a5a8"
     },
-    "textshaping": {
-      "Package": "textshaping",
-      "Version": "1.0.4",
+    "sysfonts": {
+      "Package": "sysfonts",
+      "Version": "0.8.9",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cpp11",
-        "lifecycle",
-        "stats",
-        "stringi",
-        "systemfonts",
-        "utils"
-      ],
-      "Hash": "477d70e23914730aa7f5c5fd351f4721"
+      "Repository": "RSPM",
+      "Hash": "7dfca1e9c5c278300b5ca6a1772072f7"
     },
     "tinytex": {
       "Package": "tinytex",
