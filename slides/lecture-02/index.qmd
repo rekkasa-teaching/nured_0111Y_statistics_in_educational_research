@@ -56,10 +56,10 @@ $$X = [4, 5, 5, 6, 6, 6, 7, 8, 8, 9]$$
 
 ## Ιστογράμματα
 
-- Για **ποσοτικές** μεταβλητές (ιδίως **αναλογίας**).  
-- Οριζόντιος άξονας: **κλάσεις/διαστήματα** τιμών.  
-- Κατακόρυφος άξονας: **συχνότητες** (ή σχετικές/ποσοστιαίες).  
-- Οι **στήλες εφάπτονται** (συνεχής κλίμακα).  
+- Για **ποσοτικές** μεταβλητές (ισοδιαστημικές/αναλογικές).
+- Οριζόντιος άξονας: **κλάσεις/διαστήματα** τιμών.
+- Κατακόρυφος άξονας: **συχνότητες** (ή σχετικές/ποσοστιαίες).
+- Οι **στήλες εφάπτονται** (συνεχής κλίμακα).
 
 ## Ιστογράμματα
 
@@ -81,23 +81,23 @@ ggplot(data, aes(x = value)) +
   labs(title = "Κατανομή μαθητών ανά τάξη",
        x = "Πλήθος μαθητών",
        y = "Συχνότητα") +
-  theme_minimal(base_size = 18) +  # Increased base font size
+  theme_minimal(base_size = 28) +  # Increased base font size
   theme(
     panel.grid.minor = element_blank(),
-    plot.title = element_text(size = 22, face = "bold"),  # Larger title
-    axis.title = element_text(size = 20),  # Larger axis labels
-    axis.text = element_text(size = 16)    # Larger axis text
+    plot.title = element_text(size = 32, face = "bold"),  # Larger title
+    axis.title = element_text(size = 30),  # Larger axis labels
+    axis.text = element_text(size = 26)    # Larger axis text
   )
   
 ```
 
-## Πολύγωνο συχνοτήτων – Ιδέα
+## Πολύγωνο συχνοτήτων
 
 - Σημειώνουμε το **κέντρο κάθε κλάσης**.  
 - Συνδέουμε τα σημεία κατά σειρά → **πολύγωνο**.  
 - Χρήσιμο για σύγκριση δύο κατανομών στο ίδιο γράφημα.
 
-## Πολύγωνο συχνοτήτων – Ιδέα
+## Πολύγωνο συχνοτήτων
 
 ```{r}
 #| label: polygon
@@ -122,9 +122,9 @@ ggplot(data, aes(x = value)) +
   theme_minimal() +
   theme(
     panel.grid.minor = element_blank(),
-    plot.title = element_text(size = 22, face = "bold"),  # Larger title
-    axis.title = element_text(size = 20),  # Larger axis labels
-    axis.text = element_text(size = 16)    # Larger axis text
+    plot.title = element_text(size = 32, face = "bold"),  # Larger title
+    axis.title = element_text(size = 30),  # Larger axis labels
+    axis.text = element_text(size = 26)    # Larger axis text
   )
 
 ```
