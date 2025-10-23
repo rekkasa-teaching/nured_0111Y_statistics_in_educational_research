@@ -1,0 +1,421 @@
+/*-- scss:defaults --*/
+
+// Minimal color palette
+$primary-color: #1e3a5f;
+$secondary-color: #4a6fa5;
+$accent-color: #c74440;
+$text-color: #333333;
+$light-gray: #f5f5f5;
+$border-gray: #e0e0e0;
+
+// Typography
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$presentation-heading-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$presentation-font-size-root: 36px;
+
+/*-- scss:rules --*/
+
+// General slide styling
+.reveal {
+  font-family: $font-family-sans-serif;
+  color: $text-color;
+  
+  .slides {
+    text-align: left;
+  }
+}
+
+// Headings
+.reveal h1, .reveal h2, .reveal h3 {
+  color: $primary-color;
+  font-weight: 600;
+  text-transform: none;
+  margin-bottom: 0.5em;
+}
+
+.reveal h1 {
+  font-size: 1.8em;
+}
+
+.reveal h2 {
+  font-size: 1.4em;
+  border-bottom: 2px solid $primary-color;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.8em;
+}
+
+.reveal h3 {
+  font-size: 1.2em;
+}
+
+// Title slide
+.title-slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  
+  .title-content {
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+    
+    strong {
+      font-size: 1.6em;
+      display: block;
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
+// Logo styling
+.reveal .slide-logo {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  max-height: 50px;
+  opacity: 0.5;
+}
+
+// Footer
+.reveal .footer {
+  font-size: 0.5em;
+  color: #999;
+  padding: 8px;
+}
+
+// Custom boxes - minimal style
+.success-box {
+  background: #f0f8f0;
+  border-left: 3px solid #5cb85c;
+  padding: 1em;
+  border-radius: 4px;
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+
+.highlight-box {
+  background: #fffdf0;
+  border-left: 3px solid #f0ad4e;
+  padding: 1em;
+  border-radius: 4px;
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+
+.alert-box {
+  background: #fef5f5;
+  border-left: 3px solid $accent-color;
+  padding: 1em;
+  border-radius: 4px;
+  margin: 1em 0;
+  font-size: 0.9em;
+  
+  strong {
+    color: $accent-color;
+  }
+}
+
+.reminder-box {
+  background: $light-gray;
+  border-left: 3px solid $secondary-color;
+  padding: 0.8em 1em;
+  border-radius: 4px;
+  margin: 1em 0;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+// Example box
+.example-box {
+  background: #faf8ff;
+  padding: 1em;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1em;
+  margin: 1em 0;
+  border: 1px solid #e0d8f0;
+}
+
+// Ethics box
+.ethics-box {
+  background: #f0f8f0;
+  padding: 1em;
+  border-radius: 4px;
+  margin-top: 1em;
+  border: 1px solid #d0e8d0;
+}
+
+// Activity box
+.activity-box {
+  background: white;
+  padding: 1.5em;
+  border-radius: 4px;
+  border: 2px solid #9c27b0;
+  font-size: 0.85em;
+  
+  h3 {
+    color: #9c27b0;
+    margin-top: 0;
+    font-size: 1.2em;
+  }
+  
+  ol {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+}
+
+// Synthesis box
+.synthesis {
+  background: #fffef0;
+  padding: 1em;
+  border-radius: 4px;
+  margin-top: 1.5em;
+  text-align: center;
+  font-weight: 500;
+  border: 1px solid #f0e8c0;
+}
+
+// Research method cards
+.research-method {
+  background: white;
+  padding: 1.5em;
+  border-radius: 4px;
+  border: 1px solid $border-gray;
+  font-size: 0.9em;
+  
+  h3 {
+    color: $primary-color;
+    margin-top: 1.2em;
+    font-size: 1.15em;
+    border-bottom: 1px solid $border-gray;
+    padding-bottom: 0.3em;
+    
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+// Mixed approach
+.mixed-approach {
+  font-size: 0.9em;
+}
+
+// Research type
+.research-type {
+  background: white;
+  padding: 1.2em;
+  border-radius: 4px;
+  border: 1px solid $border-gray;
+  font-size: 0.85em;
+  
+  h3 {
+    color: $secondary-color;
+    border-bottom: 1px solid $border-gray;
+    padding-bottom: 0.3em;
+    font-size: 1.15em;
+  }
+}
+
+// Steps styling
+.steps {
+  font-size: 0.9em;
+  
+  li {
+    margin: 0.8em 0;
+  }
+}
+
+// Philosophical approaches
+.philosophical-approaches {
+  font-size: 0.95em;
+  
+  p {
+    margin: 1em 0;
+    padding-left: 1.5em;
+    border-left: 3px solid $secondary-color;
+    padding: 0.7em 0 0.7em 1.5em;
+    background: $light-gray;
+    border-radius: 3px;
+  }
+}
+
+// Summary slide
+.summary-content {
+  color: white;
+  
+  h3 {
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 0.3em;
+    margin: 1em 0 0.5em 0;
+    opacity: 0.9;
+  }
+}
+
+// Thank you slide
+.thank-you-slide {
+  text-align: center;
+  color: white;
+  
+  h1 {
+    color: white;
+    font-size: 3em;
+  }
+  
+  h3 {
+    color: rgba(255,255,255,0.9);
+  }
+}
+
+// Objectives
+.objectives li {
+  margin: 0.8em 0;
+  font-size: 1.05em;
+}
+
+// Columns
+.reveal .columns {
+  margin-top: 1em;
+}
+
+// Incremental items
+.reveal .slides section .fragment {
+  opacity: 0.4;
+  
+  &.visible {
+    opacity: 1;
+  }
+}
+
+// Slide number
+.reveal .slide-number {
+  background: rgba(30, 58, 95, 0.9);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 0.8em;
+}
+
+// Code styling
+.reveal pre {
+  border-radius: 4px;
+  border: 1px solid $border-gray;
+}
+
+// Links
+.reveal a {
+  color: $secondary-color;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+  
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+// Lists
+.reveal ul, .reveal ol {
+  line-height: 1.6;
+}
+
+.reveal li {
+  margin: 0.4em 0;
+}
+
+// Strong emphasis
+.reveal strong {
+  color: $primary-color;
+  font-weight: 600;
+}
+
+// Clean backgrounds
+.reveal .slide-background {
+  &.present {
+    opacity: 1;
+  }
+}
+
+// Comparison styling
+.comparison {
+  .column h3 {
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    border: 1px solid $border-gray;
+  }
+  
+  .column:first-child h3 {
+    background: #fff8f0;
+  }
+  
+  .column:last-child h3 {
+    background: #f0f8ff;
+  }
+}
+
+// Concept boxes
+.concept-boxes {
+  display: flex;
+  gap: 1.5em;
+  margin: 1.5em 0;
+}
+
+.concept-box {
+  flex: 1;
+  padding: 1.2em;
+  border-radius: 4px;
+  font-size: 0.85em;
+  
+  h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    border-bottom: none;
+  }
+  
+  &.blue {
+    background: #f5f9ff;
+    border: 1px solid #c0d8f0;
+  }
+  
+  &.green {
+    background: #f5fff5;
+    border: 1px solid #c0e8c0;
+  }
+}
+
+// Large icons section
+.large-icons {
+  font-size: 0.95em;
+  line-height: 1.6;
+  
+  p {
+    margin: 0.7em 0;
+  }
+}
+
+// Limitations
+.limitations {
+  font-size: 1.05em;
+  
+  p {
+    margin: 1em 0;
+    padding-left: 1em;
+  }
+}
+
+// Critical thinking
+.critical-thinking {
+  background: white;
+  padding: 1.5em;
+  border-radius: 4px;
+  border: 1px solid $border-gray;
+  margin-top: 1.5em;
+  
+  h3 {
+    color: $accent-color;
+    margin-top: 0;
+  }
+}
