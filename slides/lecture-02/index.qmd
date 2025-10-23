@@ -11,6 +11,12 @@ format:
     footer: "Πανεπιστήμιο Δυτικής Μακεδονίας · Παιδαγωγικό Τμήμα Νηπιαγωγών"
     lang: el
     incremental: false
+  beamer:
+    pdf-engine: xelatex
+    theme: metropolis
+    mainfont: "Noto Sans"        # any system font with Greek
+    monofont: "Noto Sans Mono"
+    keep-tex: true
 execute:
   echo: false
 ---
@@ -245,9 +251,13 @@ ggplot(data, aes(x = value)) +
 - Αν $n$ είναι **περιττός** αριθμός: η μεσαία τιμή
 - Αν $n$ είναι **άρτιος** (ζυγός) αριθμός: ο μέσος όρος των δύο μεσαίων
 
-Παράδειγμα (περιττό \(n=5\)): \(3, 5, 7, 8, 12 \Rightarrow \tilde{x}=7\)
+Παράδειγμα (περιττό $n=5$):
 
-Παράδειγμα (ζυγό \(n=6\)): \(2, 4, 5, 7, 9, 11 \Rightarrow \tilde{x}=(5+7)/2=6\)
+$$(3, 5, 7, 8, 12 \Rightarrow \tilde{x}=7)$$
+
+Παράδειγμα (ζυγό $n=6$): 
+
+$$(2, 4, 5, 7, 9, 11 \Rightarrow \tilde{x}=(5+7)/2=6)$$
 
 ---
 

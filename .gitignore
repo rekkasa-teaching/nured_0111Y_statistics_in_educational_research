@@ -1,6 +1,7 @@
 # Quarto
 docs/
 /.quarto/
+site_libs/
 
 # R
 .Rproj.user

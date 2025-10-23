@@ -46,3 +46,9 @@ format:
 ```
 
 {{< include chapter-03.qmd >}}
+
+```{=typst}
+#pagebreak()
+```
+
+{{< include chapter-04.qmd >}}
