@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="el"><head>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -9,7 +9,9 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.25">
 
-  <title>Στατιστική στην εκπαιδευτική έρευνα – Lecture 3: Topic Title</title>
+  <meta name="author" content="Αλέξανδρος Ρέκκας">
+  <meta name="dcterms.date" content="2025-10-24">
+  <title>Στατιστική στην εκπαιδευτική έρευνα – Στατιστική στην Εκπαιδευτική Έρευνα</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,7 +30,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-f06f52d5b0685b9793f62f9011591d78.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -126,47 +128,308 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Lecture 3: Topic Title</h1>
+  <h1 class="title">Στατιστική στην Εκπαιδευτική Έρευνα</h1>
+  <p class="subtitle">3ο μάθημα</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Αλέξανδρος Ρέκκας 
+</div>
+</div>
 </div>
 
+  <p class="date">2025-10-24</p>
 </section>
 <section>
-<section id="lecture-3" class="title-slide slide level1 center">
-<h1>Lecture 3</h1>
+<section id="ανακεφαλαίωση" class="title-slide slide level1 center">
+<h1>Ανακεφαλαίωση</h1>
 
 </section>
-<section id="overview" class="slide level2">
-<h2>Overview</h2>
+<section id="μέτρα-κεντρικής-τάσης" class="slide level2">
+<h2>Μέτρα Κεντρικής Τάσης</h2>
 <ul>
-<li class="fragment">Learning objective 1</li>
-<li class="fragment">Learning objective 2</li>
-<li class="fragment">Learning objective 3</li>
+<li><strong>Μέση τιμή:</strong> Ο αριθμητικός μέσος όρος. Ευαίσθητος σε ακραίες τιμές.</li>
+<li><strong>Διάμεσος:</strong> Η μεσαία τιμή (το 50ό εκατοστημόριο). Ανθεκτική σε ακραίες τιμές.</li>
+<li><strong>Επικρατούσα Τιμή:</strong> Η συχνότερη τιμή.</li>
 </ul>
-</section>
-<section id="main-content" class="slide level2">
-<h2>Main Content</h2>
-<p>Add your slide content here.</p>
-</section>
-<section id="summary" class="slide level2">
-<h2>Summary</h2>
-<ul>
-<li class="fragment">Key point 1</li>
-<li class="fragment">Key point 2</li>
-<li class="fragment">Key point 3</li>
-</ul>
-</section>
-<section id="questions" class="slide level2">
-<h2>Questions?</h2>
-<p>Thank you for your attention!</p>
-
-
+<p>Αυτά τα μέτρα μας λένε πού βρίσκεται το «κέντρο» των δεδομένων μας.</p>
 </section></section>
+<section>
+<section id="μέτρα-θέσης-συνέχεια" class="title-slide slide level1 center">
+<h1>Μέτρα θέσης (συνέχεια)</h1>
+
+</section>
+<section id="εκατοστημόρια" class="slide level2">
+<h2>Εκατοστημόρια</h2>
+<p><br>
+</p>
+<p>Τα <strong>εκατοστημόρια</strong> (Percentiles) είναι μέτρα <em>σχετικής θέσης</em>.<br>
+Μας λένε πού βρίσκεται μια συγκεκριμένη τιμή σε σχέση με τις υπόλοιπες τιμές του συνόλου δεδομένων.</p>
+<p><br>
+</p>
+<p><strong>Ορισμός</strong><br>
+Το <span class="math inline">\(k\)</span>-οστό εκατοστημόριο (συμβολίζεται <span class="math inline">\(P_k\)</span>) είναι η τιμή κάτω από την οποία βρίσκεται το <span class="math inline">\(k\%\)</span> των παρατηρήσεων.</p>
+</section>
+<section id="εκατοστημόρια-1" class="slide level2">
+<h2>Εκατοστημόρια</h2>
+<blockquote>
+<p><strong>Παράδειγμα:</strong></p>
+<p>Αν ένας μαθητής είχε επίδοση στο 80ό εκατοστημόριο (<span class="math inline">\(P_{80}\)</span>) σε ένα τεστ, Τι σημαίνει αυτό για την επίδοσή του;</p>
+</blockquote>
+</section>
+<section id="εκατοστημόρια-2" class="slide level2">
+<h2>Εκατοστημόρια</h2>
+<p><br>
+</p>
+<blockquote>
+<p><strong>Άσκηση</strong></p>
+<p>Δεδομένα ύψους (cm) 10 παιδιών:<br>
+108, 107, 118, 100, 98, 103, 112, 109, 96, 101.<br>
+Υοπολογίστε το 40% εκατοστημόριο.</p>
+</blockquote>
+</section>
+<section id="εκατοστημόρια-3" class="slide level2">
+<h2>Εκατοστημόρια</h2>
+<p>Υπάρχουν κάποιες ειδικές, πολύ συνηθισμένες περιπτώσεις:</p>
+<ul>
+<li><strong>Διάμεσος:</strong>
+<ul>
+<li>Είναι το <span class="math inline">\(P_{50}\)</span> (το 50ό εκατοστημόριο).</li>
+<li>Χωρίζει τα δεδομένα σε δύο ίσα μέρη.</li>
+</ul></li>
+</ul>
+</section>
+<section id="εκατοστημόρια-4" class="slide level2">
+<h2>Εκατοστημόρια</h2>
+<ul>
+<li><strong>Τεταρτημόρια:</strong>
+<ul>
+<li>Χωρίζουν τα δεδομένα σε τέσσερα ίσα μέρη.</li>
+<li><span class="math inline">\(Q_1\)</span> (Πρώτο Τεταρτημόριο) = <span class="math inline">\(P_{25}\)</span></li>
+<li><span class="math inline">\(Q_2\)</span> (Δεύτερο Τεταρτημόριο) = <span class="math inline">\(P_{50}\)</span> (η Διάμεσος)</li>
+<li><span class="math inline">\(Q_3\)</span> (Τρίτο Τεταρτημόριο) = <span class="math inline">\(P_{75}\)</span></li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="μέτρα-μεταβλητότητας-διασποράς" class="title-slide slide level1 center">
+<h1>Μέτρα μεταβλητότητας (διασποράς)</h1>
+
+</section>
+<section id="επιγραμματικά" class="slide level2">
+<h2>Επιγραμματικά</h2>
+<p><br>
+</p>
+<p>Τα μέτρα διασποράς (ή μεταβλητότητας) μας λένε πόσο <strong>απλωμένες</strong> ή <strong>συγκεντρωμένες</strong> είναι οι τιμές σε ένα σύνολο δεδομένων.</p>
+<p>Απαντούν στο ερώτημα: «Πόσο διαφέρουν οι τιμές μεταξύ τους (ή από το κέντρο);»</p>
+</section>
+<section id="επιγραμματικά-1" class="slide level2">
+<h2>Επιγραμματικά</h2>
+<ol type="1">
+<li><strong>Εύρος</strong></li>
+<li><strong>Ενδοτεταρτημοριακό Εύρος</strong></li>
+<li><strong>Διασπορά</strong></li>
+<li><strong>Τυπική Απόκλιση</strong></li>
+</ol>
+</section>
+<section id="εύρος" class="slide level2">
+<h2>4.1 Εύρος</h2>
+<ul>
+<li>Το εύρος είναι το <strong>πιο απλό</strong> από τα μέτρα διασποράς.</li>
+<li>Υπολογίζεται ως η διαφορά μεταξύ της <strong>μέγιστης</strong> (<span class="math inline">\(X_{max}\)</span>) και της <strong>ελάχιστης</strong> (<span class="math inline">\(X_{min}\)</span>) τιμής μίας μεταβλητής.</li>
+</ul>
+<p><span class="math display">\[ R = X_{max} - X_{min} \]</span></p>
+<ul>
+<li><strong>Παράδειγμα:</strong> Στις τιμές <code>[ 4, 7, 8, 10, 12 ]</code></li>
+<li><span class="math inline">\(R = 12 - 4 = 8\)</span></li>
+</ul>
+</section>
+<section id="μειονεκτήματα-του-εύρους" class="slide level2">
+<h2>Μειονεκτήματα του Εύρους</h2>
+<ul>
+<li>Αν και είναι πάρα πολύ εύκολο να υπολογιστεί, είναι <strong>πολύ ευαίσθητο σε ακραίες τιμές</strong>.</li>
+<li>Η ύπαρξη μίας μόνο ακραίας τιμής μπορεί να δώσει λανθασμένη εντύπωση της πραγματικής μεταβλητότητας.</li>
+</ul>
+</section>
+<section id="μειονεκτήματα-του-εύρους-1" class="slide level2">
+<h2>Μειονεκτήματα του Εύρους</h2>
+<p><strong>Παράδειγμα:</strong></p>
+<ul>
+<li>Δεδομένα Α: <code>[ 10, 12, 13, 15, 17 ]</code> <span class="math inline">\(\rightarrow R = 17 - 10 = 7\)</span></li>
+<li>Δεδομένα Β: <code>[ 10, 12, 13, 15, 170 ]</code> <span class="math inline">\(\rightarrow R = 170 - 10 = 160\)</span></li>
+</ul>
+<p>Η μεταβλητότητα των <em>περισσότερων</em> τιμών είναι ίδια, αλλά το εύρος δίνει μια τελείως διαφορετική εικόνα λόγω μίας μόνο τιμής.</p>
+</section>
+<section id="άσκηση-υπολογίστε-το-εύρος" class="slide level2">
+<h2>Άσκηση: Υπολογίστε το Εύρος</h2>
+<p>Ένας ερευνητής μέτρησε τον χρόνο αντίδρασης (σε ms) 10 παιδιών σε ένα οπτικό ερέθισμα. Τα αποτελέσματα ήταν:</p>
+<p><code>[ 510, 450, 600, 550, 490, 710, 520, 480, 530, 500 ]</code></p>
+<p><strong>Ποιο είναι το εύρος των χρόνων αντίδρασης;</strong></p>
+</section>
+<section id="ενδοτεταρτημοριακό-εύρος-iqr" class="slide level2">
+<h2>Ενδοτεταρτημοριακό Εύρος (IQR)</h2>
+<ul>
+<li>Η ιδέα είναι ίδια με αυτή του εύρους, εντούτοις, υπολογίζουμε τη διαφορά μεταξύ του <strong>πρώτου (<span class="math inline">\(Q_1\)</span>)</strong> και του <strong>τρίτου (<span class="math inline">\(Q_3\)</span>)</strong> τεταρτημορίου.</li>
+</ul>
+<p><span class="math display">\[ IQR = Q_3 - Q_1 \]</span></p>
+<ul>
+<li>Το IQR μας δίνει την απόσταση (το εύρος) μέσα στην οποία βρίσκεται το <strong>50% των μεσαίων μετρήσεων</strong> μιας μεταβλητής.</li>
+</ul>
+</section>
+<section id="πλεονεκτήματα-του-iqr" class="slide level2">
+<h2>Πλεονεκτήματα του IQR</h2>
+<ul>
+<li>Το ενδοτεταρτημοριακό εύρος έχει <strong>μεγαλύτερη αντοχή στις ακραίες τιμές</strong>.</li>
+<li>Αυτό συμβαίνει επειδή “αγνοεί” το 25% των χαμηλότερων τιμών και το 25% των υψηλότερων τιμών, εστιάζοντας μόνο στη μεσαία πλειοψηφία.</li>
+</ul>
+</section>
+<section id="άσκηση-υπολογίστε-το-iqr" class="slide level2">
+<h2>Άσκηση: Υπολογίστε το IQR</h2>
+<p>Ας χρησιμοποιήσουμε τα δεδομένα της προηγούμενης άσκησης.</p>
+<p><code>[ 510, 450, 600, 550, 490, 710, 520, 480, 530, 500 ]</code></p>
+<p><br>
+</p>
+<p><strong>Βήματα:</strong></p>
+<ol type="1">
+<li>Βάλτε τα δεδομένα σε αύξουσα σειρά.</li>
+<li>Βρείτε το <span class="math inline">\(Q_1\)</span> (τη διάμεσο του πρώτου μισού).</li>
+<li>Βρείτε το <span class="math inline">\(Q_3\)</span> (τη διάμεσο του δεύτερου μισού).</li>
+<li>Υπολογίστε <span class="math inline">\(IQR = Q_3 - Q_1\)</span>.</li>
+</ol>
+</section>
+<section id="διασπορά" class="slide level2">
+<h2>Διασπορά</h2>
+<p>Το εύρος και το IQR είναι καλά μέτρα, αλλά χρησιμοποιούν μόνο 2 τιμές από ολόκληρο το δείγμα.</p>
+<p><br>
+</p>
+<p>Θέλουμε ένα μέτρο που να:</p>
+<ol type="1">
+<li>Χρησιμοποιεί <strong>όλες τις παρατηρήσεις</strong> στο σύνολο δεδομένων.</li>
+<li>Περιγράφει την <em>μέση απόσταση</em> κάθε παρατήρησης από το <em>κέντρο</em> (τον μέσο).</li>
+</ol>
+</section>
+<section id="απόκλιση" class="slide level2">
+<h2>Απόκλιση</h2>
+<ul>
+<li><strong>Απόκλιση</strong> είναι η απόσταση μιας παρατήρησης (<span class="math inline">\(X\)</span>) από τον μέσο (<span class="math inline">\(μ\)</span> ή <span class="math inline">\(\bar{X}\)</span>).</li>
+<li>Απόκλιση = <span class="math inline">\(X - \mu\)</span></li>
+</ul>
+</section>
+<section id="απόκλιση-1" class="slide level2">
+<h2>Απόκλιση</h2>
+<p><strong>Παράδειγμα:</strong> Δεδομένα <code>[ 2, 4, 5, 6, 8 ]</code> <span class="math inline">\(\rightarrow\)</span> μέση τιμή <span class="math inline">\(\mu = 5\)</span></p>
+<ul>
+<li><span class="math inline">\(2 - 5 = -3\)</span></li>
+<li><span class="math inline">\(4 - 5 = -1\)</span></li>
+<li><span class="math inline">\(5 - 5 = 0\)</span></li>
+<li><span class="math inline">\(6 - 5 = +1\)</span></li>
+<li><span class="math inline">\(8 - 5 = +3\)</span></li>
+</ul>
+<p><strong>Πρόβλημα:</strong> Αν τα αθροίσουμε: <span class="math inline">\(-3 - 1 + 0 + 1 + 3 = 0\)</span>. Το άθροισμα των αποκλίσεων είναι <em>πάντα</em> μηδέν.</p>
+</section>
+<section id="τετράγωνο-των-αποκλίσεων" class="slide level2">
+<h2>Τετράγωνο των Αποκλίσεων</h2>
+<p>Για να λύσουμε το πρόβλημα με τις αρνητικές τιμές, υψώνουμε κάθε απόκλιση στο τετράγωνο.</p>
+<p><br>
+</p>
+<p><strong>Άθροισμα Τετραγώνων</strong> (Sum of Squares - <span class="math inline">\(SS\)</span>): <span class="math display">\[ SS = \sum (X - \mu)^2 \]</span></p>
+</section>
+<section id="διασπορά-πληθυσμού-sigma2" class="slide level2">
+<h2>Διασπορά Πληθυσμού (<span class="math inline">\(\sigma^2\)</span>)</h2>
+<p>Η <strong>Διασπορά</strong> είναι απλά η <em>μέση τετραγωνική απόκλιση</em>.</p>
+<ul>
+<li>Βρίσκουμε το “μέσο όρο” των τετραγωνικών αποκλίσεων.</li>
+<li>Διαιρούμε το Άθροισμα Τετραγώνων (<span class="math inline">\(SS\)</span>) με το πλήθος των παρατηρήσεων (<span class="math inline">\(N\)</span>).</li>
+</ul>
+<p><strong>Ορισμός (Πληθυσμός):</strong> <span class="math display">\[ \sigma^2 = \frac{\sum (X - \mu)^2}{N} = \frac{SS}{N} \]</span></p>
+</section>
+<section id="τυπική-απόκλιση-πληθυσμού-sigma" class="slide level2">
+<h2>Τυπική Απόκλιση Πληθυσμού (<span class="math inline">\(\sigma\)</span>)</h2>
+<p>Η μονάδα μέτρησης της διασποράς είναι “τετραγωνική” (π.χ. <span class="math inline">\(ms^2\)</span>). Αυτό δεν ερμηνεύεται εύκολα.</p>
+<ul>
+<li>Παίρνουμε την <strong>τετραγωνική ρίζα</strong> της διασποράς για να επιστρέψουμε στις αρχικές μονάδες μέτρησης.</li>
+<li>Αυτό είναι η <strong>Τυπική Απόκλιση (Standard Deviation)</strong>.</li>
+</ul>
+</section>
+<section id="τυπική-απόκλιση-πληθυσμού-sigma-1" class="slide level2">
+<h2>Τυπική Απόκλιση Πληθυσμού (<span class="math inline">\(\sigma\)</span>)</h2>
+<p><strong>Ορισμός (Πληθυσμός):</strong> <span class="math display">\[ \sigma = \sqrt{\sigma^2} = \sqrt{\frac{\sum (X - \mu)^2}{N}} \]</span></p>
+</section>
+<section id="διασπορά-δείγματος" class="slide level2">
+<h2>5. Διασπορά Δείγματος</h2>
+<p>Στην έρευνα, <em>σχεδόν ποτέ</em> δεν έχουμε δεδομένα για ολόκληρο τον <strong>πληθυσμό</strong> (<span class="math inline">\(N\)</span>). Έχουμε δεδομένα μόνο από ένα <strong>δείγμα</strong> (<span class="math inline">\(n\)</span>).</p>
+<ul>
+<li>Χρησιμοποιούμε την μέση τιμή του δείγματος (<span class="math inline">\(\bar{X}\)</span>) για να εκτιμήσουμε τον μέσο του πληθυσμού (<span class="math inline">\(\mu\)</span>).</li>
+<li>Θέλουμε να χρησιμοποιήσουμε τη διασπορά του δείγματος (<span class="math inline">\(s^2\)</span>) για να εκτιμήσουμε τη διασπορά του πληθυσμού (<span class="math inline">\(\sigma^2\)</span>).</li>
+</ul>
+</section>
+<section id="το-πρόβλημα-με-τα-δείγματα" class="slide level2">
+<h2>Το Πρόβλημα με τα Δείγματα</h2>
+<ul>
+<li>Ένα δείγμα, εξ ορισμού, τείνει να έχει μικρότερη μεταβλητότητα από τον πληθυσμό από τον οποίο προήλθε.</li>
+<li>Αν χρησιμοποιούσαμε τον ίδιο τύπο (διαίρεση με <span class="math inline">\(n\)</span>), θα <strong>υποεκτιμούσαμε</strong> συστηματικά την πραγματική διασπορά του πληθυσμού.</li>
+</ul>
+</section>
+<section id="δειγματική-διασπορά-s2" class="slide level2">
+<h2>Δειγματική Διασπορά (<span class="math inline">\(s^2\)</span>)</h2>
+<p><strong>1. Άθροισμα Τετραγώνων (SS) για δείγμα:</strong> (Υπολογίζεται με τον μέσο του δείγματος, <span class="math inline">\(\bar{X}\)</span>) <span class="math display">\[ SS = \sum (X - \bar{X})^2 \]</span></p>
+<p><strong>2. Δειγματική Διασπορά (<span class="math inline">\(s^2\)</span>):</strong> (Διαιρούμε με <span class="math inline">\(n-1\)</span>) <span class="math display">\[ s^2 = \frac{\sum (X - \bar{X})^2}{n - 1} = \frac{SS}{n - 1} \]</span></p>
+</section>
+<section id="δειγματική-τυπική-απόκλιση-s" class="slide level2">
+<h2>Δειγματική Τυπική Απόκλιση (<span class="math inline">\(s\)</span>)</h2>
+<p>Όπως και πριν, η <strong>Τυπική Απόκλιση</strong> είναι απλώς η τετραγωνική ρίζα της Διασποράς.</p>
+<p><strong>Δειγματική Τυπική Απόκλιση (<span class="math inline">\(s\)</span>):</strong> <span class="math display">\[ s = \sqrt{s^2} = \sqrt{\frac{\sum (X - \bar{X})^2}{n - 1}} \]</span></p>
+</section>
+<section id="σύνοψη-τύπων" class="slide level2">
+<h2>Σύνοψη Τύπων</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Μέτρο</th>
+<th style="text-align: left;">Πληθυσμός (Παράμετρος)</th>
+<th style="text-align: left;">Δείγμα (Στατιστικό)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Μέγεθος</strong></td>
+<td style="text-align: left;"><span class="math inline">\(N\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(n\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Μέση τιμή</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\mu = \frac{\sum X}{N}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\bar{X} = \frac{\sum X}{n}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Διασπορά</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\sigma^2 = \frac{\sum (X - \mu)^2}{N}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(s^2 = \frac{\sum (X - \bar{X})^2}{n-1}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Τυπ. Απόκλιση</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\sigma = \sqrt{\sigma^2}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(s = \sqrt{s^2}\)</span></td>
+</tr>
+</tbody>
+</table>
+</section></section>
+<section id="ευχαριστώ" class="title-slide slide level1 center">
+<h1>Ευχαριστώ</h1>
+
+
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="logo.jpg" class="slide-logo"></p>
 <div class="footer footer-default">
-
+<p>Πανεπιστήμιο Δυτικής Μακεδονίας · Παιδαγωγικό Τμήμα Νηπιαγωγών</p>
 </div>
 </div></div>
 
@@ -219,7 +482,7 @@
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -400,12 +663,12 @@
           // flash "checked"
           button.classList.add('code-copy-button-checked');
           var currentTitle = button.getAttribute("title");
-          button.setAttribute("title", "Copied!");
+          button.setAttribute("title", "Αντιγράφηκε!");
           let tooltip;
           if (window.bootstrap) {
             button.setAttribute("data-bs-toggle", "tooltip");
             button.setAttribute("data-bs-placement", "left");
-            button.setAttribute("data-bs-title", "Copied!");
+            button.setAttribute("data-bs-title", "Αντιγράφηκε!");
             tooltip = new bootstrap.Tooltip(button, 
               { trigger: "manual", 
                 customClass: "code-copy-button-tooltip",
