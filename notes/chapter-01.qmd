@@ -9,7 +9,6 @@ format:
 ---
 
 ```{=typst}
-
 #set text(font: "Noto Serif", lang: "el") // ensures bold + Greek shaping
     #let tbox(title, body) = rect(fill: luma(240), stroke: 1pt + gray, radius: 6pt, inset: 10pt)[
     #text(weight: "bold")[#title]
@@ -17,6 +16,8 @@ format:
     #body
   ]
 
+#set list(indent: 18pt)
+#set enum(indent: 18pt)
 ```
 
 # Βασικές στατιστικές έννοιες
