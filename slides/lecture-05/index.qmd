@@ -1,0 +1,307 @@
+---
+title: "Στατιστική στην Εκπαιδευτική Έρευνα"
+subtitle: "5ο μάθημα"
+author: "Αλέξανδρος Ρέκκας"
+date: "2025-11-06"
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    logo: logo.jpg
+    footer: "Πανεπιστήμιο Δυτικής Μακεδονίας · Παιδαγωγικό Τμήμα Νηπιαγωγών"
+    lang: el
+    incremental: false
+knitr:
+  opts_chunk:
+    fig.width: 10
+    fig.height: 6
+    dev: "svglite"
+execute:
+  echo: false
+---
+
+```{r}
+library(showtext)
+showtext_auto()
+```
+
+# Ανακεφαλαίωση
+
+## Απόκλιση
+
+* **Απόκλιση** είναι η απόσταση μιας παρατήρησης ($x_i$) από τη μέση τιμή ($μ$)
+* Απόκλιση = $x_i - \mu$
+
+## Απόκλιση
+
+**Παράδειγμα:** Δεδομένα `[ 2, 4, 5, 6, 8 ]` $\rightarrow$ μέση τιμή $\mu = 5$
+
+* $2 - 5 = -3$
+* $4 - 5 = -1$
+* $5 - 5 = 0$
+* $6 - 5 = +1$
+* $8 - 5 = +3$
+
+**Πρόβλημα:** Αν τα αθροίσουμε: $-3 - 1 + 0 + 1 + 3 = 0$.
+Το άθροισμα των αποκλίσεων είναι *πάντα* μηδέν.
+
+## Τετράγωνο των Αποκλίσεων
+
+Για να λύσουμε το πρόβλημα με τις αρνητικές τιμές, υψώνουμε κάθε απόκλιση στο τετράγωνο.
+
+\
+
+**Άθροισμα Τετραγώνων** (Sum of Squares - $SS$):
+$$ SS = \sum_{i=1}^n (x_i - \mu)^2 $$
+
+## Διασπορά ($s^2$)
+
+Η **Διασπορά** είναι απλά η *μέση τετραγωνική απόκλιση*.
+
+* Βρίσκουμε το "μέσο όρο" των τετραγωνικών αποκλίσεων.
+* Διαιρούμε το Άθροισμα Τετραγώνων ($SS$) με το μέγεθος του δείγματος ($n$).
+
+$$ s^2 = \frac{\sum_{i=1}^n(x_i - \mu)^2}{n} = \frac{SS}{n} $$
+
+
+## Τυπική απόκλιση ($s$)
+
+* Η μονάδα μέτρησης της διασποράς είναι "τετραγωνική", π.χ. αν η $X$ ήταν μετρημένη σε μέτρα, η διασπορά εκφράζεται σε τετραγωνικά μέτρα.
+* Παίρνουμε την **τετραγωνική ρίζα** της διασποράς για να επιστρέψουμε στις αρχικές μονάδες μέτρησης.
+* Αυτό είναι η **τυπική απόκλιση (standard deviation)**.
+
+## Τυπική απόκλιση ($s$)
+
+**Ορισμός:**
+$$ s = \sqrt{s^2} = \sqrt{\frac{\sum_{i = 1}^n (x_i - \mu)^2}{n}} $$
+
+# Διόρθωση του τύπου της τυπικής απόκλισης
+
+
+## Το πρόβλημα με τα δείγματα
+
+Η πραγματική μέση τιμή ($\mu$) δεν είναι (σχεδόν) ποτέ γνωστή.  
+
+\
+
+Την εκτιμούμε από το δείγμα ως
+
+$$
+\mu \sim \bar{x} = \frac{\sum_{i=1}^nx_i}{n}
+$$
+
+Σε αυτήν την περίπτωση τείνουμε να υπο-εκτιμούμε τις αποκλίσεις.
+
+
+## Διόρθωση
+
+**Διασπορά:**
+
+$$
+s^2 = \frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n - 1} = \frac{SS}{n - 1}
+$$
+
+\
+
+**Τυπική απόκλιση:**
+$$ s = \sqrt{s^2} = \sqrt{\frac{\sum_{i = 1}^n(x_i - \bar{x})^2}{n - 1}} $$
+
+# Πιθανότητα
+
+## Ενδεχόμενα και πιθανότητες
+
+**Ενδεχόμενο:**  
+Κάτι που μπορεί να συμβεί. Για παράδειγμα, να φέρω γράμματα αν "στρίψω" ένα νόμισμα.
+
+\
+
+**Πιθανότητα:**  
+Πόσο συχνά συμβαίνει ένα συγκεκριμένο ενδεχόμενο σε σχέση με όλα τα υπόλοιπα
+δυνατά ενδεχόμενα.
+
+
+## Παράδειγμα
+
+\
+
+\
+
+Έχω ένα ζάρι. Ποια είναι τα δυνατά ενδεχόμενα;
+
+## Παράδειγμα
+
+\
+
+\
+
+Ποια είναι η πιθανότητα του ενδεχόμενου το ζάρι να έρθει 4;
+
+## Παράδειγμα
+
+\
+
+\
+
+Ποια είναι η πιθανότητα του ενδεχόμενου το ζάρι να έρθει πάνω από 2;
+
+## Κατανομή πιθανοτήτων
+
+\
+
+Η κατανομή πιθανοτήτων μας δίνει τις πιθανότητες για κάθε πιθανό ενδεχόμενο.
+
+\
+
+Ποια είναι η κατανομή πιθανοτήτων για το ρίξιμο ενός ζαριού μία φορά;
+
+
+## Κατανομή πιθανοτήτων
+
+Έστω ότι έχω δύο ζάρια τα οποία ρίχνω συγχρόνως μία φορά.  
+Έστω $X$ η τυχαία μεταβλητή που μου δίνει το άθροισμα της ζαριάς μου.
+
+\
+
+Ποια είναι η κατανομή των πιθανοτήτων της $X$; 
+
+
+## Συνεχείς μεταβλητές
+
+\
+
+Τι γίνεται όταν η μεταβλητή είναι συνεχής; Π.χ. 
+
+\
+
+Π.χ. όταν $X$ είναι το ύψος ενός
+παιδιού νηπιαγωγείου, ποια είναι η κατανομή των πιθανοτήτων;
+
+## Κανονική κατανομή
+
+```{r}
+#| echo: false
+#| eval: true
+
+x <- seq(-4, 4, by = 0.01)
+y <- dnorm(x, mean = 0, sd = 1)
+df <- data.frame(x = x, y = y)
+
+# Create the plot
+p <- ggplot2::ggplot(df, ggplot2::aes(x = x, y = y)) +
+  # Add filled area under the curve
+  ggplot2::geom_ribbon(ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.4) +
+  # Add the normal curve
+  ggplot2::geom_line(linewidth = 1.5, color = "darkblue") +
+  # Add vertical line at mean
+  ggplot2::geom_vline(xintercept = 0, 
+                       linetype = "dashed", 
+                       color = "gray30", 
+                       linewidth = 0.8) +
+  # Customize scales and labels
+  ggplot2::scale_x_continuous(breaks = -3:3, 
+                              labels = c("-3σ", "-2σ", "-1σ", "μ", "+1σ", "+2σ", "+3σ")) +
+  ggplot2::scale_y_continuous(expand = ggplot2::expansion(mult = c(0, 0.05))) +
+  # Add labels and theme
+  ggplot2::labs(title = "Κανονική Κατανομή",
+                x = "Τιμές (σε τυπικές αποκλίσεις)",
+                y = "Πυκνότητα Πιθανότητας") +
+  ggplot2::theme_minimal() +
+  ggplot2::theme(plot.title = ggplot2::element_text(size = 26, face = "bold", hjust = 0.5, family = "sans"),
+                 plot.subtitle = ggplot2::element_text(size = 18, hjust = 0.5, family = "sans", 
+                                                       color = "gray30", face = "italic"),
+                 axis.title = ggplot2::element_text(size = 16, family = "sans"),
+                 axis.text = ggplot2::element_text(size = 15, family = "sans"),
+                 panel.grid.minor = ggplot2::element_blank(),
+                 panel.grid.major = ggplot2::element_line(color = "gray90"),
+                 plot.background = ggplot2::element_rect(fill = "white", color = NA),
+                 panel.background = ggplot2::element_rect(fill = "white", color = NA))
+
+# Display the plot
+print(p)
+```
+
+## Κανονική κατανομή
+
+```{r}
+
+#| echo: false
+#| eval: true
+
+x <- seq(-4, 4, by = 0.01)
+y <- dnorm(x, mean = 0, sd = 1)
+df <- data.frame(x = x, y = y)
+
+p <- ggplot2::ggplot(df, ggplot2::aes(x = x, y = y)) +
+  # Add shaded regions for each sigma interval
+  ggplot2::geom_ribbon(data = df[df$x >= -3 & df$x <= -2, ],
+                        ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.3) +
+  ggplot2::geom_ribbon(data = df[df$x >= -2 & df$x <= -1, ],
+                        ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.4) +
+  ggplot2::geom_ribbon(data = df[df$x >= -1 & df$x <= 0, ],
+                        ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.5) +
+  ggplot2::geom_ribbon(data = df[df$x >= 0 & df$x <= 1, ],
+                        ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.5) +
+  ggplot2::geom_ribbon(data = df[df$x >= 1 & df$x <= 2, ],
+                        ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.4) +
+  ggplot2::geom_ribbon(data = df[df$x >= 2 & df$x <= 3, ],
+                        ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.3) +
+  # Add the normal curve
+  ggplot2::geom_line(linewidth = 1.2, color = "darkblue") +
+  # Add vertical lines at sigma boundaries
+  ggplot2::geom_vline(xintercept = c(-3, -2, -1, 0, 1, 2, 3), 
+                       linetype = "dashed", 
+                       color = "gray40", 
+                       alpha = 0.7) +
+  # Add percentage labels for each region
+  ggplot2::annotate("text", x = -3.5, y = 0.02, label = "0,1%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = -2.5, y = 0.05, label = "2,1%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = -1.5, y = 0.12, label = "13,6%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = -0.5, y = 0.18, label = "34,1%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = 0.5, y = 0.18, label = "34,1%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = 1.5, y = 0.12, label = "13,6%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = 2.5, y = 0.05, label = "2,1%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = 3.5, y = 0.02, label = "0,1%", size = 4, family = "sans") +
+  # Add cumulative percentage annotations
+  ggplot2::annotate("text", x = 0, y = -0.05, label = "68,2%", 
+                    size = 5, fontface = "bold", family = "sans") +
+  ggplot2::annotate("segment", x = -1, xend = 1, y = -0.04, yend = -0.04, 
+                    arrow = ggplot2::arrow(ends = "both", 
+                                          length = grid::unit(0.1, "cm"))) +
+  ggplot2::annotate("text", x = 0, y = -0.08, label = "95,4%", 
+                    size = 5, fontface = "bold", family = "sans") +
+  ggplot2::annotate("segment", x = -2, xend = 2, y = -0.07, yend = -0.07, 
+                    arrow = ggplot2::arrow(ends = "both", 
+                                          length = grid::unit(0.1, "cm"))) +
+  ggplot2::annotate("text", x = 0, y = -0.11, label = "99,7%", 
+                    size = 5, fontface = "bold", family = "sans") +
+  ggplot2::annotate("segment", x = -3, xend = 3, y = -0.10, yend = -0.10, 
+                    arrow = ggplot2::arrow(ends = "both", 
+                                          length = grid::unit(0.1, "cm"))) +
+  # Customize scales and labels with Greek text
+  ggplot2::scale_x_continuous(breaks = -3:3, 
+                              labels = c("-3σ", "-2σ", "-1σ", "μ", "+1σ", "+2σ", "+3σ")) +
+  ggplot2::scale_y_continuous(expand = ggplot2::expansion(mult = c(0.15, 0.05))) +
+  # Add labels and theme with Greek text
+  ggplot2::labs(title = "Τυπική Κανονική Κατανομή",
+                subtitle = "Ποσοστό παρατηρήσεων εντός κάθε τυπικής απόκλισης",
+                x = "Τυπικές Αποκλίσεις από τον Μέσο",
+                y = "Πυκνότητα Πιθανότητας") +
+  ggplot2::theme_minimal() +
+  ggplot2::theme(plot.title = ggplot2::element_text(size = 17, face = "bold", hjust = 0.5, family = "sans"),
+                 plot.subtitle = ggplot2::element_text(size = 13, hjust = 0.5, family = "sans"),
+                 axis.title = ggplot2::element_text(size = 11, family = "sans"),
+                 axis.text = ggplot2::element_text(size = 10, family = "sans"),
+                 panel.grid.minor = ggplot2::element_blank(),
+                 panel.grid.major = ggplot2::element_line(color = "gray90"))
+
+# Display the plot
+print(p)
+
+```
