@@ -12,6 +12,8 @@ website:
         href: slides-index.qmd
       - text: "Σημειώσεις"
         href: notes-index.qmd
+      - text: "Ασκήσεις"
+        href: exercises-index.qmd
 
 format:
   html:
