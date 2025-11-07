@@ -8,7 +8,7 @@ format:
     theme: [default, custom.scss]
     slide-number: true
     logo: logo.jpg
-    footer: "Πανεπιστήμιο Δυτικής Μακεδονίας · Παιδαγωγικό Τμήμα Νηπιαγωγών"
+    footer: "Στατιστική στην Εκπαιδευτική Έρευνα · 5ο Μάθημα"
     lang: el
     incremental: false
 knitr:
@@ -169,7 +169,7 @@ $$ s = \sqrt{s^2} = \sqrt{\frac{\sum_{i = 1}^n(x_i - \bar{x})^2}{n - 1}} $$
 
 \
 
-Τι γίνεται όταν η μεταβλητή είναι συνεχής; Π.χ. 
+Τι γίνεται όταν η μεταβλητή είναι συνεχής;
 
 \
 
