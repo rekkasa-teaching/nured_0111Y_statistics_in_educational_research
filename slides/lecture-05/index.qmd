@@ -176,6 +176,130 @@ $$ s = \sqrt{s^2} = \sqrt{\frac{\sum_{i = 1}^n(x_i - \bar{x})^2}{n - 1}} $$
 Π.χ. όταν $X$ είναι το ύψος ενός
 παιδιού νηπιαγωγείου, ποια είναι η κατανομή των πιθανοτήτων;
 
+## Συνεχείς μεταβλητές
+
+```{r}
+# Sample 100 values from standard normal distribution
+# Convert to kindergarten heights (mean ~110cm, sd ~10cm)
+set.seed(123)  # for reproducibility
+
+n <- 10000
+step <- 10
+heights <- rnorm(n, mean = 0, sd = 1) |>
+  (\(x) x * 10 + 110)()  # Transform: multiply by 10 and add 110
+
+# Create a data frame
+height_data <- tibble::tibble(height = heights)
+mean_height <- mean(heights)
+
+ggplot2::ggplot(height_data, ggplot2::aes(x = height)) +
+  ggplot2::geom_histogram(
+    ggplot2::aes(y = ggplot2::after_stat(count) / sum(ggplot2::after_stat(count))),
+    binwidth = step,
+    fill = "steelblue",
+    color = "white",
+    boundary = 80
+  ) +
+  ggplot2::geom_vline(
+    xintercept = mean_height,
+    linetype = "dashed",
+    color = "red",
+    linewidth = 1
+  ) +
+  ggplot2::labs(
+    title = glue::glue("Τα ύψη { n } παιδιών"),
+    x = "Ύψος (σε εκατοστά)",
+    y = "Σχετική συχνότητα"
+  ) +
+  ggplot2::theme_minimal(base_size = 16) +
+  ggplot2::theme(
+    plot.title = ggplot2::element_text(size = 20, face = "bold"),
+    axis.title = ggplot2::element_text(size = 16),
+    axis.text = ggplot2::element_text(size = 14)
+  )
+```
+
+## Συνεχείς μεταβλητές
+
+```{r}
+
+set.seed(123)  # for reproducibility
+n <- 10000
+step <- 5
+heights <- rnorm(n, mean = 0, sd = 1) |>
+  (\(x) x * 10 + 110)()  # Transform: multiply by 10 and add 110
+# Create a data frame
+height_data <- tibble::tibble(height = heights)
+mean_height <- mean(heights)
+
+ggplot2::ggplot(height_data, ggplot2::aes(x = height)) +
+  ggplot2::geom_histogram(
+    ggplot2::aes(y = ggplot2::after_stat(count) / sum(ggplot2::after_stat(count))),
+    binwidth = step,
+    fill = "steelblue",
+    color = "white",
+    boundary = 80
+  ) +
+  ggplot2::geom_vline(
+    xintercept = mean_height,
+    linetype = "dashed",
+    color = "red",
+    linewidth = 1
+  ) +
+  ggplot2::labs(
+    title = glue::glue("Τα ύψη { n } παιδιών"),
+    x = "Ύψος (σε εκατοστά)",
+    y = "Σχετική συχνότητα"
+  ) +
+  ggplot2::theme_minimal(base_size = 16) +
+  ggplot2::theme(
+    plot.title = ggplot2::element_text(size = 20, face = "bold"),
+    axis.title = ggplot2::element_text(size = 16),
+    axis.text = ggplot2::element_text(size = 14)
+  )
+```
+
+## Συνεχείς μεταβλητές
+
+```{r}
+
+set.seed(123)  # for reproducibility
+n <- 10000
+step <- 1
+heights <- rnorm(n, mean = 0, sd = 1) |>
+  (\(x) x * 10 + 110)()  # Transform: multiply by 10 and add 110
+height_data <- tibble::tibble(height = heights)
+
+mean_height <- mean(heights)
+
+ggplot2::ggplot(height_data, ggplot2::aes(x = height)) +
+  ggplot2::geom_histogram(
+    ggplot2::aes(y = ggplot2::after_stat(count) / sum(ggplot2::after_stat(count))),
+    binwidth = step,
+    fill = "steelblue",
+    color = "white",
+    boundary = 80
+  ) +
+  ggplot2::geom_vline(
+    xintercept = mean_height,
+    linetype = "dashed",
+    color = "red",
+    linewidth = 1
+  ) +
+  ggplot2::labs(
+    title = glue::glue("Τα ύψη { n } παιδιών"),
+    x = "Ύψος (σε εκατοστά)",
+    y = "Σχετική συχνότητα"
+  ) +
+  ggplot2::theme_minimal(base_size = 16) +
+  ggplot2::theme(
+    plot.title = ggplot2::element_text(size = 20, face = "bold"),
+    axis.title = ggplot2::element_text(size = 16),
+    axis.text = ggplot2::element_text(size = 14)
+  )
+
+```
+
 ## Κανονική κατανομή
 
 ```{r}
