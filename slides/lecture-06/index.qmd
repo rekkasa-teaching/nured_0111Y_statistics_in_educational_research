@@ -1,0 +1,369 @@
+---
+title: "Στατιστική στην Εκπαιδευτική Έρευνα"
+subtitle: "6ο μάθημα"
+author: "Αλέξανδρος Ρέκκας"
+date: "2025-11-13"
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    logo: logo.jpg
+    footer: "Στατιστική στην Εκπαιδευτική Έρευνα · 5ο Μάθημα"
+    lang: el
+    incremental: false
+knitr:
+  opts_chunk:
+    fig.width: 10
+    fig.height: 6
+    dev: "svglite"
+execute:
+  echo: false
+---
+
+```{r}
+library(showtext)
+showtext_auto()
+```
+
+# Ανακεφαλαίωση
+
+## Διασπορά και τυπική απόκλιση
+
+**Διασπορά:**
+
+$$
+s^2 = \frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n - 1} = \frac{SS}{n - 1}
+$$
+
+\
+
+**Τυπική απόκλιση:**
+$$ s = \sqrt{s^2} = \sqrt{\frac{\sum_{i = 1}^n(x_i - \bar{x})^2}{n - 1}} $$
+
+# Τυπικό σφάλμα
+
+## Ορισμός
+
+Έστω ότι έχω ένα δείγμα 25 μαθητών νηπιαγωγείων της Φλώρινας, των οποίων έχω
+μετρήσει τα ύψη ($X$: το ύψος μαθητή νηπιαγωγείου).
+
+\
+
+Βρήκα μέσο ύψος ($\bar{x}$) 105 cm και τυπική απόκλιση ($s$) 10 cm.
+
+\
+
+Πόσο σίγουρος μπορώ να είμαι για την ακρίβεια της μέτρησής μου ($\bar{x} = 105$);
+
+## Υπολογισμός
+
+Το τυπικό σφάλμα της εκτίμησης $\bar{x}$ δίνεται από τον τύπο:
+
+$$
+\text{se} = \frac{s}{\sqrt{n}}
+$$
+
+
+# Πιθανότητα και κατανομές
+
+## Ενδεχόμενα και πιθανότητες
+
+**Ενδεχόμενο:**  
+Κάτι που μπορεί να συμβεί. Για παράδειγμα, να κερδίσω το λαχείο.
+
+\
+
+**Πιθανότητα:**  
+Πόσο συχνά συμβαίνει ένα συγκεκριμένο ενδεχόμενο. Την υπολογίζουμε ως το λόγο
+του πλήθος των περιπτώσεων που ικανοποιείται το συγκεκριμένο ενδεχόμενο δια το
+πλήθος όλων των δυνατών αποτελεσμάτων.
+
+## Κατανομή πιθανοτήτων
+
+\
+
+Η κατανομή πιθανοτήτων μου δίνει την **πλήρη εικόνα** για τις πιθανότητες όλων
+των ενδεχομένων.
+
+## Τυχαίες μεταβλητές
+
+\
+
+Ένας (πιο σωστός) τρόπος να βλέπουμε μία τυχαία μεταβλητή είναι ως ένα σύστημα
+απόδοσης **αριθμητικής ταμπέλας** σε ενδεχόμενα.
+
+\
+
+Όταν μιλάμε για την **πιθανότητα ενός ενδεχομένου**, μιλάμε για την πιθανότητα η
+αντίστοιχη τυχαία μεταβλητή να πάρει μία **συγκεριμένη τιμή**.
+
+
+## Συνεχείς τυχαίες μεταβλητές
+
+Στην περίπτωση του νομίσματος ή των ζαριών το σύνολο όλων των ενδεχομένων είναι
+ένας πεπερασμένος αριθμός (2 και 6 αντίστοιχα).
+
+\
+
+Αν η τυχαία μεταβλητή είναι το ύψος ενός μαθητή νηπιαγωγείου το πλήθος όλων των
+δυνατών αποτελεσμάτων είναι **άπειρο**.
+
+
+## Συνεχείς τυχαίες μεταβλητές
+
+\
+
+Άρα η πιθανότητα το ύψος ενός μαθητή να είναι 105,12378135..... εκατοστά
+είναι... **μηδέν**!
+
+\
+
+Αντί να μιλάμε για πιθανότητα συγκεκριμένων τιμών, μιλάμε για την πιθανότητα η
+τιμή να πέσει μέσα σε ένα εύρος.
+
+## Κανονική κατανομή
+
+```{r}
+
+#| echo: false
+#| eval: true
+
+x <- seq(-4, 4, by = 0.01)
+y <- dnorm(x, mean = 0, sd = 1)
+df <- data.frame(x = x, y = y)
+
+p <- ggplot2::ggplot(df, ggplot2::aes(x = x, y = y)) +
+  # Add shaded regions for each sigma interval
+  ggplot2::geom_ribbon(data = df[df$x >= -3 & df$x <= -2, ],
+                        ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.3) +
+  ggplot2::geom_ribbon(data = df[df$x >= -2 & df$x <= -1, ],
+                        ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.4) +
+  ggplot2::geom_ribbon(data = df[df$x >= -1 & df$x <= 0, ],
+                        ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.5) +
+  ggplot2::geom_ribbon(data = df[df$x >= 0 & df$x <= 1, ],
+                        ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.5) +
+  ggplot2::geom_ribbon(data = df[df$x >= 1 & df$x <= 2, ],
+                        ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.4) +
+  ggplot2::geom_ribbon(data = df[df$x >= 2 & df$x <= 3, ],
+                        ggplot2::aes(ymin = 0, ymax = y), 
+                        fill = "steelblue", alpha = 0.3) +
+  # Add the normal curve
+  ggplot2::geom_line(linewidth = 1.2, color = "darkblue") +
+  # Add vertical lines at sigma boundaries
+  ggplot2::geom_vline(xintercept = c(-3, -2, -1, 0, 1, 2, 3), 
+                       linetype = "dashed", 
+                       color = "gray40", 
+                       alpha = 0.7) +
+  # Add percentage labels for each region
+  ggplot2::annotate("text", x = -3.5, y = 0.02, label = "0,1%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = -2.5, y = 0.05, label = "2,1%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = -1.5, y = 0.12, label = "13,6%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = -0.5, y = 0.18, label = "34,1%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = 0.5, y = 0.18, label = "34,1%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = 1.5, y = 0.12, label = "13,6%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = 2.5, y = 0.05, label = "2,1%", size = 4, family = "sans") +
+  ggplot2::annotate("text", x = 3.5, y = 0.02, label = "0,1%", size = 4, family = "sans") +
+  # Add cumulative percentage annotations
+  ggplot2::annotate("text", x = 0, y = -0.05, label = "68,2%", 
+                    size = 5, fontface = "bold", family = "sans") +
+  ggplot2::annotate("segment", x = -1, xend = 1, y = -0.04, yend = -0.04, 
+                    arrow = ggplot2::arrow(ends = "both", 
+                                          length = grid::unit(0.1, "cm"))) +
+  ggplot2::annotate("text", x = 0, y = -0.08, label = "95,4%", 
+                    size = 5, fontface = "bold", family = "sans") +
+  ggplot2::annotate("segment", x = -2, xend = 2, y = -0.07, yend = -0.07, 
+                    arrow = ggplot2::arrow(ends = "both", 
+                                          length = grid::unit(0.1, "cm"))) +
+  ggplot2::annotate("text", x = 0, y = -0.11, label = "99,7%", 
+                    size = 5, fontface = "bold", family = "sans") +
+  ggplot2::annotate("segment", x = -3, xend = 3, y = -0.10, yend = -0.10, 
+                    arrow = ggplot2::arrow(ends = "both", 
+                                          length = grid::unit(0.1, "cm"))) +
+  # Customize scales and labels with Greek text
+  ggplot2::scale_x_continuous(breaks = -3:3, 
+                              labels = c("-3σ", "-2σ", "-1σ", "μ", "+1σ", "+2σ", "+3σ")) +
+  ggplot2::scale_y_continuous(expand = ggplot2::expansion(mult = c(0.15, 0.05))) +
+  # Add labels and theme with Greek text
+  ggplot2::labs(title = "Τυπική Κανονική Κατανομή",
+                subtitle = "Ποσοστό παρατηρήσεων εντός κάθε τυπικής απόκλισης",
+                x = "Τυπικές Αποκλίσεις από τον Μέσο",
+                y = "Πυκνότητα Πιθανότητας") +
+  ggplot2::theme_minimal() +
+  ggplot2::theme(plot.title = ggplot2::element_text(size = 17, face = "bold", hjust = 0.5, family = "sans"),
+                 plot.subtitle = ggplot2::element_text(size = 13, hjust = 0.5, family = "sans"),
+                 axis.title = ggplot2::element_text(size = 11, family = "sans"),
+                 axis.text = ggplot2::element_text(size = 10, family = "sans"),
+                 panel.grid.minor = ggplot2::element_blank(),
+                 panel.grid.major = ggplot2::element_line(color = "gray90"))
+
+# Display the plot
+print(p)
+
+```
+
+# Τυπικές τιμές <br> (z-scores)
+
+## Ορισμός
+
+Έστω ότι έχω την τυχαία μεταβλητή $X$. Η μεταβλητή αυτή έχει:
+
+* Μία πραγματική **μέση τιμή** $\mu$.
+* Μία πραγματική **τυπική απόκλιση** $\sigma$.
+
+Η μετατροπή:
+$$
+z = \frac{X-\mu}{\sigma}
+$$
+
+ονομάζεται τυπική τιμή (z-score)
+
+## Ιδιότητες
+
+Οι τυπικές τιμές έχουν ορισμένες πολύ χρήσιμες ιδιότητες:
+
+* Έχουν μέση τιμή 0
+* Έχουν τυπική απόκλιση 1
+* Ακολουθούν την ίδια κατανομή με την τυχαία μεταβλητή $X$
+
+## Σύγκριση διαφορετικών κατανομών
+
+Ένας μαθητής νηπιαγωγείου είχε τις εξής επιδόσεις σε δύο τεστ δεξιοτήτων:
+
+* 60 βαθμούς σε ένα τεστ αξιολόγησης δεξιοτήτων στα μαθηματικά ($\mu=50$ και
+  $\sigma = 10$)
+* 56 βαθμούς σε ένα τεστ αξιολόγησης δεξιοτήτων στην ανάγνωση ($\mu = 48$ και
+  $\sigma = 4$)
+
+# Έλεγχος υποθέσεων
+
+## Η λογική
+
+\
+
+> **Ορισμός**
+>
+> Έλεγχος μίας υπόθεσης είναι μία στατιστική μέθοδος που χρησιμοποιεί τα δεδομένα
+> ενός δείγματος για να αξιολογήσει μία υπόθεση για τον πληθυσμό
+
+## 1ο βήμα: Διατύπωση της υπόθεσης
+
+Το βήμα αυτό περιλαμβάνει τον ορισμό δύο συμπληρωματικών υποθέσεων:
+
+* $H_0$: Η **μηδενική υπόθεση** συνήθως λέει ότι δεν υπάρχει αλλαγή/διαφορά στον
+  πληθυσμό. Γενικά, διατυπώνει την περίπτωση να μην υπάρχει καμία σχέση μεταξύ
+  των ποσοτήτων που μελετάμε.
+* $H_1$: Η **εναλλακτική υπόθεση** είναι η το συμπλήρωμα (η αντιστροφή) της
+  $H_0$. Συνήθως, αποτυπώνει την περίπτωση να υπάρχει μία αλλαγή/διαφορά/σχέση.
+
+## 1ο βήμα: Διατύπωση της υπόθεσης
+
+Για παράδειγμα, θέλω να ελέγξω αν η μέση τιμή του ύψους των μαθητών νηπιαγωγείου
+της Φλώρινας είναι 100 cm.
+
+\
+
+\
+
+$H_0$: Το μέσο ύψος τον μαθητών είναι 100 cm ($\mu = 100$)  
+
+\
+
+$H_1$: Το μέσο ύψος τον μαθητών δεν είναι 100 cm ($\mu \neq 100$)  
+
+  
+## 2ο βήμα: Επιπέδο σημαντικότητας
+
+Το επίπεδο σημαντικότητας ορίζει πόσο μακριά ανεχόμαστε να "πέσει" η μέτρηση στο
+δείγμα μας από την τιμή που ελέγχουμε.
+
+\
+
+Αν η $H_0$ ισχύει ($\mu = 100$), πόσο απίθανος ανεχόμαστε να είναι ο μέσος όρος
+στο δείγμα μας;
+
+\
+
+Αν πούμε ότι πιθανότητα εμφάνισης μιας τέτοιας τιμής κάτω από 5% είναι
+απαράδεκτη, τότε το επίπεδο σημαντικότητας είναι 0.05 ($\alpha = 0.05$)
+  
+## 3ο βήμα: Υπολογισμός του στατιστικού
+
+> **Ορισμός**
+>
+> Στατιστικό ονομάζεται οποιαδήποτε μαθηματική έκφραση περιλαμβάνει
+> αριθμούς και τυχαίες μεταβλητές, π.χ. το $3X+2$ έιναι ένα στατιστικό.
+
+\
+
+Η **τυπική τιμή** είναι ένα στατιστικό.
+
+## 3ο βήμα: Υπολογισμός του στατιστικού
+
+\
+
+Τα στατιστικά έχουν **κατανομές**. Η τυπική τιμή υπό την προϋπόθεση ότι ισχύει η
+$H_0$ είναι:
+
+$$
+z = \frac{\bar{x} - 100}{\frac{\sigma}{\sqrt{n}}} \sim N(0, 1)
+$$
+
+\
+
+Αφού η κατανομή του στατιστικού είναι γνωστή, είναι γνωστά και τα
+**ποσοστημόριά** της.
+
+## 4ο βήμα: Απόφαση
+
+```{r}
+
+#| echo: false
+#| eval: true
+
+
+# Generate data for the standard normal distribution
+tibble::tibble(
+  x = seq(-4, 4, length.out = 1000)
+) |>
+  dplyr::mutate(y = dnorm(x)) |>
+  ggplot2::ggplot(ggplot2::aes(x = x, y = y)) +
+  # Main distribution curve
+  ggplot2::geom_line(linewidth = 1.2, color = "#2C3E50") +
+  # Left tail (below 2.5th percentile)
+  ggplot2::geom_area(
+    data = \(df) dplyr::filter(df, x <= qnorm(0.025)),
+    fill = "#3498DB",
+    alpha = 0.5
+  ) +
+  # Right tail (above 97.5th percentile)
+  ggplot2::geom_area(
+    data = \(df) dplyr::filter(df, x >= qnorm(0.975)),
+    fill = "#3498DB",
+    alpha = 0.5
+  ) +
+  # Add vertical lines at the critical values
+  ggplot2::geom_vline(
+    xintercept = c(qnorm(0.025), qnorm(0.975)),
+    linetype = "dashed",
+    color = "#2980B9",
+    linewidth = 0.8
+  ) +
+  ggplot2::labs(
+    title = "Τυπική Κανονική Κατανομή",
+    subtitle = "Οι σκιασμένες περιοχές αντιπροσωπεύουν τα 2,5% των ουρών",
+    x = "Τυπική βαθμολογία z",
+    y = "Πυκνότητα"
+  ) +
+  ggplot2::theme_minimal() +
+  ggplot2::theme(
+    plot.title = ggplot2::element_text(size = 16, face = "bold", color = "#2C3E50"),
+    plot.subtitle = ggplot2::element_text(size = 12, color = "#7F8C8D"),
+    axis.title = ggplot2::element_text(size = 12, color = "#34495E"),
+    axis.text = ggplot2::element_text(size = 10, color = "#7F8C8D")
+  )
+```
