@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.8.26">
 
   <meta name="author" content="Αλέξανδρος Ρέκκας">
-  <meta name="dcterms.date" content="2025-10-07">
+  <meta name="dcterms.date" content="2025-11-13">
   <title>Στατιστική στην εκπαιδευτική έρευνα – Στατιστική στην Εκπαιδευτική Έρευνα</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -129,7 +129,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Στατιστική στην Εκπαιδευτική Έρευνα</h1>
-  <p class="subtitle">1ο μάθημα</p>
+  <p class="subtitle">6ο μάθημα</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -139,256 +139,205 @@
 </div>
 </div>
 
-  <p class="date">2025-10-07</p>
+  <p class="date">2025-11-13</p>
 </section>
-<section id="στόχοι-μαθήματος" class="slide level2">
-<h2>Στόχοι μαθήματος</h2>
-<ul>
-<li>Να κατανοήσουμε τις βασικές έννοιες: <strong>πληθυσμός</strong>, <strong>δείγμα</strong>, <strong>μεταβλητή</strong>, <strong>κλίμακες μέτρησης</strong>.</li>
-<li>Να κατασκευάζουμε <strong>πίνακες συχνοτήτων</strong>.</li>
-<li>Να εφαρμόσουμε τα παραπάνω σε μικρά παραδείγματα σχετιζόμενα με την προσχολική εκπαίδευση.</li>
-</ul>
-</section>
-<section id="βασικές-στατιστικές-έννοιες" class="slide level2">
-<h2>Βασικές στατιστικές έννοιες</h2>
-<p><strong>Στατιστική</strong>: μέθοδοι για οργάνωση, σύνοψη και ερμηνεία δεδομένων από μια μελέτη στην εκπαίδευση.</p>
-<ul>
-<li><strong>Πληθυσμός</strong>: Όλα τα άτομα που μας ενδιαφέρουν (π.χ. όλοι/όλες οι μαθητές/τριες νηπιαγωγείων της Δυτικής Μακεδονίας).</li>
-<li><strong>Δείγμα</strong>: Υποσύνολο του πληθυσμού, επιλεγμένο για να τον <strong>αντιπροσωπεύσει</strong>.</li>
-</ul>
-</section>
-<section id="βασικές-στατιστικές-έννοιες-1" class="slide level2">
-<h2>Βασικές στατιστικές έννοιες</h2>
-<ul>
-<li><strong>Παράμετρος</strong>: Χαρακτηριστικό του πληθυσμού (άγνωστο αλλά μετρήσιμο).</li>
-<li><strong>Στατιστικό</strong>: Μαθηματικός συνδυασμός μετρήσεων στο δείγμα (π.χ. μέσος όρος).</li>
-</ul>
-</section>
-<section id="μεταβλητές" class="slide level2">
-<h2>Μεταβλητές</h2>
-<ul>
-<li><strong>Μεταβλητή</strong>: μετρήσιμο χαρακτηριστικό που παίρνει διαφορετικές τιμές.</li>
-<li><strong>Διακριτές</strong>: τιμές σε διακριτές κατηγορίες (π.χ. δήμος, πλήθος παιδιών ανά τμήμα).</li>
-<li><strong>Συνεχείς</strong>: οποιαδήποτε τιμή σε ένα διάστημα (π.χ. ύψος/βάρος παιδιού).</li>
-</ul>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Συμβουλή</strong></p>
-</div>
-<div class="callout-content">
-<p>Αν βλέπουμε πολλές ίδιες τιμές σε μια <em>συνεχή</em> μεταβλητή, ίσως ο τρόπος μέτρησης ή η κλίμακα χρειάζεται αναθεώρηση.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="κλίμακες-μέτρησης" class="slide level2">
-<h2>Κλίμακες μέτρησης</h2>
-<ul>
-<li>Μέτρηση είναι η διαδικασία με την οποία αποδίδουμε τιμές σε μεταβλητές.</li>
-<li>Οι τιμές αυτές εξαρτώνται από το <strong>είδος της κλίμακας</strong> που χρησιμοποιούμε.</li>
-<li>Η επιλογή της κατάλληλης κλίμακας επηρεάζει άμεσα το είδος των στατιστικών μεθόδων που μπορούμε να εφαρμόσουμε.</li>
-</ul>
-</section>
-<section id="ονομαστική-κλίμακα" class="slide level2">
-<h2>Ονομαστική κλίμακα</h2>
-<ul>
-<li>Οι τιμές είναι <strong>ονόματα κατηγοριών</strong>.</li>
-<li>Οι κατηγορίες είναι <strong>διακριτές και μη συγκρίσιμες</strong> (δεν υπάρχει σειρά ή διάταξη μεταξύ τους)</li>
-<li>Παράδειγμα: τόπος κατοικίας (π.χ. Φλώρινα, Καστοριά, Κοζάνη)</li>
-<li>Μπορεί να χρησιμοποιηθούν αριθμοί για κωδικοποίηση, αλλά <strong>δεν έχουν ποσοτική σημασία</strong> (π.χ. 1 = Φλώρινα, 2 = Καστοριά).</li>
-</ul>
-</section>
-<section id="διατάξιμη-κλίμακα" class="slide level2">
-<h2>Διατάξιμη κλίμακα</h2>
-<ul>
-<li>Οι τιμές αντιστοιχούν σε <strong>διακριτές κατηγορίες με φυσική διάταξη</strong>.</li>
-<li>Μπορούμε να πούμε ποια τιμή είναι “μεγαλύτερη” ή “μικρότερη”, αλλά <strong>όχι πόσο</strong> μεγαλύτερη.</li>
-<li>Παράδειγμα: οικονομική κατάσταση οικογένειας μαθητών (χαμηλή, μέτρια, υψηλή).</li>
-<li>Η σειρά έχει νόημα, αλλά οι <strong>διαφορές μεταξύ κατηγοριών δεν είναι μετρήσιμες</strong>.</li>
-</ul>
-</section>
-<section id="ισοδιαστημική-κλίμακα" class="slide level2">
-<h2>Ισοδιαστημική κλίμακα</h2>
-<ul>
-<li>Οι τιμές είναι <strong>αριθμητικές</strong>, με <strong>ίσα διαστήματα</strong> μεταξύ τους.</li>
-<li>Επιτρέπεται η σύγκριση διαφορών (π.χ. πόσο αυξήθηκε ή μειώθηκε κάτι)</li>
-<li>Ωστόσο, το <strong>μηδέν είναι αυθαίρετο</strong>· δεν υποδηλώνει “απουσία”</li>
-<li>Παράδειγμα: θερμοκρασία σε βαθμούς Κελσίου ή Φάρεναϊτ</li>
-</ul>
-</section>
-<section id="αναλογική-κλίμακα" class="slide level2">
-<h2>Αναλογική κλίμακα</h2>
-<ul>
-<li>Είναι <strong>ισοδιαστημική με απόλυτο μηδέν</strong>.</li>
-<li>Το μηδέν σημαίνει <strong>απουσία</strong> του χαρακτηριστικού που μετράμε.</li>
-<li>Επιτρέπεται η <strong>σύγκριση λόγων</strong> (π.χ. “διπλάσιο”, “μισό”).</li>
-<li>Παράδειγμα: ύψος, βάρος, διάρκεια, απόσταση.
-<ul>
-<li>Ένα παιδί 120 cm είναι <strong>διπλάσιο</strong> σε ύψος από ένα παιδί 60 cm.</li>
-</ul></li>
-</ul>
-</section>
-<section id="παραδείγματα" class="slide level2">
-<h2>Παραδείγματα</h2>
-<ul>
-<li>Αριθμός λέξεων για την περιγραφή μίας εικόνας</li>
-<li>Βαθμός συμμετοχής (χαμηλή/μέτρια/υψηλή)</li>
-<li>Χρώμα πλαστελίνης που προτιμούν τα παιδιά</li>
-<li>Χρόνος (σε λεπτά) ελεύθερου παιχνιδιού</li>
-<li>Η ώρα που μετρήθηκε το επίπεδο προσοχής των μαθητών</li>
-</ul>
-</section>
-<section id="συχνότητα" class="slide level2">
-<h2>Συχνότητα</h2>
-<p><strong>Συχνότητα</strong> μιας τιμής είναι το <strong>πόσες φορές</strong> εμφανίζεται η τιμή αυτή σε ένα δείγμα/σύνολο δεδομένων.</p>
-<p><br>
-</p>
-<p>Για παράδειγμα, έστω ότι έχω τις τιμές για τη μεταβλητή <span class="math inline">\(X\)</span>:</p>
-<p><span class="math display">\[
-Χ = 2, 4, 5, 2, 6, 5, 4, 3, 3, 4
-\]</span></p>
-<p><br>
-</p>
-<ul>
-<li><span class="math inline">\(\sum f = N\)</span></li>
-<li><span class="math inline">\(\sum f\tilde{X} = \sum X\)</span></li>
-</ul>
-</section>
-<section id="σχετική-συχνότητα" class="slide level2">
-<h2>Σχετική συχνότητα</h2>
-<ul>
-<li>Μετράει το <strong>κλάσμα</strong> του δείγματος που αντιστοιχεί σε μια τιμή:</li>
-</ul>
-<p><span class="math display">\[
-f_r = \frac{f}{N}
-\]</span></p>
-<p><br>
-</p>
-<ul>
-<li><span class="math inline">\(0 \leq f_r \leq 1\)</span></li>
-<li><span class="math inline">\(\sum f_r = 1\)</span></li>
-</ul>
-</section>
-<section id="ποσοστιαία-συχνότητα" class="slide level2">
-<h2>Ποσοστιαία συχνότητα</h2>
-<ul>
-<li><p>Μετατροπή της σχετικής συχνότητας σε ποσοστό: <span class="math display">\[
-f_{\%} = 100 \times f_r = 100 \times \frac{f}{N}
-\]</span></p></li>
-<li><p><span class="math inline">\(0 \leq f_{\%} \leq 100\)</span></p></li>
-<li><p><span class="math inline">\(\sum f_{\%} = 100\)</span></p></li>
-</ul>
-</section>
-<section id="αθροιστική-συχνότητα" class="slide level2">
-<h2>Αθροιστική Συχνότητα</h2>
-<p>Η <strong>αθροιστική συχνότητα</strong> δείχνει <strong>πόσες παρατηρήσεις</strong> έχουν τιμές <strong>μικρότερες ή ίσες</strong> με μια συγκεκριμένη τιμή.</p>
-<p><br>
-</p>
-<p><span class="math display">\[
-F(x) = \sum_{i \leq x} f_i
-\]</span></p>
-</section>
-<section id="ομαδοποιημένες-συχνότητες" class="slide level2">
-<h2>Ομαδοποιημένες Συχνότητες</h2>
-<p>Όταν οι πιθανές τιμές είναι πολλές, ομαδοποιούμε σε <strong>διαστήματα</strong>:</p>
-<ul>
-<li>Παράδειγμα: <span class="math inline">\(Χ\)</span> = «αριθμός λέξεων για την περιγραφή μιάς ζωγραφιάς» για <span class="math inline">\(N=30\)</span></li>
-</ul>
-</section>
-<section id="καλές-πρακτικές" class="slide level2">
-<h2>Καλές πρακτικές</h2>
-<ul>
-<li>~ <strong>10 ομαδοποιήσεις</strong> (όχι λίγες/πολλές)</li>
-<li><strong>Απλό πλάτος</strong> (π.χ. 5, 10)</li>
-<li><strong>Πλήρης κάλυψη</strong> του εύρους τιμών χωρίς κενά/επικαλύψεις</li>
-</ul>
-</section>
-<section id="ασκήσεις" class="slide level2">
-<h2>Ασκήσεις</h2>
-<ol type="1">
-<li>Σε δείγμα <span class="math inline">\(N=40\)</span> η τιμή <span class="math inline">\(x=3\)</span> εμφανίζεται <span class="math inline">\(f(3)=6\)</span> φορές.</li>
-</ol>
-<ul>
-<li>Βρείτε <span class="math inline">\(f_r(3)\)</span> και <span class="math inline">\(f_{\%}(3)\)</span>.</li>
-</ul>
-</section>
-<section id="ασκήσεις-1" class="slide level2">
-<h2>Ασκήσεις</h2>
-<ol start="2" type="1">
-<li>Συμπληρώστε τα κενά ώστε να ισχύει <span class="math inline">\(\sum f = 50\)</span> και <span class="math inline">\(\sum f_{\%}=100\)</span>:</li>
-</ol>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th style="text-align: center;"><span class="math inline">\(x\)</span></th>
-<th style="text-align: center;"><span class="math inline">\(f\)</span></th>
-<th style="text-align: center;"><span class="math inline">\(f_{\%}\)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">?</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">?</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">?</td>
-<td style="text-align: center;">30</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">?</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">?</td>
-<td style="text-align: center;">?</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="ραβδογράμματα" class="slide level2">
-<h2>Ραβδογράμματα</h2>
-<p>Το <strong>ραβδόγραμμα</strong> χρησιμοποιείται για <strong>ποιοτικές</strong> ή <strong>διακριτές ποσοτικές</strong> μεταβλητές. Κάθε κατηγορία ή τιμή απεικονίζεται με <strong>μια ξεχωριστή ράβδο</strong>.</p>
-<p><br>
-</p>
-<ul>
-<li>Ο <strong>άξονας x</strong> δείχνει τις κατηγορίες ή τις τιμές.</li>
-<li>Ο <strong>άξονας y</strong> δείχνει τη συχνότητα ή τη σχετική συχνότητα.</li>
-<li>Οι ράβδοι <strong>δεν εφάπτονται</strong> μεταξύ τους.</li>
-</ul>
-</section>
-<section id="ιστογράμματα" class="slide level2">
-<h2>Ιστογράμματα</h2>
-<p>Το <strong>ιστόγραμμα</strong> απεικονίζει <strong>ομαδοποιημένα ποσοτικά δεδομένα</strong>.</p>
-<p><br>
-</p>
-<p>Οι τιμές χωρίζονται σε <strong>ομάδες (διαστήματα)</strong> και κάθε ομάδα εκπροσωπείται από ένα <strong>ορθογώνιο</strong> του οποίου το ύψος είναι η συχνότητα.</p>
-<ul>
-<li>Οι στήλες <strong>ακουμπούν μεταξύ τους</strong> (τα διαστήματα είναι συνεχόμενα)</li>
-</ul>
-</section>
-<section id="τέλος-ερωτήσεις" class="slide level2">
-<h2>Τέλος — Ερωτήσεις;</h2>
-
+<section>
+<section id="ανακεφαλαίωση" class="title-slide slide level1 center">
+<h1>Ανακεφαλαίωση</h1>
 
 </section>
+<section id="διασπορά-και-τυπική-απόκλιση" class="slide level2">
+<h2>Διασπορά και τυπική απόκλιση</h2>
+<p><strong>Διασπορά:</strong></p>
+<p><span class="math display">\[
+s^2 = \frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n - 1} = \frac{SS}{n - 1}
+\]</span></p>
+<p><br>
+</p>
+<p><strong>Τυπική απόκλιση:</strong> <span class="math display">\[ s = \sqrt{s^2} = \sqrt{\frac{\sum_{i = 1}^n(x_i - \bar{x})^2}{n - 1}} \]</span></p>
+</section></section>
+<section>
+<section id="τυπικό-σφάλμα" class="title-slide slide level1 center">
+<h1>Τυπικό σφάλμα</h1>
+
+</section>
+<section id="ορισμός" class="slide level2">
+<h2>Ορισμός</h2>
+<p>Έστω ότι έχω ένα δείγμα 25 μαθητών νηπιαγωγείων της Φλώρινας, των οποίων έχω μετρήσει τα ύψη (<span class="math inline">\(X\)</span>: το ύψος μαθητή νηπιαγωγείου).</p>
+<p><br>
+</p>
+<p>Βρήκα μέσο ύψος (<span class="math inline">\(\bar{x}\)</span>) 105 cm και τυπική απόκλιση (<span class="math inline">\(s\)</span>) 10 cm.</p>
+<p><br>
+</p>
+<p>Πόσο σίγουρος μπορώ να είμαι για την ακρίβεια της μέτρησής μου (<span class="math inline">\(\bar{x} = 105\)</span>);</p>
+</section>
+<section id="υπολογισμός" class="slide level2">
+<h2>Υπολογισμός</h2>
+<p>Το τυπικό σφάλμα της εκτίμησης <span class="math inline">\(\bar{x}\)</span> δίνεται από τον τύπο:</p>
+<p><span class="math display">\[
+\text{se} = \frac{s}{\sqrt{n}}
+\]</span></p>
+</section></section>
+<section>
+<section id="πιθανότητα-και-κατανομές" class="title-slide slide level1 center">
+<h1>Πιθανότητα και κατανομές</h1>
+
+</section>
+<section id="ενδεχόμενα-και-πιθανότητες" class="slide level2">
+<h2>Ενδεχόμενα και πιθανότητες</h2>
+<p><strong>Ενδεχόμενο:</strong><br>
+Κάτι που μπορεί να συμβεί. Για παράδειγμα, να κερδίσω το λαχείο.</p>
+<p><br>
+</p>
+<p><strong>Πιθανότητα:</strong><br>
+Πόσο συχνά συμβαίνει ένα συγκεκριμένο ενδεχόμενο. Την υπολογίζουμε ως το λόγο του πλήθος των περιπτώσεων που ικανοποιείται το συγκεκριμένο ενδεχόμενο δια το πλήθος όλων των δυνατών αποτελεσμάτων.</p>
+</section>
+<section id="κατανομή-πιθανοτήτων" class="slide level2">
+<h2>Κατανομή πιθανοτήτων</h2>
+<p><br>
+</p>
+<p>Η κατανομή πιθανοτήτων μου δίνει την <strong>πλήρη εικόνα</strong> για τις πιθανότητες όλων των ενδεχομένων.</p>
+</section>
+<section id="τυχαίες-μεταβλητές" class="slide level2">
+<h2>Τυχαίες μεταβλητές</h2>
+<p><br>
+</p>
+<p>Ένας (πιο σωστός) τρόπος να βλέπουμε μία τυχαία μεταβλητή είναι ως ένα σύστημα απόδοσης <strong>αριθμητικής ταμπέλας</strong> σε ενδεχόμενα.</p>
+<p><br>
+</p>
+<p>Όταν μιλάμε για την <strong>πιθανότητα ενός ενδεχομένου</strong>, μιλάμε για την πιθανότητα η αντίστοιχη τυχαία μεταβλητή να πάρει μία <strong>συγκεριμένη τιμή</strong>.</p>
+</section>
+<section id="συνεχείς-τυχαίες-μεταβλητές" class="slide level2">
+<h2>Συνεχείς τυχαίες μεταβλητές</h2>
+<p>Στην περίπτωση του νομίσματος ή των ζαριών το σύνολο όλων των ενδεχομένων είναι ένας πεπερασμένος αριθμός (2 και 6 αντίστοιχα).</p>
+<p><br>
+</p>
+<p>Αν η τυχαία μεταβλητή είναι το ύψος ενός μαθητή νηπιαγωγείου το πλήθος όλων των δυνατών αποτελεσμάτων είναι <strong>άπειρο</strong>.</p>
+</section>
+<section id="συνεχείς-τυχαίες-μεταβλητές-1" class="slide level2">
+<h2>Συνεχείς τυχαίες μεταβλητές</h2>
+<p><br>
+</p>
+<p>Άρα η πιθανότητα το ύψος ενός μαθητή να είναι 105,12378135….. εκατοστά είναι… <strong>μηδέν</strong>!</p>
+<p><br>
+</p>
+<p>Αντί να μιλάμε για πιθανότητα συγκεκριμένων τιμών, μιλάμε για την πιθανότητα η τιμή να πέσει μέσα σε ένα εύρος.</p>
+</section>
+<section id="κανονική-κατανομή" class="slide level2">
+<h2>Κανονική κατανομή</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-2-1.svg" width="960" class="r-stretch"></section></section>
+<section>
+<section id="τυπικές-τιμές-z-scores" class="title-slide slide level1 center">
+<h1>Τυπικές τιμές <br> (z-scores)</h1>
+
+</section>
+<section id="ορισμός-1" class="slide level2">
+<h2>Ορισμός</h2>
+<p>Έστω ότι έχω την τυχαία μεταβλητή <span class="math inline">\(X\)</span>. Η μεταβλητή αυτή έχει:</p>
+<ul>
+<li>Μία πραγματική <strong>μέση τιμή</strong> <span class="math inline">\(\mu\)</span>.</li>
+<li>Μία πραγματική <strong>τυπική απόκλιση</strong> <span class="math inline">\(\sigma\)</span>.</li>
+</ul>
+<p>Η μετατροπή: <span class="math display">\[
+z = \frac{X-\mu}{\sigma}
+\]</span></p>
+<p>ονομάζεται τυπική τιμή (z-score)</p>
+</section>
+<section id="ιδιότητες" class="slide level2">
+<h2>Ιδιότητες</h2>
+<p>Οι τυπικές τιμές έχουν ορισμένες πολύ χρήσιμες ιδιότητες:</p>
+<ul>
+<li>Έχουν μέση τιμή 0</li>
+<li>Έχουν τυπική απόκλιση 1</li>
+<li>Ακολουθούν την ίδια κατανομή με την τυχαία μεταβλητή <span class="math inline">\(X\)</span></li>
+</ul>
+</section>
+<section id="σύγκριση-διαφορετικών-κατανομών" class="slide level2">
+<h2>Σύγκριση διαφορετικών κατανομών</h2>
+<p>Ένας μαθητής νηπιαγωγείου είχε τις εξής επιδόσεις σε δύο τεστ δεξιοτήτων:</p>
+<ul>
+<li>60 βαθμούς σε ένα τεστ αξιολόγησης δεξιοτήτων στα μαθηματικά (<span class="math inline">\(\mu=50\)</span> και <span class="math inline">\(\sigma = 10\)</span>)</li>
+<li>56 βαθμούς σε ένα τεστ αξιολόγησης δεξιοτήτων στην ανάγνωση (<span class="math inline">\(\mu = 48\)</span> και <span class="math inline">\(\sigma = 4\)</span>)</li>
+</ul>
+</section></section>
+<section>
+<section id="έλεγχος-υποθέσεων" class="title-slide slide level1 center">
+<h1>Έλεγχος υποθέσεων</h1>
+
+</section>
+<section id="η-λογική" class="slide level2">
+<h2>Η λογική</h2>
+<p><br>
+</p>
+<blockquote>
+<p><strong>Ορισμός</strong></p>
+<p>Έλεγχος μίας υπόθεσης είναι μία στατιστική μέθοδος που χρησιμοποιεί τα δεδομένα ενός δείγματος για να αξιολογήσει μία υπόθεση για τον πληθυσμό</p>
+</blockquote>
+</section>
+<section id="ο-βήμα-διατύπωση-της-υπόθεσης" class="slide level2">
+<h2>1ο βήμα: Διατύπωση της υπόθεσης</h2>
+<p>Το βήμα αυτό περιλαμβάνει τον ορισμό δύο συμπληρωματικών υποθέσεων:</p>
+<ul>
+<li><span class="math inline">\(H_0\)</span>: Η <strong>μηδενική υπόθεση</strong> συνήθως λέει ότι δεν υπάρχει αλλαγή/διαφορά στον πληθυσμό. Γενικά, διατυπώνει την περίπτωση να μην υπάρχει καμία σχέση μεταξύ των ποσοτήτων που μελετάμε.</li>
+<li><span class="math inline">\(H_1\)</span>: Η <strong>εναλλακτική υπόθεση</strong> είναι η το συμπλήρωμα (η αντιστροφή) της <span class="math inline">\(H_0\)</span>. Συνήθως, αποτυπώνει την περίπτωση να υπάρχει μία αλλαγή/διαφορά/σχέση.</li>
+</ul>
+</section>
+<section id="ο-βήμα-διατύπωση-της-υπόθεσης-1" class="slide level2">
+<h2>1ο βήμα: Διατύπωση της υπόθεσης</h2>
+<p>Για παράδειγμα, θέλω να ελέγξω αν η μέση τιμή του ύψους των μαθητών νηπιαγωγείου της Φλώρινας είναι 100 cm.</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><span class="math inline">\(H_0\)</span>: Το μέσο ύψος τον μαθητών είναι 100 cm (<span class="math inline">\(\mu = 100\)</span>)</p>
+<p><br>
+</p>
+<p><span class="math inline">\(H_1\)</span>: Το μέσο ύψος τον μαθητών δεν είναι 100 cm (<span class="math inline">\(\mu \neq 100\)</span>)</p>
+</section>
+<section id="ο-βήμα-επιπέδο-σημαντικότητας" class="slide level2">
+<h2>2ο βήμα: Επιπέδο σημαντικότητας</h2>
+<p>Το επίπεδο σημαντικότητας ορίζει πόσο μακριά ανεχόμαστε να “πέσει” η μέτρηση στο δείγμα μας από την τιμή που ελέγχουμε.</p>
+<p><br>
+</p>
+<p>Αν η <span class="math inline">\(H_0\)</span> ισχύει (<span class="math inline">\(\mu = 100\)</span>), πόσο απίθανος ανεχόμαστε να είναι ο μέσος όρος στο δείγμα μας;</p>
+<p><br>
+</p>
+<p>Αν πούμε ότι πιθανότητα εμφάνισης μιας τέτοιας τιμής κάτω από 5% είναι απαράδεκτη, τότε το επίπεδο σημαντικότητας είναι 0.05 (<span class="math inline">\(\alpha = 0.05\)</span>)</p>
+</section>
+<section id="ο-βήμα-υπολογισμός-του-στατιστικού" class="slide level2">
+<h2>3ο βήμα: Υπολογισμός του στατιστικού</h2>
+<blockquote>
+<p><strong>Ορισμός</strong></p>
+<p>Στατιστικό ονομάζεται οποιαδήποτε μαθηματική έκφραση περιλαμβάνει αριθμούς και τυχαίες μεταβλητές, π.χ. το <span class="math inline">\(3X+2\)</span> έιναι ένα στατιστικό.</p>
+</blockquote>
+<p><br>
+</p>
+<p>Η <strong>τυπική τιμή</strong> είναι ένα στατιστικό.</p>
+</section>
+<section id="ο-βήμα-υπολογισμός-του-στατιστικού-1" class="slide level2">
+<h2>3ο βήμα: Υπολογισμός του στατιστικού</h2>
+<p><br>
+</p>
+<p>Τα στατιστικά έχουν <strong>κατανομές</strong>. Η τυπική τιμή υπό την προϋπόθεση ότι ισχύει η <span class="math inline">\(H_0\)</span> είναι:</p>
+<p><span class="math display">\[
+z = \frac{\bar{x} - 100}{\frac{\sigma}{\sqrt{n}}} \sim N(0, 1)
+\]</span></p>
+<p><br>
+</p>
+<p>Αφού η κατανομή του στατιστικού είναι γνωστή, είναι γνωστά και τα <strong>ποσοστημόριά</strong> της.</p>
+</section>
+<section id="ο-βήμα-απόφαση" class="slide level2">
+<h2>4ο βήμα: Απόφαση</h2>
+
+
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-3-1.svg" width="960" class="r-stretch"></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="logo.jpg" class="slide-logo"></p>
 <div class="footer footer-default">
-<p>Πανεπιστήμιο Δυτικής Μακεδονίας · Παιδαγωγικό Τμήμα Νηπιαγωγών</p>
+<p>Στατιστική στην Εκπαιδευτική Έρευνα · 5ο Μάθημα</p>
 </div>
 </div></div>
 
@@ -600,6 +549,44 @@ F(x) = \sum_{i \leq x} f_i
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
