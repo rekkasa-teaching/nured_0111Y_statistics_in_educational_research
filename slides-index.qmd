@@ -10,4 +10,5 @@ format: html
 - [Διάλεξη 5](slides/lecture-05/index.qmd)
 - [Διάλεξη 6](slides/lecture-06/index.qmd)
 - [Διάλεξη 7](slides/lecture-07/index.qmd)
+- [Διάλεξη 8](slides/lecture-08/index.qmd)
 
