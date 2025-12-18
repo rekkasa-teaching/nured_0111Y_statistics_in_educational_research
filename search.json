@@ -679,6 +679,300 @@
     "text": "Παράδειγμα 2\nΣτην τάξη σας θέλατε να ελέγξετε αν ένα “Μουσικό Σαπούνι” (που παίζει μουσική για 20 δευτερόλεπτα) μειώνει τις ιώσεις. Ωστόσο, κατά τη διάρκεια του πειράματός σας 3 παιδιά από την ομάδα που χρησιμοποιούσε απλό σαπούνι άλλαξαν νηπιαγωγείο.\n\n\nΟι ημέρες απουσίας των παιδιών μέσα σε ένα μήνα εφαρμογής του πειράματος ήταν:\n\nΟμάδα Α (Μουσικό σαπούνι): 0, 1, 3, 3, 5, 6\nΟμάδα Β (Κανονικό σαπούνι): 7, 8, 9"
   },
   {
+    "objectID": "slides/lecture-01/index.html#στόχοι-μαθήματος",
+    "href": "slides/lecture-01/index.html#στόχοι-μαθήματος",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Στόχοι μαθήματος",
+    "text": "Στόχοι μαθήματος\n\nΝα κατανοήσουμε τις βασικές έννοιες: πληθυσμός, δείγμα, μεταβλητή, κλίμακες μέτρησης.\nΝα κατασκευάζουμε πίνακες συχνοτήτων.\nΝα εφαρμόσουμε τα παραπάνω σε μικρά παραδείγματα σχετιζόμενα με την προσχολική εκπαίδευση."
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#βασικές-στατιστικές-έννοιες",
+    "href": "slides/lecture-01/index.html#βασικές-στατιστικές-έννοιες",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Βασικές στατιστικές έννοιες",
+    "text": "Βασικές στατιστικές έννοιες\nΣτατιστική: μέθοδοι για οργάνωση, σύνοψη και ερμηνεία δεδομένων από μια μελέτη στην εκπαίδευση.\n\nΠληθυσμός: Όλα τα άτομα που μας ενδιαφέρουν (π.χ. όλοι/όλες οι μαθητές/τριες νηπιαγωγείων της Δυτικής Μακεδονίας).\nΔείγμα: Υποσύνολο του πληθυσμού, επιλεγμένο για να τον αντιπροσωπεύσει."
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#βασικές-στατιστικές-έννοιες-1",
+    "href": "slides/lecture-01/index.html#βασικές-στατιστικές-έννοιες-1",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Βασικές στατιστικές έννοιες",
+    "text": "Βασικές στατιστικές έννοιες\n\nΠαράμετρος: Χαρακτηριστικό του πληθυσμού (άγνωστο αλλά μετρήσιμο).\nΣτατιστικό: Μαθηματικός συνδυασμός μετρήσεων στο δείγμα (π.χ. μέσος όρος)."
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#μεταβλητές",
+    "href": "slides/lecture-01/index.html#μεταβλητές",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Μεταβλητές",
+    "text": "Μεταβλητές\n\nΜεταβλητή: μετρήσιμο χαρακτηριστικό που παίρνει διαφορετικές τιμές.\nΔιακριτές: τιμές σε διακριτές κατηγορίες (π.χ. δήμος, πλήθος παιδιών ανά τμήμα).\nΣυνεχείς: οποιαδήποτε τιμή σε ένα διάστημα (π.χ. ύψος/βάρος παιδιού).\n\n\n\n\n\n\n\nΣυμβουλή\n\n\nΑν βλέπουμε πολλές ίδιες τιμές σε μια συνεχή μεταβλητή, ίσως ο τρόπος μέτρησης ή η κλίμακα χρειάζεται αναθεώρηση."
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#κλίμακες-μέτρησης",
+    "href": "slides/lecture-01/index.html#κλίμακες-μέτρησης",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Κλίμακες μέτρησης",
+    "text": "Κλίμακες μέτρησης\n\nΜέτρηση είναι η διαδικασία με την οποία αποδίδουμε τιμές σε μεταβλητές.\nΟι τιμές αυτές εξαρτώνται από το είδος της κλίμακας που χρησιμοποιούμε.\nΗ επιλογή της κατάλληλης κλίμακας επηρεάζει άμεσα το είδος των στατιστικών μεθόδων που μπορούμε να εφαρμόσουμε."
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#ονομαστική-κλίμακα",
+    "href": "slides/lecture-01/index.html#ονομαστική-κλίμακα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Ονομαστική κλίμακα",
+    "text": "Ονομαστική κλίμακα\n\nΟι τιμές είναι ονόματα κατηγοριών.\nΟι κατηγορίες είναι διακριτές και μη συγκρίσιμες (δεν υπάρχει σειρά ή διάταξη μεταξύ τους)\nΠαράδειγμα: τόπος κατοικίας (π.χ. Φλώρινα, Καστοριά, Κοζάνη)\nΜπορεί να χρησιμοποιηθούν αριθμοί για κωδικοποίηση, αλλά δεν έχουν ποσοτική σημασία (π.χ. 1 = Φλώρινα, 2 = Καστοριά)."
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#διατάξιμη-κλίμακα",
+    "href": "slides/lecture-01/index.html#διατάξιμη-κλίμακα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Διατάξιμη κλίμακα",
+    "text": "Διατάξιμη κλίμακα\n\nΟι τιμές αντιστοιχούν σε διακριτές κατηγορίες με φυσική διάταξη.\nΜπορούμε να πούμε ποια τιμή είναι “μεγαλύτερη” ή “μικρότερη”, αλλά όχι πόσο μεγαλύτερη.\nΠαράδειγμα: οικονομική κατάσταση οικογένειας μαθητών (χαμηλή, μέτρια, υψηλή).\nΗ σειρά έχει νόημα, αλλά οι διαφορές μεταξύ κατηγοριών δεν είναι μετρήσιμες."
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#ισοδιαστημική-κλίμακα",
+    "href": "slides/lecture-01/index.html#ισοδιαστημική-κλίμακα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Ισοδιαστημική κλίμακα",
+    "text": "Ισοδιαστημική κλίμακα\n\nΟι τιμές είναι αριθμητικές, με ίσα διαστήματα μεταξύ τους.\nΕπιτρέπεται η σύγκριση διαφορών (π.χ. πόσο αυξήθηκε ή μειώθηκε κάτι)\nΩστόσο, το μηδέν είναι αυθαίρετο· δεν υποδηλώνει “απουσία”\nΠαράδειγμα: θερμοκρασία σε βαθμούς Κελσίου ή Φάρεναϊτ"
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#αναλογική-κλίμακα",
+    "href": "slides/lecture-01/index.html#αναλογική-κλίμακα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Αναλογική κλίμακα",
+    "text": "Αναλογική κλίμακα\n\nΕίναι ισοδιαστημική με απόλυτο μηδέν.\nΤο μηδέν σημαίνει απουσία του χαρακτηριστικού που μετράμε.\nΕπιτρέπεται η σύγκριση λόγων (π.χ. “διπλάσιο”, “μισό”).\nΠαράδειγμα: ύψος, βάρος, διάρκεια, απόσταση.\n\nΈνα παιδί 120 cm είναι διπλάσιο σε ύψος από ένα παιδί 60 cm."
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#παραδείγματα",
+    "href": "slides/lecture-01/index.html#παραδείγματα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Παραδείγματα",
+    "text": "Παραδείγματα\n\nΑριθμός λέξεων για την περιγραφή μίας εικόνας\nΒαθμός συμμετοχής (χαμηλή/μέτρια/υψηλή)\nΧρώμα πλαστελίνης που προτιμούν τα παιδιά\nΧρόνος (σε λεπτά) ελεύθερου παιχνιδιού\nΗ ώρα που μετρήθηκε το επίπεδο προσοχής των μαθητών"
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#συχνότητα",
+    "href": "slides/lecture-01/index.html#συχνότητα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Συχνότητα",
+    "text": "Συχνότητα\nΣυχνότητα μιας τιμής είναι το πόσες φορές εμφανίζεται η τιμή αυτή σε ένα δείγμα/σύνολο δεδομένων.\n\n\nΓια παράδειγμα, έστω ότι έχω τις τιμές για τη μεταβλητή \\(X\\):\n\\[\nΧ = 2, 4, 5, 2, 6, 5, 4, 3, 3, 4\n\\]\n\n\n\n\\(\\sum f = N\\)\n\\(\\sum f\\tilde{X} = \\sum X\\)"
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#σχετική-συχνότητα",
+    "href": "slides/lecture-01/index.html#σχετική-συχνότητα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Σχετική συχνότητα",
+    "text": "Σχετική συχνότητα\n\nΜετράει το κλάσμα του δείγματος που αντιστοιχεί σε μια τιμή:\n\n\\[\nf_r = \\frac{f}{N}\n\\]\n\n\n\n\\(0 \\leq f_r \\leq 1\\)\n\\(\\sum f_r = 1\\)"
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#ποσοστιαία-συχνότητα",
+    "href": "slides/lecture-01/index.html#ποσοστιαία-συχνότητα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Ποσοστιαία συχνότητα",
+    "text": "Ποσοστιαία συχνότητα\n\nΜετατροπή της σχετικής συχνότητας σε ποσοστό: \\[\nf_{\\%} = 100 \\times f_r = 100 \\times \\frac{f}{N}\n\\]\n\\(0 \\leq f_{\\%} \\leq 100\\)\n\\(\\sum f_{\\%} = 100\\)"
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#αθροιστική-συχνότητα",
+    "href": "slides/lecture-01/index.html#αθροιστική-συχνότητα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Αθροιστική Συχνότητα",
+    "text": "Αθροιστική Συχνότητα\nΗ αθροιστική συχνότητα δείχνει πόσες παρατηρήσεις έχουν τιμές μικρότερες ή ίσες με μια συγκεκριμένη τιμή.\n\n\n\\[\nF(x) = \\sum_{i \\leq x} f_i\n\\]"
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#ομαδοποιημένες-συχνότητες",
+    "href": "slides/lecture-01/index.html#ομαδοποιημένες-συχνότητες",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Ομαδοποιημένες Συχνότητες",
+    "text": "Ομαδοποιημένες Συχνότητες\nΌταν οι πιθανές τιμές είναι πολλές, ομαδοποιούμε σε διαστήματα:\n\nΠαράδειγμα: \\(Χ\\) = «αριθμός λέξεων για την περιγραφή μιάς ζωγραφιάς» για \\(N=30\\)"
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#καλές-πρακτικές",
+    "href": "slides/lecture-01/index.html#καλές-πρακτικές",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Καλές πρακτικές",
+    "text": "Καλές πρακτικές\n\n~ 10 ομαδοποιήσεις (όχι λίγες/πολλές)\nΑπλό πλάτος (π.χ. 5, 10)\nΠλήρης κάλυψη του εύρους τιμών χωρίς κενά/επικαλύψεις"
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#ασκήσεις",
+    "href": "slides/lecture-01/index.html#ασκήσεις",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Ασκήσεις",
+    "text": "Ασκήσεις\n\nΣε δείγμα \\(N=40\\) η τιμή \\(x=3\\) εμφανίζεται \\(f(3)=6\\) φορές.\n\n\nΒρείτε \\(f_r(3)\\) και \\(f_{\\%}(3)\\)."
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#ασκήσεις-1",
+    "href": "slides/lecture-01/index.html#ασκήσεις-1",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Ασκήσεις",
+    "text": "Ασκήσεις\n\nΣυμπληρώστε τα κενά ώστε να ισχύει \\(\\sum f = 50\\) και \\(\\sum f_{\\%}=100\\):\n\n\n\n\n\\(x\\)\n\\(f\\)\n\\(f_{\\%}\\)\n\n\n\n\n1\n10\n?\n\n\n2\n15\n?\n\n\n3\n?\n30\n\n\n4\n5\n?\n\n\n5\n?\n?"
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#ραβδογράμματα",
+    "href": "slides/lecture-01/index.html#ραβδογράμματα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Ραβδογράμματα",
+    "text": "Ραβδογράμματα\nΤο ραβδόγραμμα χρησιμοποιείται για ποιοτικές ή διακριτές ποσοτικές μεταβλητές. Κάθε κατηγορία ή τιμή απεικονίζεται με μια ξεχωριστή ράβδο.\n\n\n\nΟ άξονας x δείχνει τις κατηγορίες ή τις τιμές.\nΟ άξονας y δείχνει τη συχνότητα ή τη σχετική συχνότητα.\nΟι ράβδοι δεν εφάπτονται μεταξύ τους."
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#ιστογράμματα",
+    "href": "slides/lecture-01/index.html#ιστογράμματα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Ιστογράμματα",
+    "text": "Ιστογράμματα\nΤο ιστόγραμμα απεικονίζει ομαδοποιημένα ποσοτικά δεδομένα.\n\n\nΟι τιμές χωρίζονται σε ομάδες (διαστήματα) και κάθε ομάδα εκπροσωπείται από ένα ορθογώνιο του οποίου το ύψος είναι η συχνότητα.\n\nΟι στήλες ακουμπούν μεταξύ τους (τα διαστήματα είναι συνεχόμενα)"
+  },
+  {
+    "objectID": "slides/lecture-01/index.html#τέλος-ερωτήσεις",
+    "href": "slides/lecture-01/index.html#τέλος-ερωτήσεις",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Τέλος — Ερωτήσεις;",
+    "text": "Τέλος — Ερωτήσεις;"
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#παράδειγμα",
+    "href": "slides/lecture-09/index.html#παράδειγμα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Παράδειγμα",
+    "text": "Παράδειγμα\nΘέλουμε να δούμε αν η χρήση κουκλοθέατρου κατά την αφήγηση παραμυθιού επηρεάζει τον χρόνο που τα παιδιά παραμένουν συγκεντρωμένα, σε σύγκριση με την απλή ανάγνωση από το βιβλίο.\n\n\nΓνωρίζουμε από τη βιβλιογραφία ότι:\n\nΟ μέσος χρόνος συγκέντρωσης των παιδιών στο νηπιαγωγείο είναι 10 λεπτά.\nΗ τυπική απόκλιση (\\(\\sigma\\)) είναι 2 λεπτά."
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#παράδειγμα-1",
+    "href": "slides/lecture-09/index.html#παράδειγμα-1",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Παράδειγμα",
+    "text": "Παράδειγμα\nΠήραμε τυχαίο δείγμα από 5 παιδιά στα οποία έγινε ανάγνωση με τη χρήση κουκλοθέατρου:\n\n\n\nΠαιδί 1: 11 λεπτά\nΠαιδί 2: 15 λεπτά\nΠαιδί 3: 13 λεπτά\nΠαιδί 4: 12 λεπτά\nΠαιδί 5: 14 λεπτά"
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#σφάλματα-στον-έλεγχο-υποθέσεων",
+    "href": "slides/lecture-09/index.html#σφάλματα-στον-έλεγχο-υποθέσεων",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Σφάλματα στον έλεγχο υποθέσεων",
+    "text": "Σφάλματα στον έλεγχο υποθέσεων\n\n\n\nΟρισμός\nΤο Σφάλμα Τύπου I συμβαίνει όταν ο/η ερευνητής/τρια απορρίπτει την \\(H_0\\), όταν στην πραγματικότητα αυτή είναι αληθής.\n\n\n\nΗ στάθμη σημαντικότητας για έναν έλεγχο υποθέσεων είναι η πιθανότητα ο έλεγχος να καταλήξει σε Σφάλμα Τύπου I."
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#σφάλματα-στον-έλεγχο-υποθέσεων-1",
+    "href": "slides/lecture-09/index.html#σφάλματα-στον-έλεγχο-υποθέσεων-1",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Σφάλματα στον έλεγχο υποθέσεων",
+    "text": "Σφάλματα στον έλεγχο υποθέσεων\n\nΟρισμός\nΤο Σφάλμα Τύπου II συμβαίνει όταν ο/η ερευνητής/τρια αποτυγχάνει να απορρίψει την \\(H_0\\), όταν στην πραγματικότητα αυτή δεν είναι αληθής."
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα",
+    "href": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Ένα (εντελώς) χαζό παράδειγμα",
+    "text": "Ένα (εντελώς) χαζό παράδειγμα\nΤυπώσατε 100 έγχρωμα ενημερωτικά φυλλάδια για την πτυχιακή σας εργασία. Πληρώσατε ακριβά για χοντρό, ποιοτικό χαρτί των 120 γραμμαρίων (gsm: γραμμάρια ανά τετραγωνικό μέτρο χαρτιού).\n\n\nΌταν τα παραλαμβάνετε, σας φαίνονται λίγο “λεπτά” στο χέρι. Υποψιάζεστε ότι το τυπογραφείο χρησιμοποίησε φθηνότερο χαρτί για να γλιτώσει κόστος"
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα-1",
+    "href": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα-1",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Ένα (εντελώς) χαζό παράδειγμα",
+    "text": "Ένα (εντελώς) χαζό παράδειγμα\nΓνωρίζουμε από τον κατασκευαστή του χαρτιού που χρησιμοποιήθηκε ότι:\n\nΜέσος όρος είναι 120 gsm.\nΤυπική απόκλιση (\\(\\sigma\\)) είναι 2."
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα-2",
+    "href": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα-2",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Ένα (εντελώς) χαζό παράδειγμα",
+    "text": "Ένα (εντελώς) χαζό παράδειγμα\nΘέλετε να το ελέγξετε, αλλά δεν μπορείτε να ζυγίσετε απευθείας τα φυλλάδια, γιατί το βάρος του μελανιού θα επηρεάσει τις μετρήσεις.\n\n\nΥπάρχει ένα τετράγωνο εμβαδού \\(10\\times 10\\) εκατοστών που είναι λευκό.\n\n\nΓια να το πάρετε όμως πρέπει να κόψετε το κομμάτι και να το ζυγίσετε, οπότε αποφασίζετε να πάρετε ένα δείγμα 5 φυλλαδίων."
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα-3",
+    "href": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα-3",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Ένα (εντελώς) χαζό παράδειγμα",
+    "text": "Ένα (εντελώς) χαζό παράδειγμα\nΟι μετρήσεις που πήρατε για κάθε κομματάκι είναι:\n\nΚομμάτι 1: 1.17 γραμμάρια\nΚομμάτι 2: 1.16 γραμμάρια\nΚομμάτι 3: 1.18 γραμμάρια\nΚομμάτι 4: 1.15 γραμμάρια\nΚομμάτι 5: 1.19 γραμμάρια\n\n\n\nΣας έκελψε το τυπογραφείο;"
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#γιατί",
+    "href": "slides/lecture-09/index.html#γιατί",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Γιατί;",
+    "text": "Γιατί;\n\n\nΜέχρι τώρα θεωρούσαμε την τυπική απόκλιση γνωστή.\n\n\nΚατ’ επέκταση, θεωρούσαμε το τυπικό σφάλμα γνωστό.\n\n\nΔεν είναι έτσι στην πράξη."
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#εκτίμηση-τυπικού-σφάλματος",
+    "href": "slides/lecture-09/index.html#εκτίμηση-τυπικού-σφάλματος",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Εκτίμηση τυπικού σφάλματος",
+    "text": "Εκτίμηση τυπικού σφάλματος\nΤο τυπικό σφάλμα δίνεται από τη σχέση:\n\\[\n\\text{se} = \\frac{\\sigma}{\\sqrt{n}}\n\\]\nΚαθώς δε γνωρίζουμε το \\(\\sigma\\), το εκτιμούμε από το δείγμα:\n\\[\ns = \\sqrt{\\frac{\\sum_{i = 1}^n(x_i-\\bar{x})^2}{n - 1}}\n\\]"
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#εκτίμηση-τυπικού-σφάλματος-1",
+    "href": "slides/lecture-09/index.html#εκτίμηση-τυπικού-σφάλματος-1",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Εκτίμηση τυπικού σφάλματος",
+    "text": "Εκτίμηση τυπικού σφάλματος\n\n\nΗ εκτίμησή μας για το τυπικό σφάλμα με βάση το δείγμα μεγέθους \\(n\\) είναι:\n\\[\n\\text{se} = \\frac{s}{\\sqrt{n}}\n\\]"
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#κατασκευή-του-ελέγχου",
+    "href": "slides/lecture-09/index.html#κατασκευή-του-ελέγχου",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Κατασκευή του ελέγχου",
+    "text": "Κατασκευή του ελέγχου\n\n\nΤο στατιστικό του πρηγούμενου ελέγχου (z-test), τώρα γίνεται:\n\\[\nt = \\frac{\\bar{x} - \\mu}{\\frac{s}{\\sqrt{n}}} \\sim t_{n-1},\n\\]\nόπου \\(t_{n-1}\\) είναι η κανομή Student με \\(n-1\\) βαθμούς ελευθερίας."
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#η-κατανομή-student",
+    "href": "slides/lecture-09/index.html#η-κατανομή-student",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Η κατανομή Student",
+    "text": "Η κατανομή Student"
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#παράδειγμα-2",
+    "href": "slides/lecture-09/index.html#παράδειγμα-2",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Παράδειγμα",
+    "text": "Παράδειγμα\nΤο υπουργείο ζητά οι μαθητές να γνωρίζουν τουλάσχιστον 45 συνδυασμούς γραμμάτων/ήχων (κεφαλάια, πεζά, ήχοι) για να θεωρούνται “έτοιμοι” για το δημοτικό. Κάνετε μία τυχαία μέτρηση στην τάξη σας και βρίσκετε σε δείγμα 9 παιδιών τις μετρήσεις:\n\n\n35,37,39,39,40,41,41,43,45\n\n\nΕίναι η τάξη σας έτοιμη;"
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#παράδειγμα-3",
+    "href": "slides/lecture-09/index.html#παράδειγμα-3",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Παράδειγμα",
+    "text": "Παράδειγμα\nΣύμφωνα με τους ειδικούς παιδαγωγικής και υγιεινής, το επίπεδο θορύβου σε μια τάξη νηπιαγωγείου δεν πρέπει να υπερβαίνει κατά μέσο όρο τα 70 decibel (dB) ώστε να μην προκαλείται άγχος στα παιδιά και προβλήματα ακοής. Νομίζετε ότι λόγω κακής ακουστικής στο νηπιαγωγείο που εργάζεστε ο θόρυβος ενδέχεται να ξεπερνά τα φυσιολογικά όρια."
+  },
+  {
+    "objectID": "slides/lecture-09/index.html#παράδειγμα-4",
+    "href": "slides/lecture-09/index.html#παράδειγμα-4",
+    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
+    "section": "Παράδειγμα",
+    "text": "Παράδειγμα\nΓια να το ελέγξετε , μετράτε τον θόρυβο με ειδικό μηχάνημα σε 9 αίθουσες. Οι μετρήσεις σε decibel είναι:\n\n\n69,71,73,73,74,75,75,77,79"
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "Στατιστική στην εκπαιδευτική έρευνα",
+    "section": "",
+    "text": "Attribution 4.0 International\n=======================================================================\nCreative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.\nUsing Creative Commons Public Licenses\nCreative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.\n Considerations for licensors: Our public licenses are\n intended for use by those authorized to give the public\n permission to use material in ways otherwise restricted by\n copyright and certain other rights. Our licenses are\n irrevocable. Licensors should read and understand the terms\n and conditions of the license they choose before applying it.\n Licensors should also secure all rights necessary before\n applying our licenses so that the public can reuse the\n material as expected. Licensors should clearly mark any\n material not subject to the license. This includes other CC-\n licensed material, or material used under an exception or\n limitation to copyright. More considerations for licensors:\nwiki.creativecommons.org/Considerations_for_licensors\n\n Considerations for the public: By using one of our public\n licenses, a licensor grants the public permission to use the\n licensed material under specified terms and conditions. If\n the licensor's permission is not necessary for any reason--for\n example, because of any applicable exception or limitation to\n copyright--then that use is not regulated by the license. Our\n licenses grant only permissions under copyright and certain\n other rights that a licensor has authority to grant. Use of\n the licensed material may still be restricted for other\n reasons, including because others have copyright or other\n rights in the material. A licensor may make special requests,\n such as asking that all changes be marked or described.\n Although not required by our licenses, you are encouraged to\n respect those requests where reasonable. More considerations\n for the public: \nwiki.creativecommons.org/Considerations_for_licensees\n=======================================================================\nCreative Commons Attribution 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\n\nreproduce and Share the Licensed Material, in whole or in part; and\nproduce, reproduce, and Share Adapted Material.\n\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)\n\nnever produces Adapted Material.\n\nDownstream recipients.\n\nOffer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nNo downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\n\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\n\nretain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nindicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nindicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\n\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\nIf You Share Adapted Material You produce, the Adapter’s License You apply must not prevent recipients of the Adapted Material from complying with this Public License.\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\nTO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES, COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n=======================================================================\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
+  },
+  {
+    "objectID": "slides-index.html",
+    "href": "slides-index.html",
+    "title": "Παρουσιάσεις των μαθημάτων",
+    "section": "",
+    "text": "Διάλεξη 1\nΔιάλεξη 2\nΔιάλεξη 3\nΔιάλεξη 4\nΔιάλεξη 5\nΔιάλεξη 6\nΔιάλεξη 7\nΔιάλεξη 8\nΔιάλεξη 9\nΔιάλεξη 10"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Καλώς ήρθατε στο μάθημα\nΣτατιστική στην εκπαιδευτική έρευνα",
+    "section": "",
+    "text": "Το μάθημα στοχεύει σε μία ομαλή εισαγωγή των φοιτητών/τριών του Παιδαγωγικού Τμήματος Νηπιαγωγών του Πανεπιστημίου Δυτικής Μακεδονίας στην στατιστική στην εκπαιδευτική έρευνα.\n\n\n\nΠαρουσιάσεις: Δείτε όλες τις παρουσιάσεις του μαθήματος\nΣημειώσεις: Διαβάστε τις σημειώσεις του μαθήματος\n\n\n\n\n\n\n\nΔιδάσκων: Αλέξανδρος Ρέκκας"
+  },
+  {
+    "objectID": "index.html#υλικά-του-μαθήματος",
+    "href": "index.html#υλικά-του-μαθήματος",
+    "title": "Καλώς ήρθατε στο μάθημα\nΣτατιστική στην εκπαιδευτική έρευνα",
+    "section": "",
+    "text": "Παρουσιάσεις: Δείτε όλες τις παρουσιάσεις του μαθήματος\nΣημειώσεις: Διαβάστε τις σημειώσεις του μαθήματος"
+  },
+  {
+    "objectID": "index.html#σχετικά",
+    "href": "index.html#σχετικά",
+    "title": "Καλώς ήρθατε στο μάθημα\nΣτατιστική στην εκπαιδευτική έρευνα",
+    "section": "",
+    "text": "Διδάσκων: Αλέξανδρος Ρέκκας"
+  },
+  {
     "objectID": "slides/lecture-03/index.html#μέτρα-κεντρικής-τάσης",
     "href": "slides/lecture-03/index.html#μέτρα-κεντρικής-τάσης",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
@@ -868,298 +1162,151 @@
     "text": "Σύνοψη Τύπων\n\n\n\n\n\n\n\n\nΜέτρο\nΠληθυσμός (Παράμετρος)\nΔείγμα (Στατιστικό)\n\n\n\n\nΜέγεθος\n\\(N\\)\n\\(n\\)\n\n\nΜέση τιμή\n\\(\\mu = \\frac{\\sum X}{N}\\)\n\\(\\bar{X} = \\frac{\\sum X}{n}\\)\n\n\nΔιασπορά\n\\(\\sigma^2 = \\frac{\\sum (X - \\mu)^2}{N}\\)\n\\(s^2 = \\frac{\\sum (X - \\bar{X})^2}{n-1}\\)\n\n\nΤυπ. Απόκλιση\n\\(\\sigma = \\sqrt{\\sigma^2}\\)\n\\(s = \\sqrt{s^2}\\)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Καλώς ήρθατε στο μάθημα\nΣτατιστική στην εκπαιδευτική έρευνα",
-    "section": "",
-    "text": "Το μάθημα στοχεύει σε μία ομαλή εισαγωγή των φοιτητών/τριών του Παιδαγωγικού Τμήματος Νηπιαγωγών του Πανεπιστημίου Δυτικής Μακεδονίας στην στατιστική στην εκπαιδευτική έρευνα.\n\n\n\nΠαρουσιάσεις: Δείτε όλες τις παρουσιάσεις του μαθήματος\nΣημειώσεις: Διαβάστε τις σημειώσεις του μαθήματος\n\n\n\n\n\n\n\nΔιδάσκων: Αλέξανδρος Ρέκκας"
-  },
-  {
-    "objectID": "index.html#υλικά-του-μαθήματος",
-    "href": "index.html#υλικά-του-μαθήματος",
-    "title": "Καλώς ήρθατε στο μάθημα\nΣτατιστική στην εκπαιδευτική έρευνα",
-    "section": "",
-    "text": "Παρουσιάσεις: Δείτε όλες τις παρουσιάσεις του μαθήματος\nΣημειώσεις: Διαβάστε τις σημειώσεις του μαθήματος"
-  },
-  {
-    "objectID": "index.html#σχετικά",
-    "href": "index.html#σχετικά",
-    "title": "Καλώς ήρθατε στο μάθημα\nΣτατιστική στην εκπαιδευτική έρευνα",
-    "section": "",
-    "text": "Διδάσκων: Αλέξανδρος Ρέκκας"
-  },
-  {
-    "objectID": "slides-index.html",
-    "href": "slides-index.html",
-    "title": "Παρουσιάσεις των μαθημάτων",
-    "section": "",
-    "text": "Διάλεξη 1\nΔιάλεξη 2\nΔιάλεξη 3\nΔιάλεξη 4\nΔιάλεξη 5\nΔιάλεξη 6\nΔιάλεξη 7\nΔιάλεξη 8\nΔιάλεξη 9\nΔιάλεξη 10"
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "Στατιστική στην εκπαιδευτική έρευνα",
-    "section": "",
-    "text": "Attribution 4.0 International\n=======================================================================\nCreative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.\nUsing Creative Commons Public Licenses\nCreative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.\n Considerations for licensors: Our public licenses are\n intended for use by those authorized to give the public\n permission to use material in ways otherwise restricted by\n copyright and certain other rights. Our licenses are\n irrevocable. Licensors should read and understand the terms\n and conditions of the license they choose before applying it.\n Licensors should also secure all rights necessary before\n applying our licenses so that the public can reuse the\n material as expected. Licensors should clearly mark any\n material not subject to the license. This includes other CC-\n licensed material, or material used under an exception or\n limitation to copyright. More considerations for licensors:\nwiki.creativecommons.org/Considerations_for_licensors\n\n Considerations for the public: By using one of our public\n licenses, a licensor grants the public permission to use the\n licensed material under specified terms and conditions. If\n the licensor's permission is not necessary for any reason--for\n example, because of any applicable exception or limitation to\n copyright--then that use is not regulated by the license. Our\n licenses grant only permissions under copyright and certain\n other rights that a licensor has authority to grant. Use of\n the licensed material may still be restricted for other\n reasons, including because others have copyright or other\n rights in the material. A licensor may make special requests,\n such as asking that all changes be marked or described.\n Although not required by our licenses, you are encouraged to\n respect those requests where reasonable. More considerations\n for the public: \nwiki.creativecommons.org/Considerations_for_licensees\n=======================================================================\nCreative Commons Attribution 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\n\nreproduce and Share the Licensed Material, in whole or in part; and\nproduce, reproduce, and Share Adapted Material.\n\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)\n\nnever produces Adapted Material.\n\nDownstream recipients.\n\nOffer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nNo downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\n\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\n\nretain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nindicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nindicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\n\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\nIf You Share Adapted Material You produce, the Adapter’s License You apply must not prevent recipients of the Adapted Material from complying with this Public License.\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\nTO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES, COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n=======================================================================\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
-  },
-  {
-    "objectID": "slides/lecture-09/index.html#παράδειγμα",
-    "href": "slides/lecture-09/index.html#παράδειγμα",
+    "objectID": "slides/lecture-11/index.html#το-θέμα",
+    "href": "slides/lecture-11/index.html#το-θέμα",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Παράδειγμα",
-    "text": "Παράδειγμα\nΘέλουμε να δούμε αν η χρήση κουκλοθέατρου κατά την αφήγηση παραμυθιού επηρεάζει τον χρόνο που τα παιδιά παραμένουν συγκεντρωμένα, σε σύγκριση με την απλή ανάγνωση από το βιβλίο.\n\n\nΓνωρίζουμε από τη βιβλιογραφία ότι:\n\nΟ μέσος χρόνος συγκέντρωσης των παιδιών στο νηπιαγωγείο είναι 10 λεπτά.\nΗ τυπική απόκλιση (\\(\\sigma\\)) είναι 2 λεπτά."
+    "section": "Το θέμα",
+    "text": "Το θέμα\nΣύμφωνα με κατάλληλα εργαλεία ανίχνευσης μαθησιακών δυσκολιών στην Ελλάδα, η μέση επίδοση των παιδιών στο τέλος της χρονιάς στην αναγνώριση ομοιοκαταληξίας βαθμολογείται κατά μέσο όρο με 12 (κλίμακα 0-20)\n\n\nΕφαρμόζετε το πρόγραμμα “Γλωσσικών Παιχνιδιών” για ένα χρονικό διάστημα 2 εβδομάδων.\n\n\nΘέλετε να ελέγξετε αν το πρόγραμμα διασφαλίζει επιδόσεις καλύτερες από το μέσο όρο."
   },
   {
-    "objectID": "slides/lecture-09/index.html#παράδειγμα-1",
-    "href": "slides/lecture-09/index.html#παράδειγμα-1",
+    "objectID": "slides/lecture-11/index.html#τα-δεδομένα",
+    "href": "slides/lecture-11/index.html#τα-δεδομένα",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Παράδειγμα",
-    "text": "Παράδειγμα\nΠήραμε τυχαίο δείγμα από 5 παιδιά στα οποία έγινε ανάγνωση με τη χρήση κουκλοθέατρου:\n\n\n\nΠαιδί 1: 11 λεπτά\nΠαιδί 2: 15 λεπτά\nΠαιδί 3: 13 λεπτά\nΠαιδί 4: 12 λεπτά\nΠαιδί 5: 14 λεπτά"
+    "section": "Τα δεδομένα",
+    "text": "Τα δεδομένα\n\n\n\n\n\nΜαθητής\nΣκορ λεξιλογίου (X)\n\n\n\n\n1\n23\n\n\n2\n15\n\n\n3\n23\n\n\n4\n15\n\n\n5\n21\n\n\n6\n17\n\n\n7\n19\n\n\n8\n19\n\n\n9\n19\n\n\nΣύνολο\n171"
   },
   {
-    "objectID": "slides/lecture-09/index.html#σφάλματα-στον-έλεγχο-υποθέσεων",
-    "href": "slides/lecture-09/index.html#σφάλματα-στον-έλεγχο-υποθέσεων",
+    "objectID": "slides/lecture-11/index.html#βήμα-1-διατύπωση-υποθέσεων",
+    "href": "slides/lecture-11/index.html#βήμα-1-διατύπωση-υποθέσεων",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Σφάλματα στον έλεγχο υποθέσεων",
-    "text": "Σφάλματα στον έλεγχο υποθέσεων\n\n\n\nΟρισμός\nΤο Σφάλμα Τύπου I συμβαίνει όταν ο/η ερευνητής/τρια απορρίπτει την \\(H_0\\), όταν στην πραγματικότητα αυτή είναι αληθής.\n\n\n\nΗ στάθμη σημαντικότητας για έναν έλεγχο υποθέσεων είναι η πιθανότητα ο έλεγχος να καταλήξει σε Σφάλμα Τύπου I."
+    "section": "Βήμα 1: Διατύπωση υποθέσεων",
+    "text": "Βήμα 1: Διατύπωση υποθέσεων\n\\[ H_0: \\mu = 20 \\] \\[ H_1: \\mu \\neq 20 \\]"
   },
   {
-    "objectID": "slides/lecture-09/index.html#σφάλματα-στον-έλεγχο-υποθέσεων-1",
-    "href": "slides/lecture-09/index.html#σφάλματα-στον-έλεγχο-υποθέσεων-1",
+    "objectID": "slides/lecture-11/index.html#βήμα-2-υπολογισμός-του-στατιστικού",
+    "href": "slides/lecture-11/index.html#βήμα-2-υπολογισμός-του-στατιστικού",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Σφάλματα στον έλεγχο υποθέσεων",
-    "text": "Σφάλματα στον έλεγχο υποθέσεων\n\nΟρισμός\nΤο Σφάλμα Τύπου II συμβαίνει όταν ο/η ερευνητής/τρια αποτυγχάνει να απορρίψει την \\(H_0\\), όταν στην πραγματικότητα αυτή δεν είναι αληθής."
+    "section": "Βήμα 2: Υπολογισμός του στατιστικού",
+    "text": "Βήμα 2: Υπολογισμός του στατιστικού\n\\[\nt = \\frac{\\bar{x} - \\mu}{se} \\sim t_{n-1}\n\\]\nΤο στατιστικό \\(t\\) ακολουθεί την κατανομή Student με \\(n - 1 = 8\\) βαθμούς ελευθερίας."
   },
   {
-    "objectID": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα",
-    "href": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα",
+    "objectID": "slides/lecture-11/index.html#βήμα-2-υπολογισμός-του-στατιστικού-1",
+    "href": "slides/lecture-11/index.html#βήμα-2-υπολογισμός-του-στατιστικού-1",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Ένα (εντελώς) χαζό παράδειγμα",
-    "text": "Ένα (εντελώς) χαζό παράδειγμα\nΤυπώσατε 100 έγχρωμα ενημερωτικά φυλλάδια για την πτυχιακή σας εργασία. Πληρώσατε ακριβά για χοντρό, ποιοτικό χαρτί των 120 γραμμαρίων (gsm: γραμμάρια ανά τετραγωνικό μέτρο χαρτιού).\n\n\nΌταν τα παραλαμβάνετε, σας φαίνονται λίγο “λεπτά” στο χέρι. Υποψιάζεστε ότι το τυπογραφείο χρησιμοποίησε φθηνότερο χαρτί για να γλιτώσει κόστος"
+    "section": "Βήμα 2: Υπολογισμός του στατιστικού",
+    "text": "Βήμα 2: Υπολογισμός του στατιστικού\nΤο τυπικό σφάλμα \\(se\\) το υπολογίζουμε από τον τύπο:\n\\[\nse = \\frac{s}{\\sqrt{n}}\n\\]\nΗ τυπική απόκλιση της διαφοράς \\(d\\) δίνεται από τον τύπο:\n\\[\ns = \\sqrt{\\frac{\\sum_{i = 1}^n(x_i - \\bar{x})^2}{n - 1}}\n\\]"
   },
   {
-    "objectID": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα-1",
-    "href": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα-1",
+    "objectID": "slides/lecture-11/index.html#βήμα-3-απόφαση",
+    "href": "slides/lecture-11/index.html#βήμα-3-απόφαση",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Ένα (εντελώς) χαζό παράδειγμα",
-    "text": "Ένα (εντελώς) χαζό παράδειγμα\nΓνωρίζουμε από τον κατασκευαστή του χαρτιού που χρησιμοποιήθηκε ότι:\n\nΜέσος όρος είναι 120 gsm.\nΤυπική απόκλιση (\\(\\sigma\\)) είναι 2."
+    "section": "Βήμα 3: Απόφαση",
+    "text": "Βήμα 3: Απόφαση\nΣυγκρίνουμε την τιμή \\(t\\) που υπολογίσαμε από το δείγμα μας με την κρίσιμη τιμή, δηλαδή το 97.5% ποσοστημόριο της κατανομής Student με \\(n - 1\\) βαθμούς ελευθερίας.\n\n\nΑς συμβολίσουμε το ποσοστημόριο αυτό με \\(t_0\\). Τότε, η απόφαση που παίρνουμε είναι:\n\nΔεχόμαστε την \\(H_0\\), αν \\(-t_0 \\leq t \\leq t_0\\)\nΑπορρίπτουμε την \\(H_0\\), αν \\(t &lt; -t_0\\) ή \\(t &gt; t_0\\)"
   },
   {
-    "objectID": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα-2",
-    "href": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα-2",
+    "objectID": "slides/lecture-11/index.html#το-θέμα-1",
+    "href": "slides/lecture-11/index.html#το-θέμα-1",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Ένα (εντελώς) χαζό παράδειγμα",
-    "text": "Ένα (εντελώς) χαζό παράδειγμα\nΘέλετε να το ελέγξετε, αλλά δεν μπορείτε να ζυγίσετε απευθείας τα φυλλάδια, γιατί το βάρος του μελανιού θα επηρεάσει τις μετρήσεις.\n\n\nΥπάρχει ένα τετράγωνο εμβαδού \\(10\\times 10\\) εκατοστών που είναι λευκό.\n\n\nΓια να το πάρετε όμως πρέπει να κόψετε το κομμάτι και να το ζυγίσετε, οπότε αποφασίζετε να πάρετε ένα δείγμα 5 φυλλαδίων."
+    "section": "Το θέμα",
+    "text": "Το θέμα\nΔύο τμήματα ενός νηπιαγωγείου συμμετέχουν σε μια έρευνα για τη διδασκαλία των πρώτων μαθηματικών εννοιών.\n\nΜία ομάδα διδάχθηκε μέσω ενός νέου προγράμματος με εκπαιδευτικά επιτραπέζια παιχνίδια.\nΜία ομάδα διδάχθηκε με τη χρήση της συνηθισμένης πρακτικής.\n\n\n\nΣτο τέλος τα παιδιά και των δύο ομάδων αξιολογήθηκαν με ένα κατάλληλο τεστ με μέγιστο βαθμό το 20. Έφερε αποτελέσματα η νέα μέθοδος;"
   },
   {
-    "objectID": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα-3",
-    "href": "slides/lecture-09/index.html#ένα-εντελώς-χαζό-παράδειγμα-3",
+    "objectID": "slides/lecture-11/index.html#τα-δεδομένα-1",
+    "href": "slides/lecture-11/index.html#τα-δεδομένα-1",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Ένα (εντελώς) χαζό παράδειγμα",
-    "text": "Ένα (εντελώς) χαζό παράδειγμα\nΟι μετρήσεις που πήρατε για κάθε κομματάκι είναι:\n\nΚομμάτι 1: 1.17 γραμμάρια\nΚομμάτι 2: 1.16 γραμμάρια\nΚομμάτι 3: 1.18 γραμμάρια\nΚομμάτι 4: 1.15 γραμμάρια\nΚομμάτι 5: 1.19 γραμμάρια\n\n\n\nΣας έκελψε το τυπογραφείο;"
+    "section": "Τα δεδομένα",
+    "text": "Τα δεδομένα\n\n\n\nΟμάδα 1 (πείραμα)\nΟμάδα 2 (έλεγχος)\n\n\n\n\n13\n9\n\n\n14\n10\n\n\n15\n11\n\n\n16\n12\n\n\n17\n13"
   },
   {
-    "objectID": "slides/lecture-09/index.html#γιατί",
-    "href": "slides/lecture-09/index.html#γιατί",
+    "objectID": "slides/lecture-11/index.html#βήμα-1-διατύπωση-υποθέσεων-1",
+    "href": "slides/lecture-11/index.html#βήμα-1-διατύπωση-υποθέσεων-1",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Γιατί;",
-    "text": "Γιατί;\n\n\nΜέχρι τώρα θεωρούσαμε την τυπική απόκλιση γνωστή.\n\n\nΚατ’ επέκταση, θεωρούσαμε το τυπικό σφάλμα γνωστό.\n\n\nΔεν είναι έτσι στην πράξη."
+    "section": "Βήμα 1: Διατύπωση υποθέσεων",
+    "text": "Βήμα 1: Διατύπωση υποθέσεων\n\\[H_0: \\mu_1 = \\mu_2\\] \\[H_1: \\mu_1 \\neq \\mu_2\\]"
   },
   {
-    "objectID": "slides/lecture-09/index.html#εκτίμηση-τυπικού-σφάλματος",
-    "href": "slides/lecture-09/index.html#εκτίμηση-τυπικού-σφάλματος",
+    "objectID": "slides/lecture-11/index.html#βήμα-2-υπολογισμός-του-στατιστικού-2",
+    "href": "slides/lecture-11/index.html#βήμα-2-υπολογισμός-του-στατιστικού-2",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Εκτίμηση τυπικού σφάλματος",
-    "text": "Εκτίμηση τυπικού σφάλματος\nΤο τυπικό σφάλμα δίνεται από τη σχέση:\n\\[\n\\text{se} = \\frac{\\sigma}{\\sqrt{n}}\n\\]\nΚαθώς δε γνωρίζουμε το \\(\\sigma\\), το εκτιμούμε από το δείγμα:\n\\[\ns = \\sqrt{\\frac{\\sum_{i = 1}^n(x_i-\\bar{x})^2}{n - 1}}\n\\]"
+    "section": "Βήμα 2: Υπολογισμός του στατιστικού",
+    "text": "Βήμα 2: Υπολογισμός του στατιστικού\n\n\n\\[\nt = \\frac{(\\bar{x}_1 - \\bar{x}_2) - (\\mu_1 - \\mu_2)}{se_{(\\bar{x}_1-\\bar{x_2})}} \\sim t_{n_1+n_2-2}\n\\]"
   },
   {
-    "objectID": "slides/lecture-09/index.html#εκτίμηση-τυπικού-σφάλματος-1",
-    "href": "slides/lecture-09/index.html#εκτίμηση-τυπικού-σφάλματος-1",
+    "objectID": "slides/lecture-11/index.html#βήμα-2-υπολογισμός-του-στατιστικού-3",
+    "href": "slides/lecture-11/index.html#βήμα-2-υπολογισμός-του-στατιστικού-3",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Εκτίμηση τυπικού σφάλματος",
-    "text": "Εκτίμηση τυπικού σφάλματος\n\n\nΗ εκτίμησή μας για το τυπικό σφάλμα με βάση το δείγμα μεγέθους \\(n\\) είναι:\n\\[\n\\text{se} = \\frac{s}{\\sqrt{n}}\n\\]"
+    "section": "Βήμα 2: Υπολογισμός του στατιστικού",
+    "text": "Βήμα 2: Υπολογισμός του στατιστικού\nΤο τυπικό σφάλμα της διαφοράς \\(\\bar{x}_1 - \\bar{x}_2\\) υπολογίζεται από τον τύπο: \\[\nse_{(\\bar{x}_1-\\bar{x}_2)} = \\sqrt{\\frac{s^2_p}{n_1}+ \\frac{s^2_p}{n_2}}\n\\]\nΜε \\(s_p^2\\) συμβολίζουμε την συγκεντρωτική διασπορά και υπολογίζεται από τον τύπο:\n\\[\ns_p^2 = \\frac{\\sum (x_i - \\bar{x}_1)^2 + \\sum (x_i - \\bar{x}_2)^2}{n_1 + n_2 - 2}\n\\]"
   },
   {
-    "objectID": "slides/lecture-09/index.html#κατασκευή-του-ελέγχου",
-    "href": "slides/lecture-09/index.html#κατασκευή-του-ελέγχου",
+    "objectID": "slides/lecture-11/index.html#βήμα-3-απόφαση-1",
+    "href": "slides/lecture-11/index.html#βήμα-3-απόφαση-1",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Κατασκευή του ελέγχου",
-    "text": "Κατασκευή του ελέγχου\n\n\nΤο στατιστικό του πρηγούμενου ελέγχου (z-test), τώρα γίνεται:\n\\[\nt = \\frac{\\bar{x} - \\mu}{\\frac{s}{\\sqrt{n}}} \\sim t_{n-1},\n\\]\nόπου \\(t_{n-1}\\) είναι η κανομή Student με \\(n-1\\) βαθμούς ελευθερίας."
+    "section": "Βήμα 3: Απόφαση",
+    "text": "Βήμα 3: Απόφαση\nΣυγκρίνουμε την τιμή του στατιστικού \\(t\\) που υπολογίσαμε από το δείγμα με τα 2.5% και 97.5% ποσοστημόρια της κατανομής Student με \\(n_1+n_2-2\\) βαθμούς ελευθερίας."
   },
   {
-    "objectID": "slides/lecture-09/index.html#η-κατανομή-student",
-    "href": "slides/lecture-09/index.html#η-κατανομή-student",
+    "objectID": "slides/lecture-11/index.html#γενικά",
+    "href": "slides/lecture-11/index.html#γενικά",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Η κατανομή Student",
-    "text": "Η κατανομή Student"
+    "section": "Γενικά",
+    "text": "Γενικά\nΣυχνά, θέλουμε να συγκρίνουμε πώς μία παρέμβαση επηρέασε την εξέλιξη μίας μεταβλητής.\n\n\nΓια παράδειγμα, η χρήση πλαστελίνης στα πλαίσια ενός προγράμματος 8 εβδομάδων για τη βελτίωση της λεπτής κινητικότητας έχει αποτέλεσμα;\n\n\nΓια να το αποφασίσουμε αυτό μπορούμε να αξιολογήσουμε την λεπτή κινητικότητα των παιδιών πριν και μετά το πρόγραμμα."
   },
   {
-    "objectID": "slides/lecture-09/index.html#παράδειγμα-2",
-    "href": "slides/lecture-09/index.html#παράδειγμα-2",
+    "objectID": "slides/lecture-11/index.html#τα-δεδομένα-μας",
+    "href": "slides/lecture-11/index.html#τα-δεδομένα-μας",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Παράδειγμα",
-    "text": "Παράδειγμα\nΤο υπουργείο ζητά οι μαθητές να γνωρίζουν τουλάσχιστον 45 συνδυασμούς γραμμάτων/ήχων (κεφαλάια, πεζά, ήχοι) για να θεωρούνται “έτοιμοι” για το δημοτικό. Κάνετε μία τυχαία μέτρηση στην τάξη σας και βρίσκετε σε δείγμα 9 παιδιών τις μετρήσεις:\n\n\n35,37,39,39,40,41,41,43,45\n\n\nΕίναι η τάξη σας έτοιμη;"
+    "section": "Τα δεδομένα μας",
+    "text": "Τα δεδομένα μας\n\n\n\nΜαθητής\nΠριν\nΜετά\n\n\n\n\n1\n6\n5\n\n\n2\n6\n7\n\n\n3\n4\n8\n\n\n4\n5\n9\n\n\n5\n3\n8\n\n\n6\n4\n9"
   },
   {
-    "objectID": "slides/lecture-09/index.html#παράδειγμα-3",
-    "href": "slides/lecture-09/index.html#παράδειγμα-3",
+    "objectID": "slides/lecture-11/index.html#βήμα-1-υπολογισμός-διαφορών",
+    "href": "slides/lecture-11/index.html#βήμα-1-υπολογισμός-διαφορών",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Παράδειγμα",
-    "text": "Παράδειγμα\nΣύμφωνα με τους ειδικούς παιδαγωγικής και υγιεινής, το επίπεδο θορύβου σε μια τάξη νηπιαγωγείου δεν πρέπει να υπερβαίνει κατά μέσο όρο τα 70 decibel (dB) ώστε να μην προκαλείται άγχος στα παιδιά και προβλήματα ακοής. Νομίζετε ότι λόγω κακής ακουστικής στο νηπιαγωγείο που εργάζεστε ο θόρυβος ενδέχεται να ξεπερνά τα φυσιολογικά όρια."
+    "section": "Βήμα 1: Υπολογισμός διαφορών",
+    "text": "Βήμα 1: Υπολογισμός διαφορών\n\n\n\nΜαθητής\nΠριν\nΜετά\nd\n\n\n\n\n1\n6\n5\n5 - 6 = -1\n\n\n2\n6\n7\n7 - 6 = 1\n\n\n3\n4\n8\n8 - 7 = 1\n\n\n4\n5\n9\n9 - 5 = 4\n\n\n5\n3\n8\n8 - 3 = 5\n\n\n6\n4\n9\n9 - 4 = 5"
   },
   {
-    "objectID": "slides/lecture-09/index.html#παράδειγμα-4",
-    "href": "slides/lecture-09/index.html#παράδειγμα-4",
+    "objectID": "slides/lecture-11/index.html#βήμα-2-διατύπωση-των-υποθέσεων",
+    "href": "slides/lecture-11/index.html#βήμα-2-διατύπωση-των-υποθέσεων",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Παράδειγμα",
-    "text": "Παράδειγμα\nΓια να το ελέγξετε , μετράτε τον θόρυβο με ειδικό μηχάνημα σε 9 αίθουσες. Οι μετρήσεις σε decibel είναι:\n\n\n69,71,73,73,74,75,75,77,79"
+    "section": "Βήμα 2: Διατύπωση των υποθέσεων",
+    "text": "Βήμα 2: Διατύπωση των υποθέσεων\n\n\nΣτην πράξη, το t-test εξαρτημένων δειγμάτων είναι το ίδιο με το απλό t-test για τον έλεγχο της υπόθεσης ότι \\(\\mu_d = 0\\).\n\n\n\\[H_0: \\mu_d = 0\\] \\[H_1: \\mu_d \\neq 0\\]"
   },
   {
-    "objectID": "slides/lecture-01/index.html#στόχοι-μαθήματος",
-    "href": "slides/lecture-01/index.html#στόχοι-μαθήματος",
+    "objectID": "slides/lecture-11/index.html#βήμα-3-υπολογισμός-του-στατιστικού",
+    "href": "slides/lecture-11/index.html#βήμα-3-υπολογισμός-του-στατιστικού",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Στόχοι μαθήματος",
-    "text": "Στόχοι μαθήματος\n\nΝα κατανοήσουμε τις βασικές έννοιες: πληθυσμός, δείγμα, μεταβλητή, κλίμακες μέτρησης.\nΝα κατασκευάζουμε πίνακες συχνοτήτων.\nΝα εφαρμόσουμε τα παραπάνω σε μικρά παραδείγματα σχετιζόμενα με την προσχολική εκπαίδευση."
+    "section": "Βήμα 3: Υπολογισμός του στατιστικού",
+    "text": "Βήμα 3: Υπολογισμός του στατιστικού\n\n\n\\[\nt = \\frac{\\bar{d} - \\mu_d}{se} \\sim t_{n - 1}\n\\]\n\n\nΤο στατιστικό \\(t\\) ακολουθεί κατανομή Student με \\(n-1\\) βαθμούς ελευθερίας."
   },
   {
-    "objectID": "slides/lecture-01/index.html#βασικές-στατιστικές-έννοιες",
-    "href": "slides/lecture-01/index.html#βασικές-στατιστικές-έννοιες",
+    "objectID": "slides/lecture-11/index.html#βήμα-3-υπολογισμός-του-στατιστικού-1",
+    "href": "slides/lecture-11/index.html#βήμα-3-υπολογισμός-του-στατιστικού-1",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Βασικές στατιστικές έννοιες",
-    "text": "Βασικές στατιστικές έννοιες\nΣτατιστική: μέθοδοι για οργάνωση, σύνοψη και ερμηνεία δεδομένων από μια μελέτη στην εκπαίδευση.\n\nΠληθυσμός: Όλα τα άτομα που μας ενδιαφέρουν (π.χ. όλοι/όλες οι μαθητές/τριες νηπιαγωγείων της Δυτικής Μακεδονίας).\nΔείγμα: Υποσύνολο του πληθυσμού, επιλεγμένο για να τον αντιπροσωπεύσει."
+    "section": "Βήμα 3: Υπολογισμός του στατιστικού",
+    "text": "Βήμα 3: Υπολογισμός του στατιστικού\nΤο τυπικό σφάλμα \\(se\\) το υπολογίζουμε από τον τύπο:\n\\[\nse = \\frac{s_d}{\\sqrt{n}}\n\\]\nΗ τυπική απόκλιση της διαφοράς \\(d\\) δίνεται από τον τύπο:\n\\[\ns_d = \\sqrt{\\frac{\\sum_{i = 1}^n(d_i - \\bar{d})^2}{n - 1}}\n\\]"
   },
   {
-    "objectID": "slides/lecture-01/index.html#βασικές-στατιστικές-έννοιες-1",
-    "href": "slides/lecture-01/index.html#βασικές-στατιστικές-έννοιες-1",
+    "objectID": "slides/lecture-11/index.html#βήμα-4-απόφαση",
+    "href": "slides/lecture-11/index.html#βήμα-4-απόφαση",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Βασικές στατιστικές έννοιες",
-    "text": "Βασικές στατιστικές έννοιες\n\nΠαράμετρος: Χαρακτηριστικό του πληθυσμού (άγνωστο αλλά μετρήσιμο).\nΣτατιστικό: Μαθηματικός συνδυασμός μετρήσεων στο δείγμα (π.χ. μέσος όρος)."
+    "section": "Βήμα 4: Απόφαση",
+    "text": "Βήμα 4: Απόφαση\nΣυγκρίνουμε την τιμή \\(t\\) που υπολογίσαμε από το δείγμα μας με την κρίσιμη τιμή, δηλαδή το 97.5% ποσοστημόριο της κατανομής Student με \\(n - 1\\) βαθμούς ελευθερίας.\n\n\nΑς συμβολίσουμε το ποσοστημόριο αυτό με \\(t_0\\). Τότε, η απόφαση που παίρνουμε είναι:\n\nΔεχόμαστε την \\(H_0\\), αν \\(-t_0 \\leq t \\leq t_0\\)\nΑπορρίπτουμε την \\(H_0\\), αν \\(t &lt; -t_0\\) ή \\(t &gt; t_0\\)"
   },
   {
-    "objectID": "slides/lecture-01/index.html#μεταβλητές",
-    "href": "slides/lecture-01/index.html#μεταβλητές",
+    "objectID": "slides/lecture-11/index.html#το-θέμα-2",
+    "href": "slides/lecture-11/index.html#το-θέμα-2",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Μεταβλητές",
-    "text": "Μεταβλητές\n\nΜεταβλητή: μετρήσιμο χαρακτηριστικό που παίρνει διαφορετικές τιμές.\nΔιακριτές: τιμές σε διακριτές κατηγορίες (π.χ. δήμος, πλήθος παιδιών ανά τμήμα).\nΣυνεχείς: οποιαδήποτε τιμή σε ένα διάστημα (π.χ. ύψος/βάρος παιδιού).\n\n\n\n\n\n\n\nΣυμβουλή\n\n\nΑν βλέπουμε πολλές ίδιες τιμές σε μια συνεχή μεταβλητή, ίσως ο τρόπος μέτρησης ή η κλίμακα χρειάζεται αναθεώρηση."
+    "section": "Το θέμα",
+    "text": "Το θέμα\nΤα παιδιά δυσκολεύονται να κοιμηθούν το μεσημέρι. Δοκιμάζετε τη χρήση συσκευής λευκού θορύβου (ήχος βροχής).\n\n\nΘα μειώσει το χρόνο μέχρι να κοιμηθούν τα παιδιά;"
   },
   {
-    "objectID": "slides/lecture-01/index.html#κλίμακες-μέτρησης",
-    "href": "slides/lecture-01/index.html#κλίμακες-μέτρησης",
+    "objectID": "slides/lecture-11/index.html#τα-δεδομένα-2",
+    "href": "slides/lecture-11/index.html#τα-δεδομένα-2",
     "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Κλίμακες μέτρησης",
-    "text": "Κλίμακες μέτρησης\n\nΜέτρηση είναι η διαδικασία με την οποία αποδίδουμε τιμές σε μεταβλητές.\nΟι τιμές αυτές εξαρτώνται από το είδος της κλίμακας που χρησιμοποιούμε.\nΗ επιλογή της κατάλληλης κλίμακας επηρεάζει άμεσα το είδος των στατιστικών μεθόδων που μπορούμε να εφαρμόσουμε."
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#ονομαστική-κλίμακα",
-    "href": "slides/lecture-01/index.html#ονομαστική-κλίμακα",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Ονομαστική κλίμακα",
-    "text": "Ονομαστική κλίμακα\n\nΟι τιμές είναι ονόματα κατηγοριών.\nΟι κατηγορίες είναι διακριτές και μη συγκρίσιμες (δεν υπάρχει σειρά ή διάταξη μεταξύ τους)\nΠαράδειγμα: τόπος κατοικίας (π.χ. Φλώρινα, Καστοριά, Κοζάνη)\nΜπορεί να χρησιμοποιηθούν αριθμοί για κωδικοποίηση, αλλά δεν έχουν ποσοτική σημασία (π.χ. 1 = Φλώρινα, 2 = Καστοριά)."
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#διατάξιμη-κλίμακα",
-    "href": "slides/lecture-01/index.html#διατάξιμη-κλίμακα",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Διατάξιμη κλίμακα",
-    "text": "Διατάξιμη κλίμακα\n\nΟι τιμές αντιστοιχούν σε διακριτές κατηγορίες με φυσική διάταξη.\nΜπορούμε να πούμε ποια τιμή είναι “μεγαλύτερη” ή “μικρότερη”, αλλά όχι πόσο μεγαλύτερη.\nΠαράδειγμα: οικονομική κατάσταση οικογένειας μαθητών (χαμηλή, μέτρια, υψηλή).\nΗ σειρά έχει νόημα, αλλά οι διαφορές μεταξύ κατηγοριών δεν είναι μετρήσιμες."
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#ισοδιαστημική-κλίμακα",
-    "href": "slides/lecture-01/index.html#ισοδιαστημική-κλίμακα",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Ισοδιαστημική κλίμακα",
-    "text": "Ισοδιαστημική κλίμακα\n\nΟι τιμές είναι αριθμητικές, με ίσα διαστήματα μεταξύ τους.\nΕπιτρέπεται η σύγκριση διαφορών (π.χ. πόσο αυξήθηκε ή μειώθηκε κάτι)\nΩστόσο, το μηδέν είναι αυθαίρετο· δεν υποδηλώνει “απουσία”\nΠαράδειγμα: θερμοκρασία σε βαθμούς Κελσίου ή Φάρεναϊτ"
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#αναλογική-κλίμακα",
-    "href": "slides/lecture-01/index.html#αναλογική-κλίμακα",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Αναλογική κλίμακα",
-    "text": "Αναλογική κλίμακα\n\nΕίναι ισοδιαστημική με απόλυτο μηδέν.\nΤο μηδέν σημαίνει απουσία του χαρακτηριστικού που μετράμε.\nΕπιτρέπεται η σύγκριση λόγων (π.χ. “διπλάσιο”, “μισό”).\nΠαράδειγμα: ύψος, βάρος, διάρκεια, απόσταση.\n\nΈνα παιδί 120 cm είναι διπλάσιο σε ύψος από ένα παιδί 60 cm."
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#παραδείγματα",
-    "href": "slides/lecture-01/index.html#παραδείγματα",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Παραδείγματα",
-    "text": "Παραδείγματα\n\nΑριθμός λέξεων για την περιγραφή μίας εικόνας\nΒαθμός συμμετοχής (χαμηλή/μέτρια/υψηλή)\nΧρώμα πλαστελίνης που προτιμούν τα παιδιά\nΧρόνος (σε λεπτά) ελεύθερου παιχνιδιού\nΗ ώρα που μετρήθηκε το επίπεδο προσοχής των μαθητών"
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#συχνότητα",
-    "href": "slides/lecture-01/index.html#συχνότητα",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Συχνότητα",
-    "text": "Συχνότητα\nΣυχνότητα μιας τιμής είναι το πόσες φορές εμφανίζεται η τιμή αυτή σε ένα δείγμα/σύνολο δεδομένων.\n\n\nΓια παράδειγμα, έστω ότι έχω τις τιμές για τη μεταβλητή \\(X\\):\n\\[\nΧ = 2, 4, 5, 2, 6, 5, 4, 3, 3, 4\n\\]\n\n\n\n\\(\\sum f = N\\)\n\\(\\sum f\\tilde{X} = \\sum X\\)"
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#σχετική-συχνότητα",
-    "href": "slides/lecture-01/index.html#σχετική-συχνότητα",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Σχετική συχνότητα",
-    "text": "Σχετική συχνότητα\n\nΜετράει το κλάσμα του δείγματος που αντιστοιχεί σε μια τιμή:\n\n\\[\nf_r = \\frac{f}{N}\n\\]\n\n\n\n\\(0 \\leq f_r \\leq 1\\)\n\\(\\sum f_r = 1\\)"
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#ποσοστιαία-συχνότητα",
-    "href": "slides/lecture-01/index.html#ποσοστιαία-συχνότητα",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Ποσοστιαία συχνότητα",
-    "text": "Ποσοστιαία συχνότητα\n\nΜετατροπή της σχετικής συχνότητας σε ποσοστό: \\[\nf_{\\%} = 100 \\times f_r = 100 \\times \\frac{f}{N}\n\\]\n\\(0 \\leq f_{\\%} \\leq 100\\)\n\\(\\sum f_{\\%} = 100\\)"
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#αθροιστική-συχνότητα",
-    "href": "slides/lecture-01/index.html#αθροιστική-συχνότητα",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Αθροιστική Συχνότητα",
-    "text": "Αθροιστική Συχνότητα\nΗ αθροιστική συχνότητα δείχνει πόσες παρατηρήσεις έχουν τιμές μικρότερες ή ίσες με μια συγκεκριμένη τιμή.\n\n\n\\[\nF(x) = \\sum_{i \\leq x} f_i\n\\]"
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#ομαδοποιημένες-συχνότητες",
-    "href": "slides/lecture-01/index.html#ομαδοποιημένες-συχνότητες",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Ομαδοποιημένες Συχνότητες",
-    "text": "Ομαδοποιημένες Συχνότητες\nΌταν οι πιθανές τιμές είναι πολλές, ομαδοποιούμε σε διαστήματα:\n\nΠαράδειγμα: \\(Χ\\) = «αριθμός λέξεων για την περιγραφή μιάς ζωγραφιάς» για \\(N=30\\)"
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#καλές-πρακτικές",
-    "href": "slides/lecture-01/index.html#καλές-πρακτικές",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Καλές πρακτικές",
-    "text": "Καλές πρακτικές\n\n~ 10 ομαδοποιήσεις (όχι λίγες/πολλές)\nΑπλό πλάτος (π.χ. 5, 10)\nΠλήρης κάλυψη του εύρους τιμών χωρίς κενά/επικαλύψεις"
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#ασκήσεις",
-    "href": "slides/lecture-01/index.html#ασκήσεις",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Ασκήσεις",
-    "text": "Ασκήσεις\n\nΣε δείγμα \\(N=40\\) η τιμή \\(x=3\\) εμφανίζεται \\(f(3)=6\\) φορές.\n\n\nΒρείτε \\(f_r(3)\\) και \\(f_{\\%}(3)\\)."
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#ασκήσεις-1",
-    "href": "slides/lecture-01/index.html#ασκήσεις-1",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Ασκήσεις",
-    "text": "Ασκήσεις\n\nΣυμπληρώστε τα κενά ώστε να ισχύει \\(\\sum f = 50\\) και \\(\\sum f_{\\%}=100\\):\n\n\n\n\n\\(x\\)\n\\(f\\)\n\\(f_{\\%}\\)\n\n\n\n\n1\n10\n?\n\n\n2\n15\n?\n\n\n3\n?\n30\n\n\n4\n5\n?\n\n\n5\n?\n?"
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#ραβδογράμματα",
-    "href": "slides/lecture-01/index.html#ραβδογράμματα",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Ραβδογράμματα",
-    "text": "Ραβδογράμματα\nΤο ραβδόγραμμα χρησιμοποιείται για ποιοτικές ή διακριτές ποσοτικές μεταβλητές. Κάθε κατηγορία ή τιμή απεικονίζεται με μια ξεχωριστή ράβδο.\n\n\n\nΟ άξονας x δείχνει τις κατηγορίες ή τις τιμές.\nΟ άξονας y δείχνει τη συχνότητα ή τη σχετική συχνότητα.\nΟι ράβδοι δεν εφάπτονται μεταξύ τους."
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#ιστογράμματα",
-    "href": "slides/lecture-01/index.html#ιστογράμματα",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Ιστογράμματα",
-    "text": "Ιστογράμματα\nΤο ιστόγραμμα απεικονίζει ομαδοποιημένα ποσοτικά δεδομένα.\n\n\nΟι τιμές χωρίζονται σε ομάδες (διαστήματα) και κάθε ομάδα εκπροσωπείται από ένα ορθογώνιο του οποίου το ύψος είναι η συχνότητα.\n\nΟι στήλες ακουμπούν μεταξύ τους (τα διαστήματα είναι συνεχόμενα)"
-  },
-  {
-    "objectID": "slides/lecture-01/index.html#τέλος-ερωτήσεις",
-    "href": "slides/lecture-01/index.html#τέλος-ερωτήσεις",
-    "title": "Στατιστική στην Εκπαιδευτική Έρευνα",
-    "section": "Τέλος — Ερωτήσεις;",
-    "text": "Τέλος — Ερωτήσεις;"
+    "section": "Τα δεδομένα",
+    "text": "Τα δεδομένα\n\n\n\nΠαιδί\nΧωρίς Ήχο (Πριν)\nΜε Λευκό Θόρυβο (Μετά)\n\n\n\n\n1\n25\n15\n\n\n2\n30\n20\n\n\n3\n20\n12\n\n\n4\n35\n25\n\n\n5\n25\n13"
   },
   {
     "objectID": "slides/lecture-02/index.html#κλίμακες-μέτρησης",
