@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='720.00pt' height='432.00pt' viewBox='0 0 720.00 432.00'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHw0MzIuMDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='432.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw0MzIuMDA=)'>
+<rect x='0.00' y='0.000000000000057' width='720.00' height='432.00' style='stroke-width: 1.36; stroke: none; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpNDEuNzB8NzEzLjAzfDI5LjAwfDQwOS4wMQ=='>
+    <rect x='41.70' y='29.00' width='671.32' height='380.01' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNDEuNzB8NzEzLjAzfDI5LjAwfDQwOS4wMQ==)'>
+<polyline points='41.70,391.74 713.03,391.74 ' style='stroke-width: 0.68; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='41.70,338.59 713.03,338.59 ' style='stroke-width: 0.68; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='41.70,285.44 713.03,285.44 ' style='stroke-width: 0.68; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='41.70,232.29 713.03,232.29 ' style='stroke-width: 0.68; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='41.70,179.15 713.03,179.15 ' style='stroke-width: 0.68; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='41.70,126.00 713.03,126.00 ' style='stroke-width: 0.68; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='41.70,72.85 713.03,72.85 ' style='stroke-width: 0.68; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='41.70,365.16 713.03,365.16 ' style='stroke-width: 1.36; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='41.70,312.02 713.03,312.02 ' style='stroke-width: 1.36; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='41.70,258.87 713.03,258.87 ' style='stroke-width: 1.36; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='41.70,205.72 713.03,205.72 ' style='stroke-width: 1.36; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='41.70,152.57 713.03,152.57 ' style='stroke-width: 1.36; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='41.70,99.42 713.03,99.42 ' style='stroke-width: 1.36; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='41.70,46.28 713.03,46.28 ' style='stroke-width: 1.36; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='377.36,409.01 377.36,29.00 ' style='stroke-width: 1.36; stroke: #EBEBEB; stroke-linecap: butt;' />
+<line x1='377.36' y1='205.72' x2='377.36' y2='46.28' style='stroke-width: 1.36; stroke: #333333; stroke-linecap: butt;' />
+<line x1='377.36' y1='312.02' x2='377.36' y2='391.74' style='stroke-width: 1.36; stroke: #333333; stroke-linecap: butt;' />
+<polygon points='237.51,205.72 237.51,312.02 517.22,312.02 517.22,205.72 237.51,205.72 ' style='stroke-width: 1.36; stroke: #333333; stroke-linecap: butt; stroke-linejoin: miter; fill: #ADD8E6;' />
+<line x1='237.51' y1='258.87' x2='517.22' y2='258.87' style='stroke-width: 2.72; stroke: #333333; stroke-linecap: butt; stroke-linejoin: miter;' />
+</g>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw0MzIuMDA=)'>
+<text x='35.43' y='369.01' text-anchor='end' style='font-size: 11.20px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='12.44px' lengthAdjust='spacingAndGlyphs'>30</text>
+<text x='35.43' y='315.86' text-anchor='end' style='font-size: 11.20px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='12.44px' lengthAdjust='spacingAndGlyphs'>40</text>
+<text x='35.43' y='262.72' text-anchor='end' style='font-size: 11.20px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='12.44px' lengthAdjust='spacingAndGlyphs'>50</text>
+<text x='35.43' y='209.57' text-anchor='end' style='font-size: 11.20px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='12.44px' lengthAdjust='spacingAndGlyphs'>60</text>
+<text x='35.43' y='156.42' text-anchor='end' style='font-size: 11.20px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='12.44px' lengthAdjust='spacingAndGlyphs'>70</text>
+<text x='35.43' y='103.27' text-anchor='end' style='font-size: 11.20px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='12.44px' lengthAdjust='spacingAndGlyphs'>80</text>
+<text x='35.43' y='50.12' text-anchor='end' style='font-size: 11.20px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='12.44px' lengthAdjust='spacingAndGlyphs'>90</text>
+<text transform='translate(16.60,219.01) rotate(-90)' text-anchor='middle' style='font-size: 14.00px; font-family: "Liberation Sans";' textLength='145.08px' lengthAdjust='spacingAndGlyphs'>Χρόνος (δευτερόλεπτα)</text>
+<text x='377.36' y='18.54' text-anchor='middle' style='font-size: 16.80px; font-weight: bold; font-family: "Liberation Sans";' textLength='382.53px' lengthAdjust='spacingAndGlyphs'>Χρόνοι Ολοκλήρωσης Άσκησης (δευτερόλεπτα)</text>
+</g>
+</g>
+</svg>
