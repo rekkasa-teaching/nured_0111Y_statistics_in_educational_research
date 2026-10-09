@@ -2,7 +2,7 @@
 title: "Στατιστική στην Εκπαιδευτική Έρευνα"
 subtitle: "1ο μάθημα"
 author: "Αλέξανδρος Ρέκκας"
-date: "2025-10-07"
+date: "2026-10-09"
 format:
   revealjs:
     theme: [default, custom.scss]
